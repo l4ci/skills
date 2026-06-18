@@ -1,0 +1,13 @@
+{
+  "name": "framewise",
+  "owner": {
+    "name": "Volker Otto"
+  },
+  "plugins": [
+    {
+      "name": "framewise",
+      "source": "./",
+      "description": "Structured thinking and analysis frameworks, packaged as agent skills."
+    }
+  ]
+}
