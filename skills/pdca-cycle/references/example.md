@@ -7,6 +7,6 @@
 - FOCUS (required): our first-response time on support tickets is averaging 9 hours and we want it under 4
 - CONTEXT (optional): a four-person support team, tickets come through Zendesk, no current triage rota, and we can pull response-time stats per week
 
-**You get back:** a saved markdown cycle log (`pdca-support-response-time-<date>.md`) with a Plan/Do/Check/Act block for the cycle (the change, its explicit prediction, what actually happened, results versus prediction, and the adopt/adjust/abandon decision) plus the running standardized practice and caveats.
+**You get back:** a saved markdown cycle log (`pdca-cycle-support-response-time-<date>.md`) with a Plan/Do/Check/Act block for the cycle (the change, its explicit prediction, what actually happened, results versus prediction, and the adopt/adjust/abandon decision) plus the running standardized practice and caveats.
 
 **See a full worked example:** [pdca-cycle-support-response-time-2026-06-19.md](pdca-cycle-support-response-time-2026-06-19.md) — the report this invocation produces.

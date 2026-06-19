@@ -67,7 +67,7 @@ One agent merges the five layer assessments into a single diagnosis. Respect the
 
 ## Report structure
 
-Write a thorough markdown report and save it to `five-dysfunctions-<team-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `five-dysfunctions-of-a-team-<team-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The team diagnosed, the context and surface complaint if given, the date, and a one-line note that the five dysfunctions are a hierarchy read bottom to top.
 2. **Verdict.** The lowest broken layer and why it is the binding constraint, in a few sentences, with a summary table: each layer (in pyramid order, base first), its severity score, and confidence.

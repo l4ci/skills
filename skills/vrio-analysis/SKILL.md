@@ -72,7 +72,7 @@ One agent merges the per-resource verdicts into the strategic picture:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `vrio-<firm-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `vrio-analysis-<firm-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The firm and unit, the industry and competitors if given, the date, and a one-line note on the framework and its snapshot nature.
 2. **Verdict.** The strategic picture in a few sentences, with a summary table: each resource, its V/R/I/O answers (yes/no per gate), its competitive implication, the expected economic performance, and confidence. Sort the table by implication so the strategic core sits at the top.

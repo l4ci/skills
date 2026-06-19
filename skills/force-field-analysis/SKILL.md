@@ -57,7 +57,7 @@ One agent merges the finders into the force field and the moves:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `force-field-<change-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `force-field-analysis-<change-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The change analyzed, the context if given, the date, and a one-line note on the framework and the fact that the field shifts as the change proceeds.
 2. **Verdict.** Whether the change is feasible as the field stands, in a few sentences, with the net read and the binding forces named.

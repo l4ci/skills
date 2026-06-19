@@ -60,7 +60,7 @@ One agent merges the five force analyses into the strategic picture:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `five-forces-<industry-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `porters-five-forces-<industry-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The industry and geography analyzed, the firm's position if given, the date, and a one-line note on the framework and its snapshot nature.
 2. **Verdict.** Overall industry attractiveness in a few sentences, with a summary table: each force, its 1-to-5 score, intensity label, and confidence. Include a compact visual (for example a star or bar per force) so the profile is scannable.

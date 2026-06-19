@@ -70,7 +70,7 @@ One agent assembles the ranked decision:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `decision-matrix-<decision-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `weighted-decision-matrix-<decision-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The decision, the options, the date, and a one-line note on the framework. State the calibrated criteria, their weights, and the scoring scale up front, since the result is only as good as these.
 2. **Verdict.** The recommended option in a few sentences, with the ranking and whether it is robust or a close call.

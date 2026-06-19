@@ -60,7 +60,7 @@ One agent assembles the portfolio view:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `bcg-<company-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `bcg-matrix-<company-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The company and portfolio, the thresholds used for both axes, the date, and a note that placements depend on market definition.
 2. **The matrix.** A table or quadrant layout of all units with growth, relative share, size, and quadrant, scannable at a glance.

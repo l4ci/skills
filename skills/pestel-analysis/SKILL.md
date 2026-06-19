@@ -60,7 +60,7 @@ One agent turns the forces into a prioritized picture:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `pestel-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `pestel-analysis-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The subject, the geography, the horizon, and the date.
 2. **Priority forces.** The top forces up front in a ranked table: force, factor, impact, certainty, opportunity or threat. A reader with two minutes should leave knowing what matters most.

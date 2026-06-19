@@ -65,7 +65,7 @@ One agent assembles the prioritized plan:
 
 ## Report structure
 
-Write the result as markdown and save it to `impact-feasibility-<objective-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write the result as markdown and save it to `impact-feasibility-matrix-<objective-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The objective, the date, and the calibrated definitions of impact and feasibility.
 2. **The matrix.** A 2-by-2 layout (or a scored table) placing every option in its quadrant, scannable at a glance.

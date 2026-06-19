@@ -38,7 +38,7 @@ Run one PDCA cycle with the user, then set up the next. Keep it light and quick.
 
 ## Cycle log
 
-Maintain a markdown log, saved to `pdca-<focus-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location, with one entry per cycle:
+Maintain a markdown log, saved to `pdca-cycle-<focus-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location, with one entry per cycle:
 
 1. **Header.** The focus and the date.
 2. **Per cycle, a block with:**

@@ -23,7 +23,7 @@ Conduct the whole session in the language the user is writing in. Translate the 
 2. **Administer.** Present the 50 items in the original order from the reference file, in batches of 10 so the user is not flooded. Show the 1-to-5 Likert scale with each batch. Accept answers as a list (for example "1, 4, 3, ..."), and let the user answer all at once if they prefer. Re-show the scale if they seem unsure. Do not reveal which factor an item belongs to or how it is keyed while testing, since that biases answers.
 3. **Score.** Apply the scoring rules from the reference file: reverse `-` keyed items as `6 - answer`, sum each factor's 10 items into a total (10 to 50), and compute the per-item average (1.0 to 5.0). Assign each factor a band from the bands table.
 4. **Interpret and write the report.** Build the markdown report described below from the scores. Ground the interpretation in the user's actual answers, not generic trait descriptions: when a factor's items split (for example high on sociability items but low on attention-seeking items), say so.
-5. **Save.** Write the report to a markdown file named `ocean-report-<YYYY-MM-DD>.md` using today's date, in the working directory unless the user names another location. Tell the user where it was saved.
+5. **Save.** Write the report to a markdown file named `ocean-personality-test-<YYYY-MM-DD>.md` using today's date, in the working directory unless the user names another location. Tell the user where it was saved.
 
 ## Report structure
 

@@ -76,7 +76,7 @@ One agent assembles the four actions into the blue-ocean move and tests it:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `blue-ocean-<business-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `blue-ocean-strategy-<business-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The business and industry analyzed, the current positioning if given, the date, and a one-line note on the framework.
 2. **Verdict.** The blue-ocean move in a few sentences and the proposed tagline.

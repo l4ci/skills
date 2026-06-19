@@ -64,7 +64,7 @@ Then refine the tree to resolve what the checkers found. Fix the cut at the leve
 
 ## Report structure
 
-Write the result as markdown and save it to `mece-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write the result as markdown and save it to `mece-decomposition-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The subject, the purpose, and the date.
 2. **The cut.** The top-level cutting logic chosen, and a one-line note on why it beat the alternatives considered.

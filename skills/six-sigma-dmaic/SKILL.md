@@ -38,7 +38,7 @@ Work phase by phase. Each phase has a gate question that must be answered before
 
 ## Project document
 
-Maintain a markdown document, saved to `dmaic-<process-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location:
+Maintain a markdown document, saved to `six-sigma-dmaic-<process-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location:
 
 1. **Header.** The process, the date, and the project owner.
 2. **Define.** Problem statement, goal and target, scope, customer and CTQs, SIPOC.

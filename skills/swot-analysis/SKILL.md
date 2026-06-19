@@ -64,7 +64,7 @@ One agent crosses the quadrants into strategy:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `swot-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `swot-analysis-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The subject, the objective the SWOT serves, the date, and any context (competitors, horizon).
 2. **SWOT matrix.** The classic 2-by-2 grid as a table, with the top factors in each quadrant so the picture is scannable at a glance.

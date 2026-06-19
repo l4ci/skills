@@ -41,7 +41,7 @@ This is primarily an interview, with one parallel stress-test before the brief i
 
 ## Report structure
 
-Write the brief as markdown and save it to `tosca-<problem-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write the brief as markdown and save it to `tosca-problem-definition-<problem-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** A short title and the date.
 2. **Problem statement.** The single crisp statement, ideally phrased as the question the owner needs answered. This is the headline deliverable; it must be specific, measurable, time-bound, decision-oriented, answerable, and free of an embedded solution.

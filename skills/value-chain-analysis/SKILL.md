@@ -60,7 +60,7 @@ One agent assembles the value-creation picture, read through the firm's chosen s
 
 ## Report structure
 
-Write a thorough markdown report and save it to `value-chain-<company-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `value-chain-analysis-<company-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The company and unit, the strategy lens (cost or differentiation), key competitors, and the date.
 2. **Value chain map.** A table of all nine activities with cost contribution, value contribution, and the competitive verdict (advantage, parity, disadvantage), scannable at a glance.

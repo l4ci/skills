@@ -59,7 +59,7 @@ One agent assembles the maturity picture:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `digital-maturity-<organization-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `digital-maturity-assessment-<organization-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The organization, the target ambition, the date, and a note that scores reflect what is in production and in behavior.
 2. **Maturity profile.** A table or radar-style layout of all seven dimensions with current level, target, gap, and confidence, scannable at a glance. Show the profile, not just an average.

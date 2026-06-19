@@ -60,7 +60,7 @@ One agent runs the alignment analysis, which is the actual point of the framewor
 
 ## Report structure
 
-Write a thorough markdown report and save it to `7s-<organization-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `mckinsey-7s-<organization-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The organization, the purpose and any target change, and the date.
 2. **Element summary.** A table of all seven elements with their current state (and desired state plus gap, for a change) and confidence.

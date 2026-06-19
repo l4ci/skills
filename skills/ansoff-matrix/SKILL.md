@@ -60,7 +60,7 @@ One agent turns the options into a prioritized path:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `ansoff-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `ansoff-matrix-<subject-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The subject, the growth objective, and the date.
 2. **The matrix.** The 2-by-2 grid as a table, with the top options in each quadrant and their risk level, scannable at a glance.

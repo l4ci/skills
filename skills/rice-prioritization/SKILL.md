@@ -74,7 +74,7 @@ One agent assembles the ranked roadmap:
 
 ## Report structure
 
-Write a thorough markdown report and save it to `rice-<backlog-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
+Write a thorough markdown report and save it to `rice-prioritization-<backlog-slug>-<YYYY-MM-DD>.md` (today's date) in the working directory unless the user names another location.
 
 1. **Header.** The goal, the planning horizon, the date, and a one-line note on the framework. State the calibration up front (Reach window and source, Impact scale, Confidence levels, Effort unit) since the ranking is only as good as these.
 2. **Verdict.** The recommended roadmap order in a few sentences, and whether the top of the list is robust or a close call.
