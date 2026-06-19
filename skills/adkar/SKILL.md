@@ -5,13 +5,13 @@ description: Use when the user wants an ADKAR analysis of a change, asks why a c
 
 # adkar
 
-Runs the Prosci ADKAR model to diagnose the people side of a change: Awareness of the need, Desire to support it, Knowledge of how to change, Ability to perform the new way, and Reinforcement to sustain it. The five blocks are sequential, so a change stalls at the first one a person has not achieved. The job is to find that barrier point, per affected group, and fix it before working the blocks beyond it.
+Runs the Prosci ADKAR model to diagnose the people side of a change across five sequential blocks: Awareness of the need, Desire to support it, Knowledge of how to change, Ability to perform the new way, and Reinforcement to sustain it. Because the blocks are sequential, a change stalls at the first one a person has not achieved; the job is to find that barrier point, per affected group, and fix it before working the blocks beyond it.
 
 The five elements, their diagnostic questions, the strength-rating scale, and the barrier-point logic live in [references/adkar.md](references/adkar.md). Load that file before assessing and rate each element against it exactly.
 
 ## When to use
 
-The user has a change in flight (or planned) and wants to understand why it is not being adopted, or to plan the people side before launching. ADKAR is the individual, people-side companion to `kotter-change`, which covers the organizational steps of leading change; run both when a change needs work at both levels. It pairs with `stakeholder-analysis` for mapping who the affected groups are and where their interests sit. The unit of analysis is the individual moving through the change, assessed per affected group, not the project plan or the technology.
+The user has a change in flight (or planned) and wants to understand why it is not being adopted, or to plan the people side before launching. ADKAR is the individual, people-side companion to `kotter-change`, which covers the organizational steps of leading change; run both when a change needs work at both levels. It pairs with `stakeholder-analysis` for mapping who the affected groups are. The unit of analysis is the individual moving through the change, assessed per affected group, not the project plan or the technology.
 
 ## Language
 
@@ -21,7 +21,7 @@ Conduct the session and write the report in the language the user is writing in.
 
 - **CHANGE** (required): the change being made and the organization or unit making it. Push for a specific change ("moving field sales onto the new CRM") rather than a vague one ("digital transformation"), since the elements can only be rated against a concrete change.
 - **GROUPS** (optional): the affected audiences (for example frontline staff, their managers, the support team). If absent, surface a first cut of the distinct groups from the change itself and confirm with the user, because different groups sit at different barrier points and a single org-wide read hides the gaps.
-- **CONTEXT** (optional): history with past changes, known resistance, the timeline, who is sponsoring it. This sharpens the Desire and Reinforcement reads and the intervention design.
+- **CONTEXT** (optional): history with past changes, known resistance, the timeline, who is sponsoring it. Sharpens the Desire and Reinforcement reads and the intervention design.
 
 ## Orchestration map
 
@@ -57,8 +57,8 @@ Assign the five elements from the reference file: Awareness, Desire, Knowledge, 
 
 One agent merges the five assessments into a per-group diagnosis and an intervention plan:
 
-1. **Barrier point per group.** For each group, read the five scores in order (Awareness to Reinforcement) and name the first element scoring 3 or below. That is the barrier: the block where this group is actually stuck, and where effort has to go first. Scores after the barrier are provisional and should be treated as such.
-2. **Why the barrier holds.** The specific gap behind each barrier, drawn from the assessment evidence, not a restatement of the element name. This is what the intervention has to address.
+1. **Barrier point per group.** For each group, read the five scores in order (Awareness to Reinforcement) and name the first element scoring 3 or below. That is the barrier: where this group is stuck and where effort goes first. Treat scores after the barrier as provisional.
+2. **Why the barrier holds.** The specific gap behind each barrier, drawn from the assessment evidence, not a restatement of the element name.
 3. **Targeted interventions.** For each group, design interventions for the barrier element first, then for the blocks after it, drawn from the reference file's intervention table and tailored to the evidence. Name who owns each (sponsor, manager, project team), since Desire and Reinforcement rarely belong to the project team.
 4. **Sequencing.** Order the effort so earlier blocks are secured before later ones. Call out where the project is currently working a block past the barrier (for example running training while Desire is unaddressed) and what to stop or re-time.
 5. **The dominant gap across groups.** If one element is the binding constraint across most groups, say so; that is where the change program gets its leverage. Note any group whose barrier is unique and needs its own track.
@@ -76,9 +76,7 @@ Write a thorough markdown report and save it to `adkar-<change-slug>-<YYYY-MM-DD
 
 ## Principles
 
-- **Sequential, so fix the first gap first.** The barrier point is the first weak element in order. Working a later block before it is resolved wastes effort. Diagnose Awareness to Reinforcement and stop at the first gap.
-- **Per group, not per organization.** Different audiences sit at different barriers. A single org-wide score is an average that hides where adoption actually breaks. Assess each distinct group.
-- **Desire cannot be forced.** It responds to influence, not mandate. Treat resistance as information about where Desire is missing, and address the group's actual fears rather than pushing past them.
-- **Reinforcement is not optional.** Without it people revert. The change is not done at go-live; it is done when the new way is held in place.
-- **Evidence or honesty.** Rate against what was actually communicated, trained, observed, and rewarded. Where evidence is missing, say so and lower confidence rather than assuming a block is handled.
-- **Parallel where independent.** The five elements are rated concurrently because the assessment of each is independent. Synthesis needs all five (the barrier is the first gap across them), so it runs after.
+- **Sequential, so fix the first gap first.** The barrier point is the first weak element in order; working a later block before it is resolved wastes effort.
+- **Per group, not per organization.** A single org-wide score is an average that hides where adoption actually breaks. Assess each distinct group.
+- **Desire cannot be forced.** Treat resistance as information about where Desire is missing, and address the group's actual fears rather than pushing past them.
+- **Evidence or honesty.** Rate against what was actually communicated, trained, observed, and rewarded. Where evidence is missing, say so and lower confidence.

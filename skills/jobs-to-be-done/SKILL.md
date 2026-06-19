@@ -5,13 +5,13 @@ description: Use when the user wants to understand why customers hire a product,
 
 # jobs-to-be-done
 
-Runs Clayton Christensen's Jobs-to-Be-Done lens: customers do not buy products, they hire a solution to make progress in a struggling moment. The point is not to profile the customer but to understand the **job in a circumstance** — solution-agnostic, stable, and the same whether a drill, a hook, or a handyman does it. People don't want a quarter-inch drill; they want a quarter-inch hole, and really the progress the hole enables.
+Clayton Christensen's Jobs-to-Be-Done lens: customers do not buy products, they hire a solution to make progress in a struggling moment. It catches the trap of profiling the customer instead of understanding the **job in a circumstance**, which is solution-agnostic and the same whether a drill, a hook, or a handyman does it. People don't want a quarter-inch drill; they want a quarter-inch hole, and really the progress the hole enables.
 
 The three dimensions of a job (functional, emotional, social), the circumstance, desired outcomes as measurable outcome statements, competing solutions including nonconsumption, the four forces of progress, the job-story format, and the opportunity-scoring formula live in [references/jtbd.md](references/jtbd.md). Load that file before analyzing.
 
 ## When to use
 
-The user wants to shape or reposition a product around what customers are actually trying to accomplish, decide what to build, or understand why customers switch from one solution to another. The unit of analysis is the job and its desired outcomes, not the company and not a feature list. This skill *finds* the job, the outcomes, and where current solutions fall short; value-proposition-canvas then *maps* a specific offering onto a job already understood — run this first when the job itself is unclear. It pairs with design-thinking (empathize and define), lean-startup, and kano-model. If the user already knows the job and wants to design the offer against it, reach for value-proposition-canvas instead.
+The user wants to shape or reposition a product around what customers are actually trying to accomplish, decide what to build, or understand why customers switch from one solution to another. The unit of analysis is the job and its desired outcomes, not the company and not a feature list. This skill *finds* the job, the outcomes, and where current solutions fall short; value-proposition-canvas then *maps* a specific offering onto a job already understood, so run this first when the job itself is unclear and reach for value-proposition-canvas when the user already knows the job. Pairs with design-thinking (empathize and define), lean-startup, and kano-model.
 
 ## Language
 
@@ -32,10 +32,10 @@ Stage 3  Synthesis        ── 1 agent, needs all 5 ────────�
 
 ## Stage 1: Frame the Job (inline)
 
-Before any fan-out, define two things precisely, because every analyst depends on them:
+Before any fan-out, define two things precisely; every analyst depends on them:
 
 1. **The customer.** Who is doing the hiring. Resist demographics; describe the person by the situation they are in, not by age or income.
-2. **The struggling moment / circumstance.** The specific situation and trigger that makes the job active — when and where the struggle bites, what just happened that makes progress worth seeking now.
+2. **The struggling moment / circumstance.** The specific situation and trigger that makes the job active: when and where the struggle bites, what just happened that makes progress worth seeking now.
 
 State the candidate job in one provisional line: *when [situation], a person trying to make [progress].* Keep it solution-free. If the user gave a CIRCUMSTANCE, sharpen it here; if not, name the most likely struggling moment and flag it as an assumption to be tested. Pass the framed customer and circumstance to every Stage 2 analyst.
 
@@ -43,7 +43,7 @@ State the candidate job in one provisional line: *when [situation], a person try
 
 Dispatch five analyst subagents at once, one per facet of the job. Give each the shared framing plus its facet's brief from the reference file.
 
-Tell each subagent its final message is the return value: structured data, not prose for a human. Subagents should use available retrieval tools to ground the job in real evidence — reviews, forums, support logs, interviews, named competitors, prices, public usage data.
+Tell each subagent its final message is the return value: structured data, not prose for a human. Subagents should use available retrieval tools to ground the job in real evidence: reviews, forums, support logs, interviews, named competitors, prices, public usage data.
 
 **Shared framing (send to each analyst):**
 
@@ -56,23 +56,23 @@ Tell each subagent its final message is the return value: structured data, not p
 
 Assign the five facets, each with its brief from the reference file:
 
-1. **The functional job** — the practical task the customer is trying to accomplish; the objective, measurable work, stated solution-free.
-2. **The emotional and social job** — how the customer wants to feel (emotional) and to be perceived by others (social) while making progress.
-3. **Desired outcomes** — the metrics by which the customer judges the job done well, each phrased as a measurable outcome statement (direction + metric + object of control + context), with an Importance and a Satisfaction rating where evidence allows.
-4. **Competing solutions** — everything the customer hires today: direct rivals, indirect and cross-category options, homemade workarounds, and nonconsumption (doing nothing). Note where each falls short.
-5. **The four forces of progress** — the Push of the situation, the Pull of a new solution, the Anxiety of the new, and the Habit of the present, and a read on whether Push + Pull beats Anxiety + Habit.
+1. **The functional job:** the practical task the customer is trying to accomplish; the objective, measurable work, stated solution-free.
+2. **The emotional and social job:** how the customer wants to feel (emotional) and to be perceived by others (social) while making progress.
+3. **Desired outcomes:** the metrics by which the customer judges the job done well, each phrased as a measurable outcome statement (direction + metric + object of control + context), with an Importance and a Satisfaction rating where evidence allows.
+4. **Competing solutions:** everything the customer hires today: direct rivals, indirect and cross-category options, homemade workarounds, and nonconsumption (doing nothing). Note where each falls short.
+5. **The four forces of progress:** the Push of the situation, the Pull of a new solution, the Anxiety of the new, and the Habit of the present, and a read on whether Push + Pull beats Anxiety + Habit.
 
 Collect all five structured results before continuing. Re-dispatch any analyst that fails rather than synthesizing with a gap.
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all 5)
 
-One agent merges the five analyses into a single picture. This is where the lens earns its value, by turning the facets into a decision rather than restating them:
+One agent merges the five analyses into a decision, not a restatement of the facets:
 
 1. **The job story.** Write the job in one line, solution-free: *When [situation], I want to [motivation], so I can [expected outcome].* If the line contains a product or category, rewrite it. Capture the functional, emotional, and social dimensions the story implies.
 2. **Opportunity ranking.** Rank the desired outcomes by the opportunity score, `Opportunity = Importance + max(Importance − Satisfaction, 0)`. Name the **underserved** outcomes (high importance, low satisfaction) at the top, the served outcomes (table stakes), and any overserved outcomes worth disinvesting. Where ratings are assumptions rather than survey data, say so and lower confidence.
 3. **Where current solutions fail.** Cross the competing solutions against the underserved outcomes: which outcomes no current solution serves well, and what the workarounds and nonconsumption reveal about unmet need.
 4. **Force balance.** Whether the four forces currently favor a switch, and which lever (raise Pull, cut Anxiety, loosen Habit) would tip a customer who is stuck.
-5. **Implications for the offering.** What to build, change, or say to win the underserved outcomes and tip the forces — tied to the decision in CIRCUMSTANCE. Concrete moves, not restatements of the job.
+5. **Implications for the offering.** What to build, change, or say to win the underserved outcomes and tip the forces, tied to the decision in CIRCUMSTANCE. Concrete moves, not restatements of the job.
 
 ## Report structure
 
@@ -87,9 +87,7 @@ Write a thorough markdown report and save it to `jobs-to-be-done-<subject-slug>-
 
 ## Principles
 
-- **The job, not the product.** The job is solution-agnostic and stable; products are current ways to get it done. If the job names your product, you have described a feature and missed the real competition.
-- **Circumstances, not demographics.** Anchor every job to a situation and a trigger. The same person hires different solutions in different moments.
+- **The job, not the product.** If the job names your product, you have described a feature and missed the real competition.
+- **Circumstances, not demographics.** The same person hires different solutions in different moments.
 - **All three dimensions.** Functional explains what the product does; emotional and social explain why people switch. Carry all three through to synthesis.
 - **Nonconsumption is competition.** Doing nothing and homemade workarounds are usually the largest rivals and the loudest signal of an underserved job. Never list only the direct competitors.
-- **Outcomes are measurable and solution-free.** Phrase desired outcomes as direction + metric + object + context. If you can point at a product in the statement, rewrite it.
-- **Parallel where independent.** The five facets can be analyzed concurrently against the same framed job. The job story and the opportunity ranking need all five, so synthesis runs after.

@@ -5,7 +5,7 @@ description: Use when the user wants a SWOT analysis of a company, product, proj
 
 # swot-analysis
 
-Runs a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) anchored to a specific objective, then crosses the quadrants into a TOWS matrix to turn the four lists into ranked strategic options. A SWOT that stops at four lists is unfinished; the strategy comes from the crossing.
+Runs a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) anchored to a specific objective, then crosses the quadrants into a TOWS matrix to turn the four lists into ranked strategic options. Catches the failure where a SWOT stops at four lists; the strategy comes from the crossing.
 
 The framework, quadrant checklists, scoring, and the TOWS matrix live in [references/framework.md](references/framework.md). Load that file before analyzing and follow the internal-versus-external and anchor-to-objective rules exactly.
 
@@ -34,7 +34,7 @@ Tell each subagent its final message is the return value: structured data, not p
 
 ## Stage 1: Quadrant Scan (PARALLEL)
 
-Dispatch four analyst subagents at once, one per quadrant. Give each the shared framing plus its quadrant checklist from the reference file. Pair the two internal quadrants (Strengths, Weaknesses) and the two external quadrants (Opportunities, Threats) by reminding each analyst which axis it is on, so internal and external factors do not bleed across.
+Dispatch four analyst subagents at once, one per quadrant. Give each the shared framing plus its quadrant checklist from the reference file. Remind each analyst which axis it is on (internal: Strengths, Weaknesses; external: Opportunities, Threats) so factors do not bleed across.
 
 **Shared framing (send to every analyst):**
 
@@ -80,4 +80,3 @@ Write a thorough markdown report and save it to `swot-<subject-slug>-<YYYY-MM-DD
 - **Right factor, right quadrant.** Internal attributes are Strengths or Weaknesses; external conditions are Opportunities or Threats. Validate this before crossing.
 - **Finish with TOWS.** Four lists are not a SWOT analysis. The crossing into ranked strategic options is the deliverable.
 - **Prioritize, do not enumerate.** A long flat list is a non-answer. Magnitude, likelihood, and ranking are what make it usable.
-- **Parallel where independent.** The four quadrants share no state, so analyze them concurrently. The crossing needs all four, so it runs after.

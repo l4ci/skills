@@ -75,4 +75,3 @@ Write a thorough markdown report and save it to `digital-maturity-<organization-
 - **The soft dimensions bind.** People, culture, strategy, and data drag maturity down more often than technology lifts it.
 - **Profile over average.** The uneven shape is the finding; the constraint is the lagging dimension.
 - **Anchor to a target.** Gaps and roadmaps are meaningful only against the ambition, not against level 5 for its own sake.
-- **Parallel where independent.** The seven dimensions are assessed concurrently; the synthesis needs all seven and runs after.

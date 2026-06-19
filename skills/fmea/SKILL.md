@@ -5,13 +5,13 @@ description: Use when the user wants to systematically anticipate how a process,
 
 # fmea
 
-Anticipates how a process, product, or design can fail by listing each way it can break, scoring how bad it is, how often it happens, and how likely you are to catch it, then acting on the worst before they happen. The point is not to rank failures for their own sake but to drive action: every high-priority mode leaves the analysis with a specific change that reduces severity, occurrence, or detection. A risk that is named, scored, and then left alone is a wasted FMEA.
+Failure Mode and Effects Analysis (FMEA, military/aerospace lineage, later AIAG-VDA) anticipates how a process, product, or design can fail by listing each way it can break, scoring severity, occurrence, and detection, then acting on the worst before they happen. It catches the failure where a known risk is named and scored but never acted on: every high-priority mode must leave with a specific change that reduces S, O, or D.
 
 The seven columns (failure mode, effects, severity, causes, occurrence, controls, detection), the three anchored 1-to-10 scales, the RPN and criticality computations, the action-priority rules, and the pitfalls live in [references/fmea.md](references/fmea.md). Load that file before scoring.
 
 ## When to use
 
-Use before launching or changing a process, product, or design where failures carry real cost, safety risk, or regulatory exposure, and where the system is decomposable into functions, steps, or components worth scoring one at a time. This pairs with [pre-mortem](../pre-mortem/SKILL.md), its qualitative cousin: a pre-mortem imagines one big failure of a plan and works backward through its story, while FMEA systematically enumerates and scores many failure modes of a system. It also pairs with [six-sigma-dmaic](../six-sigma-dmaic/SKILL.md), where an FMEA often supplies the Analyze and Improve phases. Reach for pre-mortem when the subject is a one-off plan with a single dominant way to fail; reach for FMEA when the subject is a system with many independent failure points.
+Use before launching or changing a process, product, or design where failures carry real cost, safety risk, or regulatory exposure, and where the system is decomposable into functions, steps, or components worth scoring one at a time. Pairs with [pre-mortem](../pre-mortem/SKILL.md), its qualitative cousin: a pre-mortem imagines one big failure of a plan and works backward through its story, FMEA enumerates and scores many failure modes of a system. Also pairs with [six-sigma-dmaic](../six-sigma-dmaic/SKILL.md), where an FMEA often supplies the Analyze and Improve phases. Reach for pre-mortem when the subject is a one-off plan with a single dominant way to fail; reach for FMEA when the subject is a system with many independent failure points.
 
 ## Language
 
@@ -38,10 +38,10 @@ Tell each subagent its final message is the return value: structured data, not p
 Before any scoring, fix and write down:
 
 1. **Subject and boundary.** Name exactly what is under analysis and draw the line: which steps, components, or functions are inside, and what is assumed reliable outside. An undrawn boundary makes the analysis either bottomless or accidentally silent on a real risk.
-2. **Type.** Process, design, or mixed, since it sets what each unit is (a step versus a component) and what a failure mode means.
-3. **Decomposition.** Break the subject into the functions, process steps, or components that will each be analyzed. Each unit should have a clear function, so that a failure mode is "fails to perform function X." Keep the units at one consistent level of granularity; a unit that is too coarse hides distinct failure modes, one too fine drowns the analysis.
+2. **Type.** Process, design, or mixed. It sets what each unit is (a step versus a component) and what a failure mode means.
+3. **Decomposition.** Break the subject into the functions, process steps, or components to analyze. Each unit should have a clear function, so a failure mode is "fails to perform function X." Keep the units at one consistent level of granularity; too coarse hides distinct modes, too fine drowns the analysis.
 
-Confirm the unit list with the user before dispatching, since every later stage builds on it.
+Confirm the unit list with the user before dispatching; every later stage builds on it.
 
 ## Stage 2: Analyze each unit (PARALLEL)
 
@@ -65,10 +65,10 @@ Collect all units before continuing. Re-dispatch any analyst that fails rather t
 One agent assembles the ranked, actioned FMEA:
 
 1. **Reconcile the scales.** The parallel analysts did not see each other, so check that S, O, and D mean the same thing across units. Re-anchor any score applied on a drifting scale and note the adjustment.
-2. **Compute RPN and criticality.** For each failure mode, RPN = S x O x D (1-1000) and Criticality = S x O. Report both; criticality isolates the inherent risk independent of how well you happen to detect it.
-3. **Rank and apply action priority.** Rank by RPN, but do not stop there. Apply the stated action threshold AND the override: any failure mode with S >= 9 gets action regardless of its RPN. Where the team uses the modern AIAG-VDA Action Priority (High/Medium/Low) tables, apply those instead of a raw RPN cutoff, since they fix RPN's known weaknesses. Flag any high-severity, low-RPN mode explicitly so it is not lost to RPN tunnel vision.
-4. **Recommend actions targeting S, O, or D.** For each prioritized mode, recommend a specific action and name which term it attacks: reduce **S** by redesigning to remove or contain the effect, reduce **O** by preventing the cause, or reduce **D** by improving detection. Favor prevention (lower S or O) over detection: a better detection control catches the failure, it does not stop it.
-5. **Recompute the target RPN.** For each action, estimate the revised S, O, D after it lands and give a target RPN, so the expected payoff of each action is visible and comparable.
+2. **Compute RPN and criticality.** For each failure mode, RPN = S x O x D (1-1000) and Criticality = S x O. Report both; criticality isolates inherent risk independent of how well you happen to detect it.
+3. **Rank and apply action priority.** Rank by RPN, then apply the stated action threshold AND the override: any failure mode with S >= 9 gets action regardless of its RPN. Where the team uses the modern AIAG-VDA Action Priority (High/Medium/Low) tables, apply those instead of a raw RPN cutoff. Flag any high-severity, low-RPN mode explicitly so it is not lost to RPN tunnel vision.
+4. **Recommend actions targeting S, O, or D.** For each prioritized mode, recommend a specific action and name which term it attacks: reduce **S** by redesigning to remove or contain the effect, reduce **O** by preventing the cause, or reduce **D** by improving detection. Favor prevention (lower S or O) over detection, which catches the failure but does not stop it.
+5. **Recompute the target RPN.** For each action, estimate the revised S, O, D after it lands and give a target RPN, so each action's expected payoff is visible and comparable.
 
 ## Report structure
 
@@ -83,10 +83,7 @@ Write a thorough markdown report and save it to `fmea-<subject-slug>-<YYYY-MM-DD
 
 ## Principles
 
-- **Decompose before scoring.** A failure mode is a function failing; without a clear function list at one consistent granularity, the modes are arbitrary.
 - **Action is the deliverable.** The ranking exists to drive change. Every prioritized mode leaves with an action that lowers S, O, or D and a target RPN, or the FMEA did nothing.
-- **Severity can override the number.** Any S >= 9 mode gets action regardless of RPN. RPN tunnel vision, ignoring a catastrophic but rare and detectable failure, is the framework's classic and most dangerous failure mode.
-- **Prevention beats detection.** Detection catches a failure; it does not stop it. Prefer actions that reduce severity or occurrence over actions that only improve detection.
+- **Severity can override the number.** RPN tunnel vision, ignoring a catastrophic but rare and detectable failure, is the framework's classic and most dangerous failure mode.
 - **Every score earns a rationale.** A number with no reason is a guess wearing a number. Ground S, O, and D in failure history or evidence where retrieval allows, and lower confidence rather than inventing data.
-- **RPN is ordinal, not arithmetic.** Equal RPNs from different triples are not equal risks, and ties are not equivalences. Report criticality alongside RPN, and prefer the AIAG-VDA Action Priority tables where the weaknesses of a raw cutoff matter.
-- **Parallel where independent.** Units are analyzed concurrently, then reconciled on a common scale before ranking.
+- **RPN is ordinal, not arithmetic.** Equal RPNs from different triples are not equal risks and ties are not equivalences; report criticality alongside.

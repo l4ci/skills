@@ -5,9 +5,9 @@ description: Use when the user is rolling out a change, giving feedback, designi
 
 # scarf
 
-Runs David Rock's SCARF model to read a situation for social threat and reward across five domains: Status, Certainty, Autonomy, Relatedness, and Fairness. The point is not to label feelings but to predict where people will pull away and to design specific moves that lower the threat and raise the reward. The brain treats social experience much like physical survival: threat in any domain triggers an avoid response (defensiveness, disengagement), reward triggers an approach response (engagement), and a single high threat outweighs rewards spread across the rest.
+Runs David Rock's SCARF model to read a situation for social threat and reward across five domains: Status, Certainty, Autonomy, Relatedness, and Fairness. The brain treats social experience much like physical survival: threat in any domain triggers an avoid response (defensiveness, disengagement), reward triggers an approach response (engagement), and a single high threat outweighs rewards spread across the rest. The output is specific moves that lower threat and raise reward, not labels for feelings.
 
-The five domains, their threat and reward triggers, the practical levers, and the pitfalls live in [references/scarf.md](references/scarf.md). Load that file before analyzing. Keep one point in view throughout: SCARF is a popularization of neuroscience, a useful heuristic, not a measurement instrument.
+The five domains, their threat and reward triggers, the practical levers, and the pitfalls live in [references/scarf.md](references/scarf.md). Load that file before analyzing. SCARF is a popularization of neuroscience, a useful heuristic, not a measurement instrument; keep that in view throughout.
 
 ## When to use
 
@@ -56,7 +56,7 @@ Assign the five domains from the reference file: Status, Certainty, Autonomy, Re
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all 5)
 
-One agent merges the five reads into a plan of action. This is where SCARF earns its value, by ranking and designing rather than restating:
+One agent merges the five reads into a plan of action by ranking and designing rather than restating:
 
 1. **Rank the threats.** Order all five domains by threat severity. Name the one or two domains most at risk; these set the agenda. Remember the asymmetry: a high threat outweighs rewards elsewhere, and removing it usually beats adding a new reward.
 2. **Watch the cross-domain trap.** Check that the top threat is not being masked by an easy fix in another domain (a polished plan addresses certainty while the real wound is autonomy). Fix the domain that carries the threat.
@@ -76,9 +76,6 @@ Write a thorough markdown report and save it to `scarf-<subject-slug>-<YYYY-MM-D
 
 ## Principles
 
-- **Threat beats reward.** A single high threat outweighs rewards spread across the other domains. Remove the threat first.
-- **Name the domain and the move.** "Communicate more" is not a lever. Every fix points at a domain and a concrete action drawn from it.
-- **Fix the domain that hurts.** Effort spent polishing the wrong domain does not land. Rank by threat severity and aim there.
-- **It is a heuristic, not a meter.** Caveat the science, treat severities as judgment, and do not present them as measurements.
+- **Threat beats reward.** A single high threat outweighs rewards spread across the other domains. Rank by threat severity and remove the worst first.
+- **It is a heuristic, not a meter.** Caveat the science and treat severities as judgment, not measurements.
 - **People differ.** The same change threatens different people in different domains; read for who, not just what.
-- **Parallel where independent.** The five domains can be read concurrently. Ranking and designing moves need all five, so synthesis runs after.

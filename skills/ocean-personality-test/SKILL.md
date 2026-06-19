@@ -5,7 +5,7 @@ description: Use when the user wants to take a Big Five (OCEAN) personality test
 
 # ocean-personality-test
 
-Administers the Big Five personality assessment (OCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) using the public-domain 50-item IPIP Big-Five Factor Markers, then scores it and writes a detailed markdown report.
+Administers the Big Five personality assessment (OCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) using the public-domain 50-item IPIP Big-Five Factor Markers (Goldberg), then scores it and writes a detailed markdown report.
 
 The item bank, OCEAN-oriented keying, scoring rules, and bands live in [references/items.md](references/items.md). Load that file before administering the test and follow its keying exactly.
 
@@ -32,13 +32,13 @@ Write a thorough markdown report with these sections:
 1. **Header.** Title, date, instrument name ("IPIP Big-Five Factor Markers, 50 items"), and a one-sentence non-clinical disclaimer.
 2. **Summary table.** One row per dimension with the total (out of 50), the per-item average, and the band. Include a compact text bar (for example `████░` style or a 0-to-50 marker) so the profile is scannable at a glance.
 3. **Per-dimension deep dive (five sections).** For each of O, C, E, A, N: the score and band, what the dimension means in plain language, what a high versus low score tends to look like, and where this specific taker falls and what their answer pattern suggests. Name concrete strengths and likely blind spots or growth areas. Briefly note how the trait tends to show up at work, in relationships, and under stress.
-4. **Profile interactions.** Two to four notable combinations across dimensions (for example high Openness with high Conscientiousness, or high Extraversion with high Neuroticism) and what the interplay tends to mean. This is where the report earns "detailed": single-trait readouts miss how traits combine.
+4. **Profile interactions.** Two to four notable combinations across dimensions (for example high Openness with high Conscientiousness, or high Extraversion with high Neuroticism) and what the interplay tends to mean. Single-trait readouts miss how traits combine.
 5. **Reflection prompts.** A few open questions the user can sit with, tied to their specific results.
 6. **Caveats and how to read this.** Self-report captures self-image on one day, not fixed truth. Bands describe the taker's own answer pattern, not a percentile against the population (the IPIP-50 has no official norms). Traits are continua, not types. Mood and context shift answers. This is not a clinical or diagnostic instrument. For a normed, facet-level result, point to a longer instrument such as the IPIP-NEO-120.
 
 ## Principles
 
-- **Faithful instrument.** Use the exact items and keying from the reference file. Do not improvise items, drop items, or reorder factors mid-test. The validity depends on it.
+- **Faithful instrument.** Use the exact items and keying from the reference file. Do not improvise items, drop items, or reorder factors mid-test.
 - **No leakage during testing.** Keep factor labels and keying hidden until scoring, so the user answers the statement rather than the trait.
-- **Specific over generic.** A good report reads like it is about this person's answers. Cite the answer patterns that drove each band rather than reciting textbook trait blurbs.
+- **Specific over generic.** Cite the answer patterns that drove each band rather than reciting textbook trait blurbs.
 - **Honest about limits.** Always carry the non-clinical, self-report, no-norms caveats into the report. Do not overclaim precision.

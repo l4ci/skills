@@ -5,7 +5,7 @@ description: Use when a defect, failure, incident, or recurring problem has an u
 
 # root-cause-analysis
 
-Finds the root cause of a problem by combining the Ishikawa fishbone with the 5 Whys: the fishbone scans every category of cause so nothing is missed, and the 5 Whys drills each strong candidate down to a cause you can actually act on. The point is not to explain the symptom but to find the cause that, if removed, prevents recurrence.
+Finds the cause of a problem by combining the Ishikawa fishbone (scans every category of cause so nothing is missed) with the 5 Whys (drills each strong candidate to a cause you can act on). The deliverable is the cause that, if removed, prevents recurrence, not an explanation of the symptom.
 
 The fishbone head, the cause category sets (the 6 Ms and the service variants), the 5 Whys discipline, the verification tests, and the failure modes live in [references/root-cause.md](references/root-cause.md). Load that file before analyzing.
 
@@ -32,7 +32,7 @@ Stage 3  Drill & verify    ── needs all categories ────────�
 
 ## Stage 1: Frame the head (inline)
 
-Write the fish head: the effect stated as what, where, when, and magnitude, quantified where the data allows ("solder voids on connector J3, second shift, ~8% of boards since week 12", not "soldering problems"). A loose head produces a loose analysis. Then choose the category set from the reference file: default to the 6 Ms (People, Machine, Method, Material, Measurement, Environment); use the service 4 Ps/8 Ps when the effect is in a service or process with no physical product. State the chosen set and the head before fanning out.
+Write the fish head: the effect stated as what, where, when, and magnitude, quantified where the data allows ("solder voids on connector J3, second shift, ~8% of boards since week 12", not "soldering problems"). Then choose the category set from the reference file: default to the 6 Ms (People, Machine, Method, Material, Measurement, Environment); use the service 4 Ps/8 Ps when the effect is in a service or process with no physical product. State the chosen set and the head before fanning out.
 
 ## Stage 2: Cause finding (PARALLEL)
 
@@ -77,9 +77,7 @@ Write a thorough markdown report and save it to `root-cause-analysis-<effect-slu
 
 ## Principles
 
-- **Cause, not symptom.** The deliverable is the cause that stops recurrence when removed. A fix that quiets the symptom and leaves the cause is not the answer; name it as a stopgap if you offer it.
-- **Scan every category before drilling.** Single-cause bias and first-guess fixation are the classic failure: the fishbone exists to force a look in every category, including the one you did not suspect, before committing to a chain.
-- **Branch the whys.** A why-chain that stays linear assumes one cause per level. Real problems branch; let the chain branch and follow each fork.
-- **Verify before concluding.** A 5 Whys chain is a hypothesis. Test it against the timeline, the data, and the removal question before calling it the root cause; correlation is not causation.
-- **System, not blame.** "Operator error" is a stopping point that hides the real cause. Ask why the system allowed the error; the root cause is almost always in method, machine, measurement, or environment.
-- **Parallel where independent.** The categories can be brainstormed concurrently. The drill, verification, and ranking need every category, so Stage 3 runs after the fan-out completes.
+- **Cause, not symptom.** A fix that quiets the symptom and leaves the cause is not the answer; name it as a stopgap if you offer it.
+- **Scan every category before drilling.** Single-cause bias and first-guess fixation are the classic failure; look in every category, including the one you did not suspect, before committing to a chain.
+- **Verify before concluding.** Test each chain against the timeline, the data, and the removal question before calling it the root cause; correlation is not causation.
+- **System, not blame.** "Operator error" is a stopping point that hides the real cause. Ask why the system allowed the error; the root is almost always in method, machine, measurement, or environment.

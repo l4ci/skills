@@ -5,13 +5,13 @@ description: Use when the user wants a force field analysis of a proposed change
 
 # force-field-analysis
 
-Runs Kurt Lewin's force field analysis to assess a proposed change. Any current situation is an equilibrium held in place by two opposing sets of forces: driving forces that push toward the change, and restraining forces that resist it and hold the status quo. The status quo is the balance point. To move toward the desired state you strengthen the drivers, weaken the restrainers, or both, and Lewin's point is that weakening restrainers usually beats adding drivers.
+Kurt Lewin's force field analysis assesses a proposed change by treating the current situation as an equilibrium held by two opposing sets of forces: driving forces that push toward the change, and restraining forces that resist it and hold the status quo. It catches the reflex to push harder for a change instead of removing what blocks it: Lewin's point is that weakening restrainers usually beats adding drivers.
 
-The equilibrium model, the driving and restraining forces with the lenses to hunt across, the 1-to-5 strength scale, the net-field read, and the principle that weakening restrainers beats adding drivers live in [references/force-field.md](references/force-field.md). Load that file before analyzing and score each force against the scale exactly.
+The equilibrium model, the driving and restraining forces with the lenses to hunt across, the 1-to-5 strength scale, and the net-field read live in [references/force-field.md](references/force-field.md). Load that file before analyzing and score each force against the scale exactly.
 
 ## When to use
 
-The user has a defined change, decision, or goal and wants to know what is pushing for it, what is holding it back, whether it is feasible as things stand, and where the leverage is. This is the lightweight analytical change tool: it diagnoses the field around a single change quickly and points to the moves. For leading a full organizational change through to completion use [kotter-change](../kotter-change/); for the individual people-and-adoption side of a change use [adkar](../adkar/). The unit of analysis is the change, not the organization as a whole.
+The user has a defined change, decision, or goal and wants to know what is pushing for it, what is holding it back, whether it is feasible as things stand, and where the leverage is. The unit of analysis is the change, not the organization as a whole. For leading a full organizational change through to completion use [kotter-change](../kotter-change/); for the individual people-and-adoption side use [adkar](../adkar/).
 
 ## Language
 
@@ -33,7 +33,7 @@ Tell each subagent its final message is the return value: structured data, not p
 
 ## Stage 1: Force Hunt (PARALLEL)
 
-Dispatch the finder subagents at once. Split the hunt by side and lens: assign some finders to driving forces and some to restraining forces, each covering one lens (people, organizational, technical, external) from the reference file. For a small change a finder may cover both sides of one lens; for a larger one give each side of each lens its own finder. Either way, the driving hunt and the restraining hunt must get equal effort so the field is not lopsided.
+Dispatch the finder subagents at once. Split the hunt by side and lens: assign some finders to driving forces and some to restraining forces, each covering one lens (people, organizational, technical, external) from the reference file. For a small change a finder may cover both sides of one lens; for a larger one give each side of each lens its own finder. The driving hunt and the restraining hunt must get equal effort so the field is not lopsided.
 
 **Shared framing (send to every finder):**
 
@@ -51,8 +51,8 @@ Collect all finders' structured results before continuing. Re-dispatch any finde
 One agent merges the finders into the force field and the moves:
 
 1. **Build the scored field.** Deduplicate forces that several finders surfaced (keep the best-evidenced score), then lay out the two columns: driving forces with strengths, restraining forces with strengths.
-2. **Read the net field.** Weigh the two columns and read the gap, but do not treat it as arithmetic. Name the binding restrainers and the load-bearing drivers. Answer the question: as the field stands today, will the situation move, hold, or need active intervention before it can move?
-3. **Find the leverage.** Identify the highest-leverage moves. Favour weakening the strongest restrainers ("what would make this barrier smaller or go away?") over adding driving force, since adding drivers tends to provoke equal counter-pressure and produces fragile change (see the reference file). Strengthening weak or absent drivers that cost little to add is the second tool, not the first.
+2. **Read the net field.** Weigh the two columns and read the gap, but do not treat it as arithmetic. Name the binding restrainers and the load-bearing drivers. Answer: as the field stands today, will the situation move, hold, or need active intervention before it can move?
+3. **Find the leverage.** Favour weakening the strongest restrainers ("what would make this barrier smaller or go away?") over adding driving force, since adding drivers tends to provoke equal counter-pressure. Strengthening weak or absent drivers that cost little to add is the second tool, not the first.
 4. **Judge the shift.** Can the equilibrium realistically be moved with the available moves, and how, weighing feasibility? If not, say so plainly rather than padding the driver column to manufacture a feasible-looking field.
 
 ## Report structure
@@ -78,9 +78,6 @@ Write a thorough markdown report and save it to `force-field-<change-slug>-<YYYY
 
 ## Principles
 
-- **Define the change first.** Forces can only be judged against a target state sharp enough to be for or against. Sharpen a vague change before listing forces.
-- **Both sides, equal effort.** Hunt drivers and restrainers across every lens with the same rigour. A lopsided list is a lazy hunt, not an easy change.
-- **Score, do not just list.** Every force carries a 1-to-5 strength with a rationale. A bare list cannot be read as a field.
-- **Weaken restrainers before adding drivers.** Removing barriers lowers tension and produces durable change; adding pressure provokes counter-pressure and produces fragile change. The leverage is usually on the restraining side.
+- **Both sides, equal effort.** A lopsided list is a lazy hunt, not an easy change.
+- **Weaken restrainers before adding drivers.** Removing barriers produces durable change; adding pressure provokes counter-pressure and produces fragile change. The leverage is usually on the restraining side.
 - **Not an average.** The net read weighs the field, it does not mean it. One binding restrainer can block a change the totals call feasible.
-- **Parallel where independent.** The driver hunt and the restrainer hunt share no state, so run them concurrently across lenses. Synthesis needs them all, so it runs after.

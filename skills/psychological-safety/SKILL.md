@@ -5,9 +5,9 @@ description: Use when the user wants to diagnose a team's psychological safety a
 
 # psychological-safety
 
-Runs Amy Edmondson's psychological safety construct to diagnose whether a team is safe for interpersonal risk-taking, speaking up, admitting mistakes, asking questions, challenging, without fear of punishment or humiliation, and to prescribe how to raise it. Psychological safety is a property of the team climate, not of any individual, and it predicts learning and performance.
+Amy Edmondson's psychological safety construct diagnoses whether a team is safe for interpersonal risk-taking (speaking up, admitting mistakes, asking questions, challenging) without fear of punishment or humiliation, and prescribes how to raise it. The trap it guards against is mistaking comfort for safety: the target is not a pleasant team but a candid one, high safety paired with high accountability, the learning zone.
 
-The point is not whether the team is comfortable but whether it is candid under challenge: high safety with low standards is the comfort zone, and the target is high safety paired with high accountability, the learning zone. The behavioral markers, the safety-by-accountability 2x2, the three leader practices, and the pitfalls live in [references/psych-safety.md](references/psych-safety.md). Load that file before diagnosing and score the climate against the markers exactly.
+The behavioral markers, the safety-by-accountability 2x2, the three leader practices, and the pitfalls live in [references/psych-safety.md](references/psych-safety.md). Load that file before diagnosing and score the climate against the markers exactly.
 
 ## When to use
 
@@ -33,7 +33,7 @@ Stage 3  Synthesis        ── 1 agent, needs all 5 ────────�
 
 ## Stage 1: Signals (INLINE)
 
-Before fanning out, fix the unit of analysis and gather the raw evidence. Confirm the one team and its leader. Collect observable signals from the user or from available materials: how meetings run and who talks versus who is silent; what happens when someone makes a mistake or delivers bad news; whether and how people ask for help; how dissent and challenge are received; any recent failure or near-miss and how the team responded. Note the accountability picture: the standards the team is held to and how they are enforced. This is the evidence base every assessor will draw on; thin signals mean lower confidence downstream, not invented detail.
+Before fanning out, fix the unit of analysis and gather the raw evidence. Confirm the one team and its leader. Collect observable signals from the user or from available materials: how meetings run and who talks versus who is silent; what happens when someone makes a mistake or delivers bad news; whether and how people ask for help; how dissent and challenge are received; any recent failure or near-miss and how the team responded. Note the accountability picture: the standards the team is held to and how they are enforced. Thin signals mean lower confidence downstream, not invented detail.
 
 ## Stage 2: Dimension Scan (PARALLEL)
 
@@ -57,7 +57,7 @@ Assign the five dimensions from the reference file. Collect all five structured 
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all 5)
 
-One agent merges the five dimension scans into a diagnosis and a prescription. This is where the analysis earns its value, by placing the team and prescribing toward the learning zone rather than restating the scores:
+One agent merges the five dimension scans into a diagnosis and a prescription, placing the team and prescribing toward the learning zone rather than restating the scores:
 
 1. **Place the team on the 2x2.** Locate it on the safety axis from the five dimension scores, and on the accountability axis from the observed standards and how they are enforced. Name the zone: apathy, comfort, anxiety, or learning. Justify both coordinates with evidence.
 2. **Weakest dimensions and driving behaviors.** Which one or two dimensions are most unsafe, which behavioral markers they violate, and the concrete behaviors driving them, anchored to specific episodes, not low averages.
@@ -81,7 +81,6 @@ Write a thorough markdown report and save it to `psychological-safety-<team-slug
 ## Principles
 
 - **Climate, not person.** Safety is a property of the team, built and broken by how members respond to interpersonal risk. Diagnose the climate; prescribe to the leader and the team, never label an individual.
-- **Candor, not comfort.** The target is the learning zone, high safety with high accountability, not the comfort zone. A pleasant, agreeable team can be the least safe. Diagnose candor under challenge.
+- **Candor, not comfort.** The target is the learning zone. A pleasant, agreeable team can be the least safe.
 - **Never trade standards for safety.** The comfort-zone trap is to relax the bar and call it safety. Every prescription must raise safety while holding accountability.
 - **Behaviors or honesty.** Ground each marker in observed behavior and episodes. Where signal is thin, say so and lower confidence rather than asserting a climate.
-- **Parallel where independent.** The five dimensions can be assessed concurrently. Placement and prescription need all five, so synthesis runs after.

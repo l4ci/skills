@@ -5,7 +5,7 @@ description: Use when the user wants to explore growth strategies for a company 
 
 # ansoff-matrix
 
-Explores growth options for a company or product with the Ansoff Matrix, which maps growth along two axes: products (existing or new) and markets (existing or new). The four cells are Market Penetration, Market Development, Product Development, and Diversification, in rising order of risk. The skill generates concrete options in each cell and sequences them into a prioritized growth path.
+Explores growth options with the Ansoff Matrix, which maps growth along two axes (existing or new products, existing or new markets) into four cells of rising risk: Market Penetration, Market Development, Product Development, and Diversification. It generates concrete options in each cell and sequences them into a prioritized growth path, rather than naming a quadrant and stopping.
 
 The four strategies, their risk profiles, how to use the matrix, and the pitfalls live in [references/ansoff.md](references/ansoff.md). Load that file before analyzing.
 
@@ -76,4 +76,3 @@ Write a thorough markdown report and save it to `ansoff-<subject-slug>-<YYYY-MM-
 - **Exhaust the cheap growth first.** Penetration before development, development before diversification, unless a clear trigger justifies the jump.
 - **Capability fit is risk.** Assess whether the firm can actually execute each move, not just whether the market is attractive.
 - **Sequence, do not just list.** The deliverable is a prioritized path over time, not four lists of ideas.
-- **Parallel where independent.** The four quadrants are explored concurrently; the path synthesis needs all four and runs after.

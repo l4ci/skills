@@ -5,7 +5,7 @@ description: Use when the user wants a Porter's Five Forces analysis (Branchenst
 
 # porters-five-forces
 
-Runs Michael Porter's Five Forces analysis to assess an industry's structure and profit potential: threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, and competitive rivalry. The stronger the forces, the lower the profit an average competitor can sustain.
+Michael Porter's Five Forces assesses an industry's structure and profit potential: the stronger the forces, the lower the profit an average competitor can sustain. It corrects the mistake of judging an industry by its growth or hype instead of the structural forces that actually set its returns.
 
 The five forces, their determinants, and the 1-to-5 scoring rubric live in [references/forces.md](references/forces.md). Load that file before analyzing and score each force against its determinants exactly.
 
@@ -76,4 +76,3 @@ Write a thorough markdown report and save it to `five-forces-<industry-slug>-<YY
 - **Determinant-driven.** Every force score must trace to its determinants with evidence. A bare "rivalry is high" with no drivers is not an analysis.
 - **Evidence or honesty.** Use real figures where retrieval allows. Where data is missing, say so and lower confidence rather than inventing numbers.
 - **Not an average.** Synthesis weighs the forces, it does not mean them. The binding constraint on profit is usually one or two forces, not the arithmetic of all five.
-- **Parallel where independent.** The five forces share no state, so analyze them concurrently. Synthesis needs all five, so it runs after.

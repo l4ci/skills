@@ -5,7 +5,7 @@ description: Use when the user faces a hard, messy, or stuck problem and needs t
 
 # cynefin
 
-Runs Dave Snowden's Cynefin framework to sort a situation by its kind of cause-and-effect and so choose how to act. Cynefin is a meta-framework: it does not solve the problem, it tells you what kind of problem you have and therefore which approach, and which other tool, fits. The point is not to label the situation but to stop applying the wrong kind of response to it.
+Runs Dave Snowden's Cynefin framework to sort a situation by its kind of cause-and-effect and so choose how to act. Cynefin is a meta-framework: it tells you what kind of problem you have and therefore which approach, and which other tool, fits, so you stop applying the wrong kind of response to it.
 
 The five domains, their decision models, their diagnostic questions, the cliff between Clear and Chaotic, and the failure of misdiagnosis live in [references/cynefin.md](references/cynefin.md). Load that file before analyzing.
 
@@ -32,7 +32,7 @@ Stage 3  Synthesis         ── 1 agent, needs all N ────────�
 
 ## Stage 1: Issue Surfacing (inline)
 
-Break the SITUATION into its constituent issues or aspects. A real situation spans domains: a product launch can hold a Clear logistics issue, a Complicated pricing model, and a Complex market-reception question all at once. Do not force the whole thing into one domain, which is the first step toward misdiagnosis. List each issue as a short, self-contained statement that can be classified on its own. Aim for the natural seams of the problem, not an exhaustive decomposition.
+Break the SITUATION into its constituent issues or aspects. A real situation spans domains: a product launch can hold a Clear logistics issue, a Complicated pricing model, and a Complex market-reception question all at once. Do not force the whole thing into one domain. List each issue as a short, self-contained statement that can be classified on its own. Aim for the natural seams of the problem, not an exhaustive decomposition.
 
 ## Stage 2: Classification (PARALLEL)
 
@@ -54,12 +54,12 @@ Tell each subagent its final message is the return value: structured data, not p
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all N)
 
-One agent maps the classified issues into a single picture and turns it into action. This is where the meta-framework earns its value, by routing each issue to the right response rather than restating the domains:
+One agent maps the classified issues into a single picture and routes each to the right response rather than restating the domains:
 
 1. **The portfolio.** Lay the issues out across the domains so the shape of the situation is visible at a glance. Most situations are mixed; name the mix.
-2. **The cliff and Disorder.** Flag any issue sitting on the fold between Clear and Chaotic, where complacency about a stable, well-understood thing risks a sudden catastrophic fall. Flag any issue still in Disorder, where no one yet knows which domain it is in, and say how to break it down further, since Disorder is the danger zone where people default to their comfort domain.
+2. **The cliff and Disorder.** Flag any issue sitting on the fold between Clear and Chaotic, where complacency about a stable, well-understood thing risks a sudden catastrophic fall. Flag any issue still in Disorder, where no one yet knows which domain it is in, and say how to break it down further.
 3. **Domain-appropriate action.** For each issue, the matching move: apply best practice (Clear), bring in expert analysis (Complicated), run small safe-to-fail experiments and watch what emerges (Complex), or act first to stabilize and then move out of chaos (Chaotic). Do not over-analyze the Complex issues; the answer is emergent, not knowable in advance.
-4. **Which framework fits where.** Suggest the other tools that suit each domain: checklists and standard operating procedure for Clear; the analytic frameworks (most of this collection: SWOT, BMC, decision trees, expert modeling) for Complicated; experiment design and short feedback loops for Complex; rapid triage and command for Chaotic. Cynefin is the dispatcher, not the destination.
+4. **Which framework fits where.** Suggest the other tools that suit each domain: checklists and standard operating procedure for Clear; the analytic frameworks (most of this collection: SWOT, BMC, decision trees, expert modeling) for Complicated; experiment design and short feedback loops for Complex; rapid triage and command for Chaotic.
 5. **Movement between domains.** Name the signals that an issue is moving: a Complex experiment that has revealed a repeatable pattern is becoming Complicated; a Clear process drifting toward complacency is creeping toward the cliff; a Chaotic situation stabilizing can be re-sorted into Complex or Complicated. Tie this to the CONTEXT: what to watch and when to reclassify.
 
 ## Report structure
@@ -75,9 +75,6 @@ Write a thorough markdown report and save it to `cynefin-<situation-slug>-<YYYY-
 
 ## Principles
 
-- **Diagnose before you act.** The whole value is choosing the right kind of response. A correct answer to the wrong kind of problem still fails.
+- **Diagnose before you act.** A correct answer to the wrong kind of problem still fails.
 - **Misdiagnosis is the failure mode.** Applying best-practice recipes to a Complex problem fails; over-analyzing a Complex problem also fails, slower, because the answer is emergent and cannot be known in advance. Guard every classification against the adjacent domain.
-- **Mind the cliff.** Complacency in the Clear domain is how a stable thing falls into chaos. The most dangerous issue is often the one everyone thinks is settled.
-- **Disorder is the default trap.** When you do not know the domain, people fall back to their comfort domain. Name the Disorder explicitly and break it down rather than letting habit decide.
 - **Cynefin is the dispatcher.** It routes each issue to the matching response and the matching framework; it is not itself the analysis. Hand off to the right tool.
-- **Parallel where independent.** Each issue can be classified concurrently. The portfolio, cliff, and routing need all of them, so synthesis runs after.

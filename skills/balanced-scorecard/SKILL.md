@@ -5,7 +5,7 @@ description: Use when the user wants to translate a strategy into a balanced set
 
 # balanced-scorecard
 
-Runs Kaplan and Norton's Balanced Scorecard to translate a strategy into objectives and measures across four perspectives, so the business is steered by more than its financial numbers: Financial, Customer, Internal Process, and Learning & Growth. Each perspective answers one question, and the four are linked by cause and effect: the capabilities built in Learning & Growth drive better Internal Processes, which deliver the Customer value proposition, which produces Financial results.
+Runs Kaplan and Norton's Balanced Scorecard to translate a strategy into objectives and measures across four perspectives so a business is steered by more than its financial numbers: Financial, Customer, Internal Process, and Learning & Growth. The four are linked by cause and effect: capabilities built in Learning & Growth drive better Internal Processes, which deliver the Customer value proposition, which produces Financial results.
 
 The four perspectives, their guiding questions, the objective/measure/target/initiative structure, the strategy map and its cause-effect logic, and the leading-versus-lagging distinction live in [references/scorecard.md](references/scorecard.md). Load that file before analyzing and follow its structure exactly.
 
@@ -57,7 +57,7 @@ One agent merges the four perspective analyses into a single scorecard and the s
 1. **Build the strategy map.** Lay the objectives out across the four perspectives and draw the cause-effect chain bottom-up: which Learning & Growth objectives enable which Internal Process objectives, which deliver which Customer objectives, which produce which Financial objectives. The map is the heart of the scorecard; a list of objectives without the links is just a KPI dashboard.
 2. **Trace every objective to the strategy.** Each objective must answer to the stated strategy. Drop or flag any that is generic best practice rather than something this strategy specifically requires.
 3. **Check the balance.** Confirm the scorecard mixes leading and lagging indicators, not only financial lagging results, and that it spans short-term and long-term. An all-lagging scorecard tells you the score after the game is over.
-4. **Prune to the vital few.** Cut to the measures that matter, not the measures that are easy to collect. A scorecard with thirty KPIs measures nothing; aim for a handful per perspective. Note what you cut and why.
+4. **Prune to the vital few.** Cut to the measures that matter, not the measures that are easy to collect. Aim for a handful per perspective. Note what you cut and why.
 5. **Flag broken links.** Surface objectives with no enabler below them (a Customer goal with no process or capability driving it) or no payoff above them (a process improvement that connects to no customer or financial outcome). These are either missing objectives or objectives that do not belong.
 
 ## Report structure
@@ -79,4 +79,3 @@ Write a thorough markdown report and save it to `balanced-scorecard-<org-slug>-<
 - **The map is the point.** The cause-effect links between perspectives are what make it a scorecard rather than a dashboard. Build the map; do not just list KPIs.
 - **Balance leading and lagging.** Financial results are lagging; they confirm the past. Pair them with leading drivers in the other perspectives that you can still act on.
 - **The vital few.** Choose the measures that matter, not the ones that are easy to collect. Fewer, sharper measures beat a long list nobody reads.
-- **Parallel where independent.** The four perspectives can each be derived from the strategy concurrently. The strategy map needs all four, so synthesis runs after.

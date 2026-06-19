@@ -5,7 +5,7 @@ description: Use when the user wants a Value Proposition Canvas for an offering 
 
 # value-proposition-canvas
 
-Runs Osterwalder, Pigneur, Bernarda, and Smith's Value Proposition Canvas to test whether an offering fits a customer segment. It zooms into two halves: the **Customer Profile** (jobs, pains, gains) describes the customer, and the **Value Map** (products and services, pain relievers, gain creators) describes the offering. The point is not to describe the two sides but to check fit: that the relievers and creators land on the customer's most important jobs, severest pains, and most-wanted gains, not on a long tail of minor ones.
+Runs Osterwalder, Pigneur, Bernarda, and Smith's Value Proposition Canvas to test whether an offering fits a customer segment: the **Customer Profile** (jobs, pains, gains) describes the customer, the **Value Map** (products and services, pain relievers, gain creators) describes the offering. It catches the failure of relievers and creators that land on minor jobs, pains, and gains rather than the customer's most important ones.
 
 The two sides, the ranking discipline, the fit-check table, and the three levels of fit live in [references/value-proposition.md](references/value-proposition.md). Load that file before analyzing. The order is fixed: ground and rank the customer side first, then map the value side onto it.
 
@@ -60,7 +60,7 @@ Collect all six structured results before continuing. Re-dispatch any analyst th
 
 ## Stage 2: Fit Assessment (SEQUENTIAL, needs all 6)
 
-One agent merges the six components and assesses fit. This is where the canvas earns its value, by testing the match rather than restating the two sides:
+One agent merges the six components and assesses fit, testing the match rather than restating the two sides:
 
 1. **Rank the customer side.** Consolidate the three profile components into one ranked picture: the most important jobs, the most severe pains, the most-wanted gains, each with its fact/assumption status. This ranking governs everything below.
 2. **Assess fit, item by item.** Using the fit-check table, take each top job, pain, and gain and ask whether the value map addresses it: which products enable the top jobs, which pain relievers address the top pains, which gain creators produce the top gains. Mark each hit, partial, or miss. Name every top item the value map misses.
@@ -82,9 +82,7 @@ Write a thorough markdown report and save it to `value-proposition-canvas-<subje
 
 ## Principles
 
-- **Rank, do not list.** Three full lists with no order cannot be tested for fit, because every item looks equal. The ranking, by importance to the customer, is what makes the canvas work.
-- **Profile before map.** Ground and rank the customer side first, then map the value side onto it. A value map built for an ungrounded profile fits an imagined customer.
-- **Fit is the few, not the all.** Good fit means addressing the customer's highest-ranked jobs, pains, and gains, not covering every item. Relievers and creators aimed at low-ranked items are wasted effort, flag them.
-- **Facts or honesty.** Mark every item fact or assumption with confidence. Where evidence is missing, say so and lower confidence rather than inventing the customer or the offer's effect.
-- **Name the fit level.** The canvas reaches problem-solution fit at most. Claiming product-market or business-model fit from a canvas overstates what the framework can show.
-- **Parallel where independent.** The six components can be described concurrently. The fit assessment needs all six, so it runs after.
+- **Rank, do not list.** Lists with no order cannot be tested for fit, because every item looks equal.
+- **Fit is the few, not the all.** Good fit addresses the highest-ranked jobs, pains, and gains, not every item.
+- **Mark facts or assumptions honestly.** Where evidence is missing, lower confidence rather than inventing the customer or the offer's effect.
+- **Name the fit level.** The canvas reaches problem-solution fit at most; claiming more overstates what it can show.

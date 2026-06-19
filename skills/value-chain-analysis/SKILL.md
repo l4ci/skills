@@ -5,7 +5,7 @@ description: Use when the user wants to analyze how a company creates value and 
 
 # value-chain-analysis
 
-Analyzes how a firm creates value using Porter's value chain, breaking it into nine activities (five primary, four support) to locate where competitive advantage actually lives. Advantage comes from specific activities and from how they link, not from the firm as a whole.
+Analyzes how a firm creates value using Porter's value chain, breaking it into nine activities (five primary, four support) to locate where competitive advantage lives. It catches the failure of treating advantage as a property of the firm as a whole rather than of specific activities and their linkages.
 
 The nine activities, what to assess for each, the role of linkages, and the pitfalls live in [references/value-chain.md](references/value-chain.md). Load that file before analyzing.
 
@@ -72,8 +72,7 @@ Write a thorough markdown report and save it to `value-chain-<company-slug>-<YYY
 
 ## Principles
 
-- **Cost and value, not description.** Every activity is assessed for both. A description of what the firm does is not an analysis.
-- **Advantage is relative.** Compare to competitors. Doing something well is not an advantage if rivals do it as well.
-- **Linkages are the durable edge.** The connections between activities are harder to copy than any single activity; hunt them.
+- **Cost and value, not description.** A description of what the firm does is not an analysis.
+- **Advantage is relative.** Doing something well is not an advantage if rivals do it as well.
+- **Linkages are the durable edge.** Connections between activities are harder to copy than any single activity; hunt them.
 - **Read through the strategy.** Cost leadership and differentiation surface different priorities from the same chain.
-- **Parallel where independent.** Activities are analyzed concurrently; the synthesis needs them all and runs after.

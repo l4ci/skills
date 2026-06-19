@@ -5,9 +5,9 @@ description: Use when the user wants to deploy a strategy into aligned, measurab
 
 # hoshin-kanri
 
-Deploys a strategy into aligned, measurable action using Hoshin Kanri: choose the vital few breakthrough objectives, cascade them into annual objectives, improvement priorities, and targets, and tie every level back to the strategy so daily work and the long-term direction pull together.
+Hoshin Kanri (TQM policy deployment) deploys a strategy into aligned, measurable action: choose the vital few breakthrough objectives, cascade them into annual objectives, improvement priorities, and targets, and tie every level back to the strategy via the X-matrix and two-way catchball. It catches the failure where strategy stays at the top and daily work drifts from it.
 
-The X-matrix, the catchball process, the review cadence, and the pitfalls live in [references/hoshin.md](references/hoshin.md). Load that file before facilitating.
+The X-matrix, the catchball process, and the review cadence live in [references/hoshin.md](references/hoshin.md). Load that file before facilitating.
 
 ## When to use
 
@@ -37,7 +37,7 @@ Tell each subagent its final message is the return value: structured data, not p
 
 Set the breakthrough objectives, then derive this year's annual objectives from them.
 
-1. **Breakthrough objectives.** The 3-to-5-year step-changes the strategy demands. Hold the line on the vital few: if the user lists ten, push them to choose the three or four that would matter most, because spreading effort across everything is the classic way Hoshin fails. Each should be a real change in position, not business as usual.
+1. **Breakthrough objectives.** The 3-to-5-year step-changes the strategy demands. Hold the line on the vital few: if the user lists ten, push them to the three or four that would matter most. Each should be a real change in position, not business as usual.
 2. **Annual objectives.** What must happen this year to stay on track for each breakthrough objective. These are the unit of the parallel cascade in Stage 2. Keep them few and concrete.
 
 State the breakthrough objectives and annual objectives back to the user and confirm before fanning out.
@@ -66,7 +66,7 @@ One agent assembles the cascades into the X-matrix and checks that the whole thi
 1. **The X-matrix.** Lay out the four legs and the ownership grid as the reference file describes: breakthrough objectives, annual objectives, improvement priorities, targets, and owners.
 2. **Correlations.** Mark how strongly each leg connects to the next (strong, weak, none): which annual objectives serve which breakthrough objective, which priorities drive which targets, and who owns what. The marks are where the plan's logic is visible or missing.
 3. **Alignment check (the golden thread).** Trace every priority and target up to a breakthrough objective. Flag orphans: a priority with no target, a target with no owner, a breakthrough objective with no priority supporting it, and an owner loaded with too much.
-4. **Catchball.** Summarize the pushback the strategists surfaced and where the plan needs a second pass between levels before it is committed. Hoshin is a negotiation up and down, not a top-down handout.
+4. **Catchball.** Summarize the pushback the strategists surfaced and where the plan needs a second pass between levels before it is committed.
 5. **Review cadence.** Set how the targets will be tracked (a monthly review against target, the bowling chart) and the PDCA rhythm that adjusts the plan when reality diverges.
 
 ## Report structure
@@ -84,8 +84,6 @@ Write a thorough markdown report and save it to `hoshin-kanri-<org-slug>-<YYYY-M
 ## Principles
 
 - **The vital few.** Three or four breakthrough objectives, not a wish list. Focus is the method's whole point; dilution defeats it.
-- **Catchball, not dictation.** The cascade is negotiated up and down. A plan handed down without the working level's pushback buys no commitment and usually no realism.
-- **Targets are numbers.** Every priority earns a measurable target with a level and a date. An activity dressed as a target cannot be tracked.
-- **The golden thread.** Every priority and target traces to a breakthrough objective, and every breakthrough objective has work supporting it. Orphans on either side are the alignment defect Hoshin exists to catch.
+- **Catchball, not dictation.** A plan handed down without the working level's pushback buys no commitment and usually no realism.
+- **Targets are numbers.** An activity dressed as a target cannot be tracked.
 - **Built to be reviewed.** The X-matrix lives through its review cadence. Without the PDCA loop it is wall decoration.
-- **Parallel where independent.** The annual objectives cascade independently, so develop them concurrently. Stage 1 sets them and Stage 3 needs all of them, so those run in sequence.

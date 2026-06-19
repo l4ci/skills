@@ -5,7 +5,7 @@ description: Use when the user wants to assess or plan growth and innovation acr
 
 # three-horizons
 
-Manages growth and innovation across the Three Horizons (McKinsey): Horizon 1 (the mature core), Horizon 2 (emerging businesses being built into the next core), and Horizon 3 (nascent options on the future). The skill places initiatives into horizons, checks whether the portfolio funds all three at once, and prescribes how each should be managed.
+Manages growth and innovation across the Three Horizons (McKinsey): Horizon 1 (the mature core), Horizon 2 (emerging businesses being built into the next core), and Horizon 3 (nascent options on the future). Catches the failure where the core starves the future; places initiatives into horizons, checks whether the portfolio funds all three at once, and prescribes how each should be managed.
 
 The three horizons, the balance and pipeline logic, and the pitfalls live in [references/three-horizons.md](references/three-horizons.md). Load that file before analyzing. The horizons are stages of maturity, not calendar periods; keep that distinction.
 
@@ -76,4 +76,3 @@ Write a thorough markdown report and save it to `three-horizons-<organization-sl
 - **Fund all three at once.** The point is simultaneity: cash from H1, building in H2, options in H3. A portfolio missing a horizon has a hidden cliff.
 - **Different horizons, different rules.** Each needs its own funding, metrics, and governance. H1 metrics applied to H3 kill the future.
 - **An empty H3 is a finding.** Treat a thin future pipeline as a result to report, not a section to skip.
-- **Parallel where independent.** The three horizons are analyzed concurrently; the balance synthesis needs all three and runs after.

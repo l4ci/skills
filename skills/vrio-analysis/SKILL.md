@@ -5,7 +5,7 @@ description: Use when the user wants a VRIO analysis of a firm's resources and c
 
 # vrio-analysis
 
-Runs Jay Barney's VRIO analysis to test whether a firm's resources and capabilities are a source of sustained competitive advantage. Each resource is run through four questions in order: is it Valuable, is it Rare, is it Costly to Imitate, and is the firm Organized to capture its value? The first "no" sets the verdict, which lands at one of competitive disadvantage, parity, temporary advantage, or sustained advantage.
+Runs Jay Barney's VRIO analysis to test whether a firm's resources and capabilities are a source of sustained competitive advantage. Each resource is run through four questions in order (Valuable, Rare, Costly to Imitate, Organized to capture value); the first "no" sets the verdict. It catches the failure of mistaking table-stakes resources rivals can match for durable advantage.
 
 The four questions, the sources of inimitability, the decision table, and the pitfalls live in [references/vrio.md](references/vrio.md). Load that file before analyzing and run each resource through the gates exactly.
 
@@ -85,9 +85,7 @@ Write a thorough markdown report and save it to `vrio-<firm-slug>-<YYYY-MM-DD>.m
 
 ## Principles
 
-- **Resource, not firm.** Score each resource on its own. A strong firm is a portfolio of resources at different verdicts; the analysis is only useful if it separates the few that sustain advantage from the many at parity.
-- **Gate in order.** Walk V, R, I, O in sequence and let the first "no" set the verdict. The questions are a gate, not four independent scores.
-- **Evidence for rare and inimitable.** Name the mechanism and show why a specific rival could not copy the resource cheaply. An unbacked claim of rarity or inimitability is the framework's most common failure.
-- **Organization is the fixable gap.** When a resource passes V, R, and I but not O, the advantage already exists and only the organization is in the way. Surface it; it is the most actionable finding VRIO produces.
+- **Resource, not firm.** A strong firm is a portfolio of resources at different verdicts; the analysis is useful only if it separates the few that sustain advantage from the many at parity.
+- **Evidence for rare and inimitable.** An unbacked claim of rarity or inimitability is the framework's most common failure.
+- **Organization is the fixable gap.** A resource passing V, R, I but not O is the most actionable finding VRIO produces: only the organization is in the way.
 - **Imitability erodes.** Treat costly-to-imitate as a statement about today and note its trajectory, or a sustained verdict quietly decays into temporary.
-- **Parallel where independent.** Resources share no state, so analyze them concurrently. Synthesis needs them all, so it runs after.

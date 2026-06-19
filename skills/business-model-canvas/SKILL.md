@@ -51,7 +51,7 @@ Assign the nine blocks from the reference file: Customer Segments, Value Proposi
 
 ## Stage 2: Synthesis (SEQUENTIAL, needs all 9)
 
-One agent merges the nine block analyses into a single coherent picture. This is where the canvas earns its value, by checking fit rather than restating the blocks:
+One agent merges the nine block analyses into a single coherent picture by checking fit rather than restating the blocks:
 
 1. **Right-side coherence.** Does each value proposition map to a named segment, and each segment to a value proposition? Do the channels and customer relationships fit each segment's expectations and economics? Do the revenue streams capture value from the segments the value propositions serve? Name every mismatch.
 2. **Left-side sufficiency.** Do the key resources, activities, and partnerships actually produce and deliver the value propositions? Is anything required to deliver the value missing? Is anything listed that no block depends on?
@@ -76,4 +76,3 @@ Write a thorough markdown report and save it to `business-model-canvas-<business
 - **Value Propositions is the hinge.** Every right-side block exists to deliver a value proposition to a segment; every left-side block exists to produce one. Check each block against that.
 - **Facts or honesty.** Mark every material claim as fact or assumption. Where data is missing, say so and lower confidence rather than inventing figures or presenting hopes as facts.
 - **Viability is the cross-side test.** Desirable and feasible is not enough; revenue streams must plausibly exceed the cost structure. Synthesis must reach a view on this, not dodge it.
-- **Parallel where independent.** The nine blocks can be described concurrently. The fit checks need all nine, so synthesis runs after.

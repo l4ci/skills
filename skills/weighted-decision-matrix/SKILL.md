@@ -5,7 +5,7 @@ description: Use when the user wants to choose among several options against mul
 
 # weighted-decision-matrix
 
-Chooses among several options against multiple weighted criteria, turning a fuzzy "which is best" into a transparent score: define the criteria, weight them before scoring, score each option on each criterion, sum weight times score, rank, and check whether the winner survives a reweight. Stuart Pugh's comparative variant scores each option as better, same, or worse than a baseline. The matrix informs the decision; it does not make it.
+Chooses among several options against multiple weighted criteria, turning a fuzzy "which is best" into a transparent score (the weighted scoring model; Stuart Pugh's comparative variant scores each option as better, same, or worse than a baseline). It catches the failure of weights set after scores are seen, which rigs the result. The matrix informs the decision; it does not make it.
 
 The method, how to pick independent and covering criteria, why weights come before scores, the scoring scales, the weighted-sum computation, the Pugh +/S/- variant, sensitivity analysis, and the pitfalls live in [references/decision-matrix.md](references/decision-matrix.md). Load that file before calibrating and scoring.
 
@@ -38,10 +38,10 @@ Tell each subagent its final message is the return value: structured data, not p
 Before any scoring, fix three things and write them down:
 
 1. **Criteria.** What the decision depends on. Keep them independent (no two measuring the same thing) and together covering (nothing decisive left out). State in one line what each criterion means, so a high and a low score are not a matter of taste. If the user supplied criteria, check them for overlap and gaps; if not, derive them from the decision and context.
-2. **Weights, set now.** Assign each criterion an importance (percentages summing to 100, or a 1-to-5 importance) from the decision-maker's priorities, **before any option is scored**. Setting weights after seeing scores is the easiest way to rig the result, so lock them here.
+2. **Weights, set now.** Assign each criterion an importance (percentages summing to 100, or a 1-to-5 importance) from the decision-maker's priorities, **before any option is scored**, and lock them here.
 3. **Scoring scale.** One fixed scale for every cell (default 1-to-5; use 1-to-10 only if options are close, or the Pugh +/S/- variant for comparative concept selection against a baseline). Anchor the ends so every scorer means the same thing by a 5 and a 1.
 
-Drop any option that fails a hard constraint now, rather than scoring it. Skipping this stage is the framework's main failure mode: unanchored criteria and after-the-fact weights just encode bias.
+Drop any option that fails a hard constraint now, rather than scoring it. Unanchored criteria and after-the-fact weights just encode bias.
 
 ## Stage 2: Score options (PARALLEL)
 
@@ -82,10 +82,7 @@ Write a thorough markdown report and save it to `decision-matrix-<decision-slug>
 
 ## Principles
 
-- **Criteria first, independent and covering.** No two criteria measuring the same thing (no double-counting), and nothing decisive left out. Weak criteria produce a confident wrong answer.
-- **Weights before scores.** Lock the weights from priorities before any option is scored. Changing them afterwards is a disclosed sensitivity test, never a silent edit.
-- **Every score earns a rationale.** A number with no reason is a guess wearing a number. Use evidence where retrieval allows, a stated assumption otherwise, and lower confidence rather than inventing figures.
-- **Near-ties are information.** A close result means the options are genuinely close and the choice rests on a criterion you trust, not on a defect in the matrix. Do not manufacture a winner the numbers do not support.
-- **Sensitivity, always.** Report whether the winner survives a reweight. A fragile winner that looks solid is the costliest output.
-- **The matrix informs, it does not decide.** The total is an input to judgment. Hard constraints, strategic must-dos, and a missing criterion can override the top score.
-- **Parallel where independent.** Options are scored concurrently, then reconciled together for consistency before ranking.
+- **Criteria first, independent and covering.** No two measuring the same thing, nothing decisive left out. Weak criteria produce a confident wrong answer.
+- **Every score earns a rationale.** A number with no reason is a guess wearing a number; lower confidence rather than inventing figures.
+- **Near-ties are information, not a defect.** Do not manufacture a winner the numbers do not support.
+- **The matrix informs, it does not decide.** Hard constraints, strategic must-dos, and a missing criterion can override the top score.

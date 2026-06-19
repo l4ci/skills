@@ -5,7 +5,7 @@ description: Use when the user wants to scan the macro-environment around a comp
 
 # pestel-analysis
 
-Scans the macro-environment around a subject using PESTEL: the Political, Economic, Social, Technological, Environmental, and Legal forces that shape a market but lie outside any one firm's control. The skill identifies the forces in each factor, prioritizes them by impact and certainty, and draws the implications.
+PESTEL scans the macro-environment around a subject: the Political, Economic, Social, Technological, Environmental, and Legal forces that shape a market but lie outside any one firm's control, catching the strategy that plans only against competitors while a macro force reshapes the board.
 
 The six factors, their probes, the prioritization logic, and the pitfalls live in [references/pestel.md](references/pestel.md). Load that file before analyzing.
 
@@ -76,4 +76,3 @@ Write a thorough markdown report and save it to `pestel-<subject-slug>-<YYYY-MM-
 - **Prioritize, do not enumerate.** Impact crossed with certainty is what turns a list into analysis.
 - **Right altitude.** Stay macro. Competitors and the company belong in other frameworks.
 - **Separate plan from monitor.** A near-certain force and a speculative one demand different responses.
-- **Parallel where independent.** The six factors are scanned concurrently; the synthesis needs all six and runs after.

@@ -7,8 +7,6 @@ description: Use when the user wants to stress-test a plan, proposal, PRD, strat
 
 A pre-mortem uses prospective hindsight (Gary Klein): imagine it is some months from now and the plan has already failed, then work backward to explain why. Naming a failure that has "already happened" surfaces risks that "what could go wrong?" misses, because it removes the optimism of an open future.
 
-This skill runs that exercise in parallel. Independent failure-finder subagents each attack the plan from one lens, their findings are deduplicated and scored, and the worst risks get concrete mitigations. It is the inverse of literature research: the same fan-out engine, pointed at the user's own plan.
-
 ## When to use
 
 The user has a plan, PRD, strategy, launch, migration, or decision and wants it stress-tested before committing. Not for work already shipped (that is a post-mortem) and not for debugging a specific failure (use a debugging workflow).
@@ -94,7 +92,6 @@ Write a thorough markdown report and save it to `pre-mortem-<YYYY-MM-DD>.md` (to
 ## Principles
 
 - **Failure as a fact, not a possibility.** The framing must be "it failed, explain why", not "what might go wrong". The certainty is what unlocks the honest answers.
-- **Parallel where independent, sequential where dependent.** The six lenses and the per-risk mitigations share no state, so run them concurrently. Dedup, scoring, and the blind-spot pass need everything upstream, so run them after.
-- **Keep the lenses sharp and separate.** Do not let one finder hedge into balance. The competitive lens should assume the competition wins; reconciliation happens in Stage 3.
-- **Severity beats volume.** A long list of risks is not the goal. Ranked, scored, mitigated risks are. Cross-lens agreement and high impact are what push a risk to the top.
-- **Honest about limits.** Carry the caveats into the report. A pre-mortem informs judgment; it does not replace it.
+- **Keep the lenses sharp and separate.** Do not let one finder hedge into balance; reconciliation happens in Stage 3.
+- **Severity beats volume.** A long list of risks is not the goal. Ranked, scored, mitigated risks are. Cross-lens agreement and high impact push a risk to the top.
+- **Honest about limits.** A pre-mortem informs judgment; it does not replace it.

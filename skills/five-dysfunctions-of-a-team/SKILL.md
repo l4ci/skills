@@ -5,7 +5,7 @@ description: Use when the user wants to diagnose why a team is underperforming, 
 
 # five-dysfunctions-of-a-team
 
-Runs Patrick Lencioni's Five Dysfunctions of a Team to diagnose why a team underperforms. The five dysfunctions are a hierarchy, not a list: Absence of Trust at the base, then Fear of Conflict, Lack of Commitment, Avoidance of Accountability, and Inattention to Results at the top. Each layer rests on the one below it. The point is not to score five problems but to find the lowest broken layer, because everything above it inherits the break.
+Runs Patrick Lencioni's Five Dysfunctions of a Team to diagnose why a team underperforms. The five dysfunctions are a hierarchy, not a list: Absence of Trust at the base, then Fear of Conflict, Lack of Commitment, Avoidance of Accountability, and Inattention to Results at the top. Each layer rests on the one below it, so find the lowest broken layer: everything above it inherits the break.
 
 The pyramid, the hierarchy rule, each layer's tells and interventions, and the classic failure modes live in [references/five-dysfunctions.md](references/five-dysfunctions.md). Load that file before diagnosing and assess each layer against its tells exactly.
 
@@ -32,7 +32,7 @@ Stage 3  Synthesis       ── 1 agent, needs all 5 ─────────
 
 ## Stage 1: Intake (inline)
 
-Establish the team and assemble the raw material before dispatching anyone. Confirm it is one working team. Gather every observable behavior and symptom the user can give: what meetings look like, how decisions get made and unmade, who confronts whom, what slips, where silos sit, what the leader carries. Capture these as concrete behaviors, not labels. This is the evidence the analysts will score against; thin intake produces a thin diagnosis.
+Confirm it is one working team, then assemble the raw material. Gather every observable behavior and symptom the user can give: what meetings look like, how decisions get made and unmade, who confronts whom, what slips, where silos sit, what the leader carries. Capture these as concrete behaviors, not labels. This is the evidence the analysts will score against; thin intake produces a thin diagnosis.
 
 ## Stage 2: Layer Analysis (PARALLEL)
 
@@ -42,14 +42,14 @@ Tell each subagent its final message is the return value: structured data, not p
 
 **Shared framing (send to each analyst):**
 
-> Assess one layer of Lencioni's Five Dysfunctions pyramid for this team: **[TEAM]**. Work only your assigned layer. Compare the team's behavior against your layer's specific tells (from the layer brief below), grounding each judgment in concrete behavioral evidence — what was actually observed or said, not impressions. Then return:
+> Assess one layer of Lencioni's Five Dysfunctions pyramid for this team: **[TEAM]**. Work only your assigned layer. Compare the team's behavior against your layer's specific tells (from the layer brief below), grounding each judgment in concrete behavioral evidence, what was actually observed or said, not impressions. Then return:
 > - **Layer verdict**: is this dysfunction present? Score its severity (none / mild / moderate / severe).
 > - **Tells observed**: which of your layer's tells show up, each with the specific behavior that evidences it.
 > - **Tells absent**: which tells you checked for and did not find, so synthesis knows what was ruled out.
 > - **Candidate interventions**: which of your layer's interventions fit what you found.
 > - **Confidence**: high, medium, or low, lowered if behavioral evidence was thin or you were inferring.
 >
-> Do not judge the other layers or guess where the root cause sits — synthesis owns that. Stay inside your layer.
+> Do not judge the other layers or guess where the root cause sits; synthesis owns that. Stay inside your layer.
 >
 > Team behaviors and context: [CONTEXT]
 
@@ -57,7 +57,7 @@ Assign the five layers from the reference file: Absence of Trust, Fear of Confli
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all 5)
 
-One agent merges the five layer assessments into a single diagnosis. The model lives or dies here: the value is in respecting the hierarchy, not in summing five scores.
+One agent merges the five layer assessments into a single diagnosis. Respect the hierarchy; do not sum five scores.
 
 1. **Locate the lowest broken layer.** Read the pyramid bottom to top. The first layer scored mild or worse is the binding constraint. This is where the diagnosis centers, regardless of which layer the user's complaint pointed at.
 2. **Trace the cascade upward.** Explain how the cracked base surfaces as symptoms higher up: how absence of trust produces the conflict the conflict-analyst saw, how that starves commitment, and so on. Show which higher-layer "problems" are really the lower break showing through, so the team does not chase the wrong fix.
@@ -74,13 +74,10 @@ Write a thorough markdown report and save it to `five-dysfunctions-<team-slug>-<
 3. **The pyramid, layer by layer.** Each layer from the base up: its verdict, the tells observed with their behavioral evidence, the tells ruled out, and confidence.
 4. **The cascade.** How the lowest break surfaces as higher-layer symptoms, and the reconciliation of the user's surface complaint with where the real break sits.
 5. **Interventions and sequence.** What to do at the base layer first, then the ordered rebuild up the pyramid, with what success looks like at each step.
-6. **Caveats.** The model is a lens, not a measurement; severity scores rest on the behaviors reported and a thin intake yields a thin diagnosis; it diagnoses team dynamics, not individual capability or fit; a clean diagnosis names the binding constraint, it does not by itself rebuild the team; and the hierarchy is a strong heuristic, not a law — occasionally a higher layer is independently broken and must be watched as the base is repaired.
+6. **Caveats.** The model is a lens, not a measurement; severity scores rest on the behaviors reported and a thin intake yields a thin diagnosis; it diagnoses team dynamics, not individual capability or fit; a clean diagnosis names the binding constraint, it does not by itself rebuild the team; and the hierarchy is a strong heuristic, not a law: occasionally a higher layer is independently broken and must be watched as the base is repaired.
 
 ## Principles
 
-- **Hierarchy, not checklist.** The five stack. Score them in isolation and you miss the entire model. The diagnosis is the bottom-up read, not the five numbers.
+- **Hierarchy, not checklist.** The five stack. The diagnosis is the bottom-up read, not the five numbers.
 - **Find the lowest break.** The lowest broken layer is the binding constraint. Everything above it inherits the crack. Start there, always.
 - **Symptoms point down.** A high-layer complaint is usually a low-layer break showing through. Trace it down before treating it.
-- **Evidence or nothing.** Every layer verdict rests on a specific observed behavior, not on a feeling that the team is off. Thin evidence lowers confidence.
-- **Rebuild upward.** Trust first, then conflict, commitment, accountability, results. Higher-layer rituals do not hold without the foundation beneath them.
-- **Parallel where independent.** The five layers can be assessed concurrently against their tells. The hierarchy read needs all five, so synthesis runs after.

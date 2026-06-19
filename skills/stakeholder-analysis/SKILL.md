@@ -5,7 +5,7 @@ description: Use when the user wants a stakeholder analysis or stakeholder map o
 
 # stakeholder-analysis
 
-Runs a stakeholder analysis on the power-interest grid (Mendelow, 1991) to map the people and groups who affect or are affected by an initiative, and to decide where engagement effort should go. Each stakeholder is placed by two axes (their power over the outcome and their interest in it) and read for stance, interests, fears, and influence over others. The output is an engagement plan, not just a map.
+Runs a stakeholder analysis on the power-interest grid (Mendelow, 1991) to map who affects or is affected by an initiative and decide where engagement effort should go. Each stakeholder is placed by power and interest and read for stance, interests, fears, and influence over others. Catches the failure where effort is spread evenly instead of following leverage; the output is an engagement plan, not just a map.
 
 The two axes, the four quadrants and their engagement strategies, the stance and influence-network dimensions, and the pitfalls live in [references/stakeholders.md](references/stakeholders.md). Load that file before analyzing and follow the power-versus-interest and check-don't-assume rules exactly.
 
@@ -20,7 +20,7 @@ Conduct the session and write the report in the language the user is writing in.
 ## Inputs
 
 - **INITIATIVE** (required): the project, change, or decision whose stakeholders are being mapped. Push for a defined thing with a defined outcome, since "the reorg" is easier to map than "our strategy".
-- **CONTEXT** (optional): the phase the initiative is in, what success actually requires, and any known tensions or factions. This sharpens both the stakeholder list and the engagement plan.
+- **CONTEXT** (optional): the phase the initiative is in, what success actually requires, and any known tensions or factions. Sharpens both the stakeholder list and the engagement plan.
 
 ## Orchestration map
 
@@ -60,7 +60,7 @@ One agent merges the per-stakeholder readings into the map and the plan:
 1. **Place everyone on the power-interest grid.** Plot each stakeholder by power and interest into one of the four quadrants (manage closely, keep satisfied, keep informed, monitor). Note any stakeholder sitting near a boundary, since small shifts move them across.
 2. **Build the engagement plan per quadrant.** For each quadrant, the strategy from the reference file, made concrete for these stakeholders: who to involve and co-create with (manage closely), who to keep comfortable without overloading and what could spike their interest (keep satisfied), who to communicate with and recruit as advocates (keep informed), and who to leave to general channels (monitor).
 3. **Map the coalition and the blockers.** Name the set of supporters and the set of blockers, overlaid on the grid (a high-power blocker is the priority; a low-power blocker is noise). For each blocker, what they want and the influence path to reach them. For the coalition, which supporters carry weight with stakeholders you cannot reach directly.
-4. **Flag the highest-leverage relationships to shift.** Working the gradients from the reference file (blockers toward neutral, neutrals toward support, supporters held and used), name the few moves that change the most: a high-power blocker, an influencer who controls a bloc of neutrals, a key player whose stance is still unknown. Effort follows leverage, not headcount.
+4. **Flag the highest-leverage relationships to shift.** Working the gradients from the reference file (blockers toward neutral, neutrals toward support, supporters held and used), name the few moves that change the most: a high-power blocker, an influencer who controls a bloc of neutrals, a key player whose stance is still unknown.
 5. **Verdict.** A short read on whether the stakeholder field favors the initiative as it stands, where the field is fragile, and what the analysis means for the engagement effort ahead.
 
 ## Report structure
@@ -78,9 +78,7 @@ Write a thorough markdown report and save it to `stakeholder-analysis-<initiativ
 
 ## Principles
 
-- **Power is not interest.** They are independent axes, and keeping them apart is the whole point. A loud stakeholder with no lever is not powerful; a quiet sponsor who controls the budget is. Conflating them puts effort in the wrong quadrant.
-- **Check stance, don't assume it.** Read where each stakeholder stands from what they have said and done. "They're senior, so they're on board" and "they complained once, so they're a blocker" are both guesses; mark unknowns as unknown.
-- **The map is a snapshot.** Positions move with every decision and announcement. The analysis is dated the moment it is written, so it is a basis for engagement and re-checking, not a fixed record.
+- **Power is not interest.** They are independent axes. A loud stakeholder with no lever is not powerful; a quiet sponsor who controls the budget is. Conflating them puts effort in the wrong quadrant.
+- **Check stance, don't assume it.** "They're senior, so they're on board" and "they complained once, so they're a blocker" are both guesses; mark unknowns as unknown.
 - **Follow the informal influence.** The org chart is not the influence network. The highest-leverage move is often engaging the person who sways a stakeholder, not the stakeholder.
-- **Effort follows leverage.** Most engagement goes to the key players; the monitor quadrant gets minimal effort. Spreading attention evenly across everyone is the failure the grid exists to prevent.
-- **Parallel where independent.** Each stakeholder is read on its own, so analyze them concurrently. The grid, the plan, and the influence map need all of them, so synthesis runs after.
+- **Effort follows leverage.** Most engagement goes to the key players; the monitor quadrant gets minimal effort. Spreading attention evenly is the failure the grid exists to prevent.

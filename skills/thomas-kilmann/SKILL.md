@@ -5,7 +5,7 @@ description: Use when the user has a specific conflict, disagreement, or dispute
 
 # thomas-kilmann
 
-Runs the Thomas-Kilmann Conflict Mode Instrument to choose how to handle a specific conflict. Conflict-handling behavior varies on two axes: assertiveness (concern for your own goals) and cooperativeness (concern for the other party's), producing five modes — Competing, Collaborating, Compromising, Avoiding, and Accommodating. The point is not to find the one good mode but to match the mode to THIS situation, because no mode is best and the worst error is defaulting to your habit.
+Runs the Thomas-Kilmann Conflict Mode Instrument to choose how to handle a specific conflict. Conflict-handling behavior varies on two axes, assertiveness (concern for your own goals) and cooperativeness (concern for the other party's), producing five modes: Competing, Collaborating, Compromising, Avoiding, and Accommodating. Catches the failure of defaulting to your habit; no mode is best, so match the mode to THIS situation.
 
 The two axes, the five modes, the situational factors, and the pitfalls live in [references/thomas-kilmann.md](references/thomas-kilmann.md). Load that file before analyzing.
 
@@ -19,8 +19,8 @@ Conduct the session and write the report in the language the user is writing in.
 
 ## Inputs
 
-- **CONFLICT** (required): the dispute to navigate — the parties, what each side wants, and what is at stake. If this is vague, narrow it with one or two questions before analyzing.
-- **CONTEXT** (optional): the power balance, how much the relationship matters, time pressure, the history and trust between the parties, and the user's own habitual conflict style. This shapes which modes fit and lets the synthesis flag a mismatched default.
+- **CONFLICT** (required): the dispute to navigate: the parties, what each side wants, and what is at stake. If this is vague, narrow it with one or two questions before analyzing.
+- **CONTEXT** (optional): the power balance, how much the relationship matters, time pressure, the history and trust between the parties, and the user's own habitual conflict style. Shapes which modes fit and lets the synthesis flag a mismatched default.
 
 ## Orchestration map
 
@@ -59,7 +59,7 @@ One agent compares the five fit assessments and reaches a recommendation:
 1. **Rank by fit.** Order the five modes by fit score against the Stage 1 factors. Name why the top mode wins and the bottom modes lose, in terms of the situational factors, not preference.
 2. **Primary and fallback.** Recommend the primary mode and a fallback for if it stalls or the other party will not engage (collaboration falling back to compromising, competing against bad faith falling back to avoiding, and so on).
 3. **What to say and do.** Translate the primary mode into concrete moves: how to open, what to ask for, what to concede or hold, and how to read whether to switch to the fallback.
-4. **Default mismatch.** If the user named a habitual style and it differs from the recommended mode, say so plainly: name the habit, name the gap, and name what the situation demands instead. This is the central guard against defaulting to habit.
+4. **Default mismatch.** If the user named a habitual style and it differs from the recommended mode, say so plainly: name the habit, name the gap, and name what the situation demands instead.
 
 ## Report structure
 
@@ -77,6 +77,4 @@ Write a thorough markdown report and save it to `thomas-kilmann-<subject-slug>-<
 - **Match the situation, not the habit.** The recommendation follows from the stakes, power, relationship, and time, not from what the user usually does. Flag the gap when they differ.
 - **No mode is best.** Every mode wins somewhere and loses elsewhere. Reject any pull toward a universal favorite, especially chronic collaborating or chronic avoiding.
 - **Read power and time honestly.** A collaborative ideal is worthless without leverage or time. Ground the choice in the real constraints.
-- **Approaches, not labels.** Use the modes to choose what to do in this conflict, never to type a person.
 - **Always name a fallback.** Conflicts move; the other party gets a vote. A primary mode without a fallback is a plan that breaks on first contact.
-- **Parallel where independent.** The five modes can be scored concurrently. The ranking needs all five, so synthesis runs after.

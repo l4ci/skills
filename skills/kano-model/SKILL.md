@@ -5,7 +5,7 @@ description: Use when the user wants to decide which product features to build, 
 
 # kano-model
 
-Runs Noriaki Kano's model to classify candidate features by how their presence or absence drives customer satisfaction, so investment goes where it pays. The point is not to rank features by how much customers say they want them, but to recognize that satisfaction works differently per feature: some features only punish you when missing, some reward you in proportion to how well you do them, and a few delight precisely because no one expected them. Treating all three the same is the mistake the model exists to prevent.
+Noriaki Kano's model classifies candidate features by how their presence or absence drives customer satisfaction, so investment goes where it pays. It catches the mistake of treating all features alike: some only punish you when missing, some reward you in proportion to how well you do them, and a few delight precisely because no one expected them.
 
 The five categories, the paired functional/dysfunctional question, the full 5×5 evaluation table, the satisfaction curves, the decay over time, and the pitfalls live in [references/kano.md](references/kano.md). Load that file before classifying.
 
@@ -33,7 +33,7 @@ Stage 3  Synthesis        ── 1 agent, needs all N ────────�
 
 ## Stage 1: Setup (inline)
 
-Confirm the target SEGMENT and the candidate FEATURES before dispatching. If the segment is unstated, ask for it: a Kano classification with no segment is meaningless because the same feature lands in different categories for different segments. If the feature list is vague or huge, narrow it with the user to the concrete set the decision depends on. Do not classify yet.
+Confirm the target SEGMENT and the candidate FEATURES before dispatching. If the segment is unstated, ask for it: the same feature lands in different categories for different segments. If the feature list is vague or huge, narrow it with the user to the concrete set the decision depends on. Do not classify yet.
 
 ## Stage 2: Classification (PARALLEL)
 
@@ -57,16 +57,16 @@ Dispatch one analyst subagent per feature, all at once. Give each the shared fra
 >
 > Ground the responses in real evidence (competitor offerings, reviews, stated customer behavior, comparable products) using available retrieval tools wherever you can, rather than guessing from intuition.
 
-Tell each subagent its final message is the return value: structured data, not prose for a human. Subagents should use available retrieval tools to ground each classification in real evidence. Collect all classifications before continuing. Re-dispatch any analyst that fails rather than synthesizing with a gap.
+Tell each subagent its final message is the return value: structured data, not prose for a human. Collect all classifications before continuing. Re-dispatch any analyst that fails rather than synthesizing with a gap.
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all N)
 
-One agent merges the per-feature classifications into a feature set and a sequence. This is where the model earns its value, by turning categories into investment decisions:
+One agent merges the per-feature classifications into a feature set and a sequence, turning categories into investment decisions:
 
 1. **Bucket by category.** Sort every feature into must-be, one-dimensional, attractive, indifferent, or reverse, carrying its confidence. Flag any that came back questionable for re-evaluation.
-2. **Cover the must-bes first.** Confirm every must-be is present and adequate. A missing or weak must-be sinks the product regardless of how many delighters sit on top of it, so these are non-negotiable table stakes and come before anything else.
+2. **Cover the must-bes first.** Confirm every must-be is present and adequate. A missing or weak must-be sinks the product regardless of how many delighters sit on top, so these are non-negotiable table stakes.
 3. **Pick the performance features to compete on.** From the one-dimensional set, choose the few where doing more clearly converts to satisfaction and where you can beat competitors. You cannot maximize all of them; pick the axes that matter to this segment.
-4. **Select a few delighters.** From the attractive set, choose a small number of differentiators to invest in deliberately. Delight is the source of advantage but is expensive and short-lived, so concentrate rather than scatter.
+4. **Select a few delighters.** From the attractive set, choose a small number of differentiators to invest in deliberately. Delight is expensive and short-lived, so concentrate rather than scatter.
 5. **Drop the indifferent, avoid the reverse.** Cut indifferent features from the roadmap; they return nothing. Do not ship reverse features to this segment even if they delight a fringe.
 6. **Sequence and time the decay.** Order the work must-be → performance → delighter. Lay out the decay timeline: which of today's delighters will become performance features and then must-bes, and roughly when, so the team plans a pipeline of new delighters rather than defending old ones.
 
@@ -83,9 +83,7 @@ Write a thorough markdown report and save it to `kano-model-<subject-slug>-<YYYY
 
 ## Principles
 
-- **Must-be before delighter.** A missing must-be sinks the product no matter how many delighters you add. Guarantee the table stakes before investing a cent in excitement.
 - **Not every feature is performance.** "More features = better" is the default roadmap fallacy. Must-bes plateau, indifferent features return nothing, reverse features cost you; only genuine one-dimensional features reward "more."
 - **The pair, not the wish.** A category comes from the functional and dysfunctional answers run through the table, never from how much customers say they want a feature. The dysfunctional answer is what discriminates.
-- **One segment, one moment.** Categories vary by segment and decay over time. Name the segment, treat the classification as a snapshot, and plan to refill the delighter pipeline.
+- **One segment, one moment.** Categories vary by segment and decay over time. Treat the classification as a snapshot and plan to refill the delighter pipeline.
 - **Honesty over precision.** Without real survey data this is a reasoned proxy. Say so, lower confidence, and recommend validating the high-stakes calls rather than presenting intuition as data.
-- **Parallel where independent.** Each feature can be classified concurrently; the bucketing, coverage check, and sequence need every classification, so synthesis runs after.

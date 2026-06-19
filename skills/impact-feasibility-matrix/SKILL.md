@@ -5,9 +5,9 @@ description: Use when the user has a list of initiatives, ideas, features, or pr
 
 # impact-feasibility-matrix
 
-Prioritizes a set of options (initiatives, ideas, features, projects) by plotting them on impact and feasibility, sorting them into quick wins, major projects, fill-ins, and thankless tasks, and recommending a sequenced plan.
+The impact-effort matrix prioritizes a set of options by plotting them on impact and feasibility, sorting them into quick wins, major projects, fill-ins, and thankless tasks, and recommending a sequenced plan. It catches the trap of treating a sorted pile as a plan: the deliverable is a sequence that respects dependencies.
 
-The axes, the four quadrants, how to score, and the pitfalls live in [references/impact-feasibility.md](references/impact-feasibility.md). Load that file before scoring.
+The axes, the four quadrants, and how to score live in [references/impact-feasibility.md](references/impact-feasibility.md). Load that file before scoring.
 
 ## When to use
 
@@ -35,7 +35,7 @@ Tell each subagent its final message is the return value: structured data, not p
 
 ## Stage 0: Calibrate (inline)
 
-Before scoring, state exactly what impact means for this objective and what drives feasibility (effort, cost, risk, dependencies), with a 1-to-5 anchor for each axis. Every option is then judged on this same scale. Skipping this step is the framework's main failure mode, since unanchored scores just encode bias.
+Before scoring, state exactly what impact means for this objective and what drives feasibility (effort, cost, risk, dependencies), with a 1-to-5 anchor for each axis. Every option is then judged on this same scale. Skipping this is the framework's main failure mode: unanchored scores just encode bias.
 
 ## Stage 1: Score options (PARALLEL)
 
@@ -76,8 +76,6 @@ Write the result as markdown and save it to `impact-feasibility-<objective-slug>
 
 ## Principles
 
-- **Define the axes first.** Unanchored impact and feasibility scores just encode bias. Calibrate before scoring.
 - **Be pessimistic on feasibility.** Effort, risk, and dependencies are routinely underestimated. Probe them.
-- **Sequence, do not just sort.** The deliverable is an order of action that respects dependencies, not four labeled piles.
+- **Dependencies override quadrant order.** An option's enabling chain beats its naive quadrant placement.
 - **The clearest win is permission to stop.** Naming the thankless tasks to drop is often the most valuable output.
-- **Parallel where independent.** Options are scored concurrently, then recalibrated together for consistency before sequencing.

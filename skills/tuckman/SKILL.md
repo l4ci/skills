@@ -5,7 +5,7 @@ description: Use when the user wants to diagnose a team's stage of development a
 
 # tuckman
 
-Runs Bruce Tuckman's stages of group development to locate where a team sits today and what it needs to move forward: Forming, Storming, Norming, Performing, and Adjourning. The point is not to slot the team into a label but to match support to the actual stage. Performance dips in Storming before it rises, so the leadership style and what the team needs change stage by stage. Expecting Performing prematurely, or trying to skip Storming, is how teams stall.
+Runs Bruce Tuckman's stages of group development (Forming, Storming, Norming, Performing, Adjourning) to locate where a team sits today and match support to the actual stage. It catches the failure of expecting Performing prematurely or skipping Storming, which stalls teams.
 
 The five stages, their behaviors, team mood, the leadership focus each needs, how to advance, regression, and the pitfalls live in [references/tuckman.md](references/tuckman.md). Load that file before diagnosing and key every assessment to its markers exactly.
 
@@ -55,7 +55,7 @@ Assign the five stages from the reference file: Forming, Storming, Norming, Perf
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all 5)
 
-One agent merges the five assessments into a diagnosis. This is where the framework earns its value, by locating the stage and prescribing the matching support rather than restating the scores:
+One agent merges the five assessments into a diagnosis, locating the stage and prescribing the matching support rather than restating the scores:
 
 1. **Current stage.** Which stage the team is actually at, weighing match scores against evidence, not just the highest number. A conflict-avoidant team that scores high on Norming because it is quiet is likely stalled before Storming, not past it; say so.
 2. **Regression.** Whether a recent change in membership, leadership, or goals has dropped the team back a stage. If so, name the trigger and the stage it fell to, and diagnose from there.
@@ -75,8 +75,6 @@ Write a thorough markdown report and save it to `tuckman-<team-slug>-<YYYY-MM-DD
 
 ## Principles
 
-- **Locate before you treat.** The whole value is matching support to the actual stage. The wrong leadership style at the wrong stage stalls a team faster than no diagnosis at all.
-- **Storming is the work, not a detour.** Performance dips before it rises. A team that never storms has not yet become a team; a quiet team is not automatically a mature one.
-- **Evidence over self-image.** Score from observed behavior, not from how the team describes itself. Surface calm is not cohesion.
-- **Account for regression.** A change in membership, leadership, or goals can drop a team back. Re-diagnose after change rather than assuming the team holds its highest past stage.
-- **Parallel where independent.** The five stage assessments can be scored concurrently. Locating the stage needs all five, so synthesis runs after.
+- **Locate before you treat.** The wrong leadership style at the wrong stage stalls a team faster than no diagnosis at all.
+- **Storming is the work, not a detour.** A team that never storms has not yet become a team; a quiet team is not automatically a mature one.
+- **Evidence over self-image.** Surface calm is not cohesion.

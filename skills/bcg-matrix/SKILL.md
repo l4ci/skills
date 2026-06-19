@@ -75,4 +75,3 @@ Write a thorough markdown report and save it to `bcg-<company-slug>-<YYYY-MM-DD>
 - **Consistent thresholds.** Use the same growth and share cutoffs across all units, or the matrix is not comparable.
 - **Balance over placement.** The deliverable is a funded, future-proof portfolio, not just four labeled lists. Trace the cash flows.
 - **Estimate honestly.** Where data is missing, estimate and lower confidence; do not invent precise figures.
-- **Parallel where independent.** Units are placed concurrently; the portfolio synthesis needs them all and runs after.

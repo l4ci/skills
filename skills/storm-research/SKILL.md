@@ -5,9 +5,7 @@ description: Use when the user wants deep, PhD-level research on a topic. Runs a
 
 # storm-research
 
-A parallel replication of Stanford's STORM method (Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking). One agent cannot hold five conflicting epistemic positions at once, so this skill splits them into separate minds first and reconciles them second.
-
-The skill runs four stages. Stage 1 and Stage 4 fan out across many subagents in parallel. Stages 2 and 3 run sequentially, because each one depends on the output before it.
+A parallel replication of Stanford's STORM method (Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking; Shao et al., NAACL 2024, https://arxiv.org/abs/2402.14207, demo at https://storm.genie.stanford.edu). One agent cannot hold five conflicting epistemic positions at once, so this skill splits them into separate minds first and reconciles them second.
 
 ## When to use
 
@@ -27,7 +25,7 @@ Stage 3  Synthesis                ── 1 agent, needs 1 + 2 ─────┤
 Stage 4  Peer Review              ── 3 critic subagents IN PARALLEL ── then reconcile
 ```
 
-Tell each subagent that its final message is the return value, meaning structured data rather than prose written for a human. Subagents should use whatever retrieval or search tools the runtime offers so each perspective rests on real sources. If the runtime has no retrieval tools, the subagent should say so and lower its own confidence rather than inventing citations.
+Tell each subagent that its final message is the return value: structured data rather than prose written for a human. Subagents should use whatever retrieval or search tools the runtime offers so each perspective rests on real sources. If the runtime has no retrieval tools, the subagent should say so and lower its own confidence rather than inventing citations.
 
 ---
 

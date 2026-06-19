@@ -5,7 +5,7 @@ description: Use when the user wants scenario planning for an uncertain future: 
 
 # scenario-planning
 
-Builds several distinct, plausible futures for a focal question using the 2x2 critical-uncertainties method (Global Business Network / Royal Dutch Shell tradition; Peter Schwartz, *The Art of the Long View*, 1991). It gathers the driving forces, picks the two that are both high-impact and highly uncertain as the axes, crosses them into four scenarios, and turns those scenarios into strategy. The goal is to prepare for an uncertain future, not to predict which one arrives.
+Builds several distinct, plausible futures for a focal question using the 2x2 critical-uncertainties method (Global Business Network / Royal Dutch Shell tradition; Peter Schwartz, *The Art of the Long View*, 1991). The goal is to prepare for an uncertain future, not to predict which one arrives.
 
 The method, the axis-selection logic, what makes a good axis and a good scenario, how to write signposts, and the pitfalls live in [references/scenarios.md](references/scenarios.md). Load that file before starting and follow it exactly.
 
@@ -35,16 +35,16 @@ Tell each subagent its final message is the return value: structured data, not p
 
 ## Stage 1: Force gathering and axis selection
 
-First gather the driving forces, then select the two axes. Both steps happen before any scenario is built.
+Gather the driving forces first, then select the two axes. Both steps happen before any scenario is built.
 
-**Gather the forces.** If a PESTEL scan or a force list is supplied in CONTEXT, use it. Otherwise cast wide across political, economic, social, technological, environmental, legal, and the relevant industry forces. You may fan out a few force-finder subagents by lens to gather in parallel, or do it in one pass; either way produce a single deduplicated list of driving forces that could shape the focal question.
+**Gather the forces.** If a PESTEL scan or a force list is supplied in CONTEXT, use it. Otherwise cast wide across political, economic, social, technological, environmental, legal, and the relevant industry forces. You may fan out a few force-finder subagents by lens to gather concurrently, or do it in one pass; either way produce a single deduplicated list of driving forces that could shape the focal question.
 
 **Rank and select (this stays with the orchestrator).** Score every force on two dimensions against the focal question, per the impact-x-uncertainty matrix in the reference file:
 
 - **Impact**: how much the force would move the answer to the focal question.
 - **Uncertainty**: how unpredictable its trajectory is over the horizon.
 
-Sort the forces into the four cells. Set aside the **predetermined elements** (high impact, low uncertainty) as the shared backdrop every scenario inherits. From the **critical uncertainties** (high impact, high uncertainty) pick the two most decisive that are also independent of each other, and render each as an axis: a spectrum between two opposed, plausible poles. Run the independence and goodness tests in the reference file before committing; if the two axes are correlated, the 2x2 will collapse into one future at four intensities.
+Sort the forces into the four cells. Set aside the **predetermined elements** (high impact, low uncertainty) as the shared backdrop every scenario inherits. From the **critical uncertainties** (high impact, high uncertainty) pick the two most decisive that are also independent of each other, and render each as an axis: a spectrum between two opposed, plausible poles. Run the independence and goodness tests in the reference file before committing; if the two axes are correlated, the 2x2 collapses into one future at four intensities.
 
 Crossing the two axes defines the four quadrants. Name each quadrant's pole combination so Stage 2 knows exactly which world to build. Confirm the two axes with the user before fanning out, since everything downstream rests on this choice.
 
@@ -68,7 +68,7 @@ Assign the four quadrants by their pole combinations. Collect all four structure
 
 ## Stage 3: Synthesis (SEQUENTIAL, needs all 4)
 
-One agent turns the four scenarios into strategy. This needs all four in hand.
+One agent turns the four scenarios into strategy:
 
 1. **The scenario set at a glance.** The 2x2 with the four named scenarios in their quadrants, and a line on each. Check the set: are the four genuinely distinct worlds, or the same world at four intensities? If they collapse, the axes were wrong; flag it.
 2. **Robust (resilient) moves.** The actions that make sense across all four scenarios. These are the core of the strategy because they carry no bet on which future arrives.
@@ -94,4 +94,3 @@ Write a thorough markdown report and save it to `scenario-planning-<topic-slug>-
 - **Axes must be uncertain and independent.** Only high-impact, high-uncertainty forces earn an axis, and the two must be uncorrelated. Predetermined trends are the backdrop, never the cross.
 - **Four distinct worlds, not four intensities.** Each quadrant must demand a different response. If the scenarios are one future dialed up and down, the axes were wrong.
 - **End in strategy.** Robust moves, contingent hedges, and the signposts that trigger them. Vivid narratives with no strategy are entertainment.
-- **Parallel where independent.** The four scenarios share only the axes and the backdrop, so build them concurrently. Synthesis needs all four and runs after.

@@ -5,7 +5,7 @@ description: Use when the user wants to run a human-centered innovation process 
 
 # design-thinking
 
-Facilitates a human-centered innovation process through the five Design Thinking modes: Empathize, Define, Ideate, Prototype, Test. It is a loop, not a checklist. The skill guides the work mode by mode, keeps a living design document, and sends insights back to the right mode rather than marching straight through.
+Facilitates a human-centered innovation process through the five d.school Design Thinking modes. It is a loop, not a checklist: guide the work mode by mode, keep a living design document, and send insights back to the right mode rather than marching straight through.
 
 The five modes, how to use them, and the pitfalls live in [references/design-thinking.md](references/design-thinking.md). Load that file before facilitating.
 
@@ -54,7 +54,5 @@ Maintain a markdown document, saved to `design-thinking-<challenge-slug>-<YYYY-M
 ## Principles
 
 - **User first, always.** Every mode anchors to a real person's need. Drift toward the solution is the main failure.
-- **Diverge before converge.** Separate generating from judging; the parallel ideation exists to force range before selection.
 - **Cheap and tangible early.** Prototype and test sooner than comfortable. Learning beats planning.
 - **Seek disconfirmation.** Testing is for finding what is wrong while it is cheap, not for validation.
-- **Loop on purpose.** Name where each insight sends the work. The looping is the method, not a detour.

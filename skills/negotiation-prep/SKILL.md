@@ -5,7 +5,7 @@ description: Use when the user is preparing for a negotiation (salary, deal, par
 
 # negotiation-prep
 
-Prepares for a negotiation using Fisher and Ury's principled (interest-based) method, anchored on BATNA and ZOPA. The point is not to script clever lines or steel yourself to hold a number; it is to walk in already knowing both sides' interests, both sides' best alternatives, where the zone of possible agreement lies, and which objective standards decide each issue. You negotiate over interests, not positions, and your real strength is your BATNA, not your stubbornness.
+Prepares for a negotiation using Fisher and Ury's principled, interest-based method (*Getting to Yes*), anchored on BATNA and ZOPA. Catches the failure of haggling over positions while blind to both sides' interests, best alternatives, and the zone where a deal actually exists.
 
 The four principles, positions versus interests, BATNA, reservation point and ZOPA, and the tactics live in [references/negotiation.md](references/negotiation.md). Load that file before preparing and key every stage to it.
 
@@ -33,7 +33,7 @@ Stage 3  Synthesis       ── 1 agent, needs all 5 ─────────
 
 ## Stage 1: Define the negotiation (inline)
 
-Before dispatching anyone, fix the frame. Name the parties and who actually decides on each side. State what is being negotiated and the one or few issues at its core. Record what is already known: numbers on the table, deadlines, the relationship and whether it continues, prior dealings, and stated constraints. Note the GOAL and what a walk would mean for the user. This frame goes to every analyst so they work the same negotiation.
+Fix the frame before dispatching anyone. Name the parties and who actually decides on each side. State what is being negotiated and the one or few issues at its core. Record what is already known: numbers on the table, deadlines, the relationship and whether it continues, prior dealings, and stated constraints. Note the GOAL and what a walk would mean for the user. This frame goes to every analyst so they work the same negotiation.
 
 ## Stage 2: Analysis (PARALLEL)
 
@@ -83,9 +83,7 @@ Write a thorough markdown report and save it to `negotiation-prep-<subject-slug>
 
 ## Principles
 
-- **Interests, not positions.** Trade on why each side wants what it wants. Haggling over numbers with no grasp of interests leaves joint gains on the table and strains the relationship.
+- **Interests, not positions.** Trade on why each side wants what it wants. Haggling over numbers blind to interests leaves joint gains on the table and strains the relationship.
 - **Your BATNA is your power.** Strength comes from a strong, well-understood alternative, not from holding a number. Define it, improve it before the table, and estimate theirs.
 - **Find the real ZOPA.** Derive both reservation points and check whether they actually overlap. Never mistake the outcome you want for the outcome their numbers allow; an empty ZOPA means no deal is the right answer.
 - **Decide by objective criteria.** Where interests collide, settle by an independent standard, not by will or pressure. Yield to principle, never to a tactic.
-- **Facts or honesty.** Mark every material claim as fact or assumption. Where data is missing, say so and lower confidence rather than inventing the other side's numbers.
-- **Parallel where independent.** The five analyses can run concurrently. Mapping the ZOPA and sequencing the moves need all five, so synthesis runs after.

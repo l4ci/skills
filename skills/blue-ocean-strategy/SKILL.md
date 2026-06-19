@@ -5,7 +5,7 @@ description: Use when the user wants a Blue Ocean Strategy analysis of a busines
 
 # blue-ocean-strategy
 
-Runs W. Chan Kim and Renée Mauborgne's Blue Ocean Strategy to move a business out of crowded competition ("red ocean") into uncontested market space ("blue ocean"). The mechanism is value innovation: pursuing differentiation and low cost at the same time, rather than trading one for the other. The skill maps how everyone currently competes, then rebuilds the offering with the four actions framework so the new value curve both lifts buyer value and cuts cost.
+Runs W. Chan Kim and Renée Mauborgne's Blue Ocean Strategy to move a business out of crowded competition ("red ocean") into uncontested market space ("blue ocean"). The mechanism is value innovation: pursuing differentiation and low cost at the same time rather than trading one for the other. The skill maps how everyone currently competes, then rebuilds the offering with the four actions framework so the new value curve both lifts buyer value and cuts cost.
 
 Value innovation, the strategy canvas, the ERRC four-actions grid, the six paths, and the focus/divergence/tagline test live in [references/blue-ocean.md](references/blue-ocean.md). Load that file before analyzing and work each tool exactly as defined there.
 
@@ -94,4 +94,3 @@ Write a thorough markdown report and save it to `blue-ocean-<business-slug>-<YYY
 - **Buyer-valued factors, not internal features.** The canvas axis is what buyers value, not the firm's specs. A canvas built from features maps the company, not the market, and every later step inherits the error.
 - **Divergence or it is red.** If the new curve tracks the rivals' curves, there is no blue ocean. The Eliminate and Create moves are where divergence comes from; weight them.
 - **The tagline is a test.** A focused, divergent strategy yields one sharp line. If the line will not come, the curve is muddled, fix the curve, not the wording.
-- **Parallel where independent.** The four actions operate on a shared canvas but propose independently, so run them concurrently. Synthesis needs all four, so it runs after.

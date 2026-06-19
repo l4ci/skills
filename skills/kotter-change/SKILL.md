@@ -5,7 +5,7 @@ description: Use when the user wants to lead an organizational change using Kott
 
 # kotter-change
 
-Guides Kotter's 8-step change cycle to lead a real organizational change: create urgency, build a guiding coalition, form a vision, communicate it to enlist a volunteer army, remove the barriers in the way, generate short-term wins, sustain acceleration without declaring victory too soon, and anchor the change in the culture. The discipline is that change is led through these steps in order, and that skipping a step creates the illusion of speed but rarely produces a satisfying result.
+Guides Kotter's 8-step change cycle (John Kotter, *Leading Change*) to lead a real organizational change. Catches the failure where skipping a step creates the illusion of speed but rarely produces a satisfying result.
 
 The eight steps, their gate questions, and the pitfalls live in [references/kotter.md](references/kotter.md). Load that file before facilitating.
 
@@ -26,7 +26,7 @@ Facilitate and write the document in the language the user is writing in. The re
 
 Work step by step. Each step has a gate question that must be answered before the next begins; hold the gate. Record everything in the change plan, and name the current step at each turn.
 
-1. **Create urgency.** Help the user assemble the honest case for why this change must happen now: the threats, the closing windows, the cost of standing still, framed to reach people, not just inform them. Where the evidence comes from several directions, dispatch parallel subagents to surface urgency evidence from different angles (market, customer, financial, competitive, operational), each returning a list of evidence with reasoning rather than prose; pool and sharpen them with the user. Gate: is there enough felt urgency that the people who matter will act, not just nod? If this is manufactured panic or a single anxious leader, it does not clear.
+1. **Create urgency.** Help the user assemble the honest case for why this change must happen now: the threats, the closing windows, the cost of standing still, framed to reach people, not just inform them. Where the evidence comes from several directions, dispatch parallel subagents to surface urgency evidence from different angles (market, customer, financial, competitive, operational), each returning a list of evidence with reasoning rather than prose; pool and sharpen them with the user. Gate: is there enough felt urgency that the people who matter will act, not just nod? Manufactured panic or a single anxious leader does not clear.
 
 2. **Build the guiding coalition.** Help identify who must be on the team for it to have enough power, credibility, and expertise, and check it functions as a team rather than a committee. Gate: does the coalition have enough real power and credibility to drive the change against resistance? If it looks right on the org chart but lacks authority or line leaders, name the gap rather than proceeding.
 
@@ -60,9 +60,7 @@ Maintain a markdown document, saved to `kotter-change-<change-slug>-<YYYY-MM-DD>
 
 ## Principles
 
-- **Hold the gates.** Do not advance a step that has not answered its question. Urgency felt, coalition powerful, vision clear, vision communicated, barriers removed, wins delivered, acceleration sustained, change anchored.
-- **Never skip urgency.** It is the foundation. Skipping it to save time is the most common and most fatal mistake.
-- **Communicate by behavior.** The vision is undercommunicated by orders of magnitude when it is words alone; leaders modeling the vision carries it, leaders contradicting it kills it.
-- **Never declare victory at the first win.** The early win is fuel, not the finish. Premature victory collapses momentum while the change is still shallow.
-- **Anchor before letting go.** Change lasts only when it is built into norms and into who gets promoted, not when it is announced as done.
-- **Parallel where independent.** Within a step, evidence and barriers are gathered concurrently through different lenses, then pooled and judged with the user; the spine across steps stays sequential.
+- **Hold the gates.** Do not advance a step that has not answered its question.
+- **Never skip urgency.** Skipping it to save time is the most common and most fatal mistake.
+- **Communicate by behavior.** Leaders modeling the vision carries it; leaders contradicting it kills it. Words alone undercommunicate by orders of magnitude.
+- **Anchor before letting go.** Change lasts only when built into norms and into who gets promoted, not when announced as done.

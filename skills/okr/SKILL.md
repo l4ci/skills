@@ -5,7 +5,7 @@ description: Use when the user wants to turn strategy into measurable goals usin
 
 # okr
 
-Turns strategy into measurable goals using OKRs: state a qualitative, time-bound objective (what you want to achieve), then attach 3-5 quantitative key results (the outcomes that prove it). If you hit every key result, the objective is met by definition. The objective sets direction; the key results make it measurable.
+OKRs (Andy Grove at Intel; popularized by John Doerr, *Measure What Matters*) pair a qualitative, time-bound objective with 3-5 quantitative key results, so a vague ambition becomes something you can score: hit every key result and the objective is met by definition.
 
 The anatomy of objectives and key results, outcome-versus-output, scoring, cadence, alignment, and the pitfalls live in [references/okr.md](references/okr.md). Load that file before facilitating.
 
@@ -25,13 +25,13 @@ Facilitate and write the document in the language the user is writing in. The re
 
 ## How to facilitate
 
-Run one OKR drafting cycle with the user. Name the current stage at each step and record it in the OKR document. The discipline is in the stress-test at Stage 3; do not skip it.
+Run one OKR drafting cycle with the user. Name the current stage at each step and record it in the OKR document. Do not skip the Stage 3 stress-test.
 
-1. **Clarify the objective(s).** Help the user state what they want to achieve as a qualitative, memorable, time-bound sentence. Keep it to 1-3 objectives. Strip any metric out of the objective itself; if it has a number in it, that number belongs in a key result. An objective is direction and meaning ("Delight new customers with a fast onboarding experience"), not a measure.
+1. **Clarify the objective(s).** Help the user state what they want to achieve as a qualitative, memorable, time-bound sentence. Keep it to 1-3 objectives. Strip any metric out of the objective; if it has a number, that number belongs in a key result. An objective is direction and meaning ("Delight new customers with a fast onboarding experience"), not a measure.
 
-2. **Draft the key results.** For each objective, draft 3-5 key results, each carrying a number and a target. Push every one toward an outcome (a result the customer or business feels) and away from an output (a task the team completes). Note the baseline where you can, so the target has a starting point.
+2. **Draft the key results.** For each objective, draft 3-5 key results, each carrying a number and a target. Push every one toward an outcome (a result the customer or business feels) and away from an output (a task the team completes). Note the baseline where you can.
 
-3. **Stress-test the key results (parallel).** Dispatch a small set of critic subagents at once, each applying one test to the drafted key results. Tell each its final message is the return value: specific findings and concrete rewrites, not prose. Run these four:
+3. **Stress-test the key results (PARALLEL).** Dispatch a small set of critic subagents at once, each applying one test to the drafted key results. Tell each its final message is the return value: specific findings and concrete rewrites, not prose. Run these four:
    - **Outcome vs output.** Is each key result a result, or a disguised task list ("launch X", "ship Y", "hold 3 workshops")?
    - **Measurability.** Does each have a real number, a target, and ideally a baseline, or is it unmeasurable ("improve", "better")?
    - **Completeness.** If every key result is hit, is the objective truly achieved, or is there a gap the set does not cover?
@@ -40,7 +40,7 @@ Run one OKR drafting cycle with the user. Name the current stage at each step an
 
 4. **Set ambition, cadence, owners, and scoring.** For each OKR, mark it committed (expected to reach ~1.0; a miss is a real failure) or aspirational/stretch (success looks like ~0.7; full attainment would mean it was set too low). Set the cadence (typically quarterly, with a regular check-in rhythm), name an owner per objective, and state the scoring method (commonly 0.0-1.0 per key result, averaged for the objective).
 
-5. **Check alignment.** Show how these OKRs ladder up to the DIRECTION or higher-level OKRs, and flag where a key result depends on another team. Good alignment is a mix of top-down and bottom-up, not a rigid waterfall; if nothing came from the team, say so.
+5. **Check alignment.** Show how these OKRs ladder up to the DIRECTION or higher-level OKRs, and flag where a key result depends on another team. Good alignment mixes top-down and bottom-up, not a rigid waterfall; if nothing came from the team, say so.
 
 ## OKR document
 
@@ -56,8 +56,5 @@ Maintain a markdown document, saved to `okr-<scope-slug>-<YYYY-MM-DD>.md` (today
 
 ## Principles
 
-- **The objective is qualitative; the key results carry the numbers.** A metric in the objective is a key result in the wrong place.
-- **Key results are outcomes, not tasks.** "Reduce time-to-first-value to under 10 minutes," not "ship the new onboarding flow."
 - **Completeness is the test.** If hitting every key result would still leave the objective unmet, the set is incomplete.
-- **Name the ambition.** Committed and aspirational are scored differently; ~0.7 is a win on a stretch goal and a problem on a committed one.
-- **Review or it rots.** OKRs work on a cadence of check-ins and an end-of-period score, not set-and-forget. And keep them out of compensation, which corrupts the ambition.
+- **Review or it rots.** OKRs work on a cadence of check-ins and an end-of-period score, not set-and-forget. Keep them out of compensation, which corrupts the ambition.

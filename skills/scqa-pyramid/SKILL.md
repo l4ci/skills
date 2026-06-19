@@ -5,7 +5,7 @@ description: Use when the user has a recommendation, findings, or decision to co
 
 # scqa-pyramid
 
-Structures a recommendation, set of findings, or decision so the reader gets the answer first and the rest of the document defends it. The output is an SCQA introduction that frames the reader's real question, and a pyramid of supporting arguments beneath the answer, each level summarizing the level below it.
+Structures a recommendation, set of findings, or decision (Barbara Minto's Pyramid Principle) so the reader gets the answer first and the rest of the document defends it. The output is an SCQA introduction that frames the reader's real question, and a pyramid of supporting arguments beneath the answer, each level summarizing the level below it.
 
 SCQA in full, the pyramid rules, deductive versus inductive grouping, and the pitfalls live in [references/pyramid.md](references/pyramid.md). Load that file before structuring.
 
@@ -36,7 +36,7 @@ Tell each subagent its final message is the return value: structured data, not p
 
 ## Stage 1: Candidate framings (PARALLEL)
 
-The first framing decides everything that follows, because the Question fixed in the introduction is the question the whole pyramid must answer. Generate several rather than committing to the first one. Dispatch three SCQA subagents at once, each told to frame the same material for a different reader or around a different complication, so each surfaces a different Question and therefore a different Answer.
+The Question fixed in the introduction is the question the whole pyramid must answer, so generate several framings rather than committing to the first. Dispatch three SCQA subagents at once, each told to frame the same material for a different reader or around a different complication, so each surfaces a different Question and therefore a different Answer.
 
 **Shared framing (send to each subagent):**
 
@@ -50,7 +50,7 @@ The first framing decides everything that follows, because the Question fixed in
 
 ## Stage 2: Select the framing (SEQUENTIAL, needs all 3)
 
-One agent compares the candidate framings and picks the sharpest: the one whose Question is the real question the audience is asking, and whose Answer the supporting material can actually defend. Merge across framings if the best Situation and the best Complication come from different ones. State why this framing was chosen, since the Question it fixes is the highest-leverage decision in the exercise, everything below the Answer exists to defend it.
+One agent compares the candidate framings and picks the sharpest: the one whose Question is the real question the audience is asking, and whose Answer the supporting material can actually defend. Merge across framings if the best Situation and the best Complication come from different ones. State why this framing was chosen; the Question it fixes is the highest-leverage decision in the exercise, and everything below the Answer exists to defend it.
 
 ## Stage 3: Build the pyramid (SEQUENTIAL)
 
@@ -82,7 +82,3 @@ Write the result as markdown and save it to `scqa-pyramid-<topic-slug>-<YYYY-MM-
 - **Answer first.** State the governing thought before its support. The reader should not have to assemble the conclusion from clues; a document is not a detective story.
 - **The framing is everything.** The Question fixed by the SCQA decides what the whole pyramid must prove. Generate competing framings before committing.
 - **Summarize, do not label.** A parent idea states the combined message of its children. "Three risks" is a label; "the launch is too risky to proceed this quarter" is a summary.
-- **One kind per grouping.** A grouping is either deductive or inductive, never both at once. Mixing them is the root of most muddled arguments.
-- **The key line is MECE.** The supporting points must not overlap and must leave no gap, the same test as a decomposition tree.
-- **Vertical question and answer.** Each level should answer the "why?" or "how?" the level above raises. If it answers a different question, the structure has drifted.
-- **Parallel where independent.** Candidate framings and the two audit checks share no state, so run them concurrently. Selection, building, and refinement depend on prior output, so they run in sequence.

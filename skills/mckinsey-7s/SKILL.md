@@ -5,7 +5,7 @@ description: Use when the user wants to assess organizational alignment or effec
 
 # mckinsey-7s
 
-Assesses an organization through the McKinsey 7-S framework: Strategy, Structure, Systems (hard), and Shared Values, Skills, Style, Staff (soft). The seven elements are interdependent, and effectiveness comes from their alignment. The analysis assesses each element, then finds where they pull against each other.
+Assesses an organization through the McKinsey 7-S framework (Waterman, Peters, and Phillips): Strategy, Structure, Systems (hard), and Shared Values, Skills, Style, Staff (soft). The elements are interdependent and effectiveness comes from their alignment; the failure this catches is treating the parts in isolation and missing where they pull against each other.
 
 The seven elements, the hard/soft split, the alignment checks, and the pitfalls live in [references/seven-s.md](references/seven-s.md). Load that file before analyzing.
 
@@ -55,7 +55,7 @@ One agent runs the alignment analysis, which is the actual point of the framewor
 1. **Map the fit between elements.** Assess the consequential relationships, especially each element against Shared Values, Strategy against Structure and Systems, and Style and Staff against the Skills the strategy needs. For each, judge whether the two reinforce each other or conflict.
 2. **Surface the misalignments.** List every place two elements pull in opposite directions, with the consequence each misalignment produces.
 3. **Rank them** by impact on the organization's effectiveness or on the change in question.
-4. **Recommend alignment moves.** For the top misalignments, what to change, in what element, and how the change ripples to the others. Since the elements are interdependent, name the knock-on adjustments rather than treating a fix as isolated.
+4. **Recommend alignment moves.** For the top misalignments, what to change, in what element, and how the change ripples to the others. Name the knock-on adjustments rather than treating a fix as isolated.
 5. **Verdict.** Overall coherence of the organization, and for a change context, the realignment needed for it to succeed.
 
 ## Report structure
@@ -75,5 +75,4 @@ Write a thorough markdown report and save it to `7s-<organization-slug>-<YYYY-MM
 - **Alignment is the point.** Seven separate write-ups are not a 7-S analysis. The value is in the fit between elements.
 - **Describe what is, not what is claimed.** Especially for the soft elements, name what the organization actually rewards and tolerates.
 - **Interdependence cuts both ways.** A fix in one element forces adjustments in others. State the ripple, do not pretend a change is local.
-- **Hard and soft both matter.** The soft elements are harder to assess and usually decide whether change holds.
-- **Parallel where independent.** The seven elements can be assessed concurrently; the alignment synthesis needs all seven and runs after.
+- **Soft elements decide it.** They are harder to assess and usually decide whether change holds.

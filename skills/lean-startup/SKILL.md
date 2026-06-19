@@ -5,7 +5,7 @@ description: Use when the user wants to test a startup, product, or business ide
 
 # lean-startup
 
-Tests a venture under uncertainty using the Lean Startup method: treat the idea as a set of untested hypotheses, run the smallest experiment on the riskiest one, measure real behavior, and decide whether to pivot or persevere. Progress is validated learning, not features shipped.
+Tests a venture under uncertainty using the Lean Startup method (Eric Ries, *The Lean Startup*): treat the idea as untested hypotheses, run the smallest experiment on the riskiest one, measure real behavior, and decide pivot or persevere. Catches the failure of mistaking features shipped and motion for progress when neither has validated anything about customers.
 
 The core concepts (leap-of-faith assumptions, Build-Measure-Learn, MVP, actionable versus vanity metrics, pivot or persevere) live in [references/lean-startup.md](references/lean-startup.md). Load that file before facilitating.
 
@@ -54,5 +54,4 @@ Maintain a markdown document, saved to `lean-startup-<idea-slug>-<YYYY-MM-DD>.md
 - **Validated learning is the unit of progress.** Not features, not motion. What have you proven about customers.
 - **Test the riskiest assumption first.** The one most uncertain and most fatal, not the most convenient.
 - **MVP is a learning tool, not a small product.** Build the least that runs a full loop.
-- **Actionable metrics and a pre-committed threshold.** Decide the pass-and-fail line before running, or the result will be rationalized.
-- **Decide on evidence at a cadence.** Pivot or persevere is a disciplined call on data, not a mood.
+- **Set the threshold before running.** Decide the pass-and-fail line in advance, or the result will be rationalized.

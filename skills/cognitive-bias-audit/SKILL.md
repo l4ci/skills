@@ -5,7 +5,7 @@ description: Use when the user wants to audit a decision, plan, forecast, or ana
 
 # cognitive-bias-audit
 
-Audits a decision, plan, forecast, or analysis for cognitive biases. Biases are systematic, not random: the same pressures bend reasoning the same way every time, which is why you cannot introspect them away. The point is not to label biases generically but to find where *this specific decision* is exposed and change the process that produced it.
+Audits a decision, plan, forecast, or analysis for cognitive biases. Biases are systematic, not random: the same pressures bend reasoning the same way every time, which is why you cannot introspect them away. Find where *this specific decision* is exposed and change the process that produced it, rather than labelling biases generically.
 
 The bias families, each with its tell (how it shows up in actual reasoning) and a countermeasure, plus the debiasing toolkit, live in [references/biases.md](references/biases.md). Load that file before auditing and work the decision against each family exactly.
 
@@ -20,7 +20,7 @@ Conduct the session and write the report in the language the user is writing in.
 ## Inputs
 
 - **DECISION** (required): the decision, plan, forecast, or claim under audit. If only a topic is given, pull out the actual call being made before starting.
-- **REASONING** (required): the reasoning and evidence behind it, the key claims, and how the conclusion was reached. Without the reasoning there is nothing to audit; if it is missing, ask for it. A bias audit of a bare conclusion is bias-spotting theater.
+- **REASONING** (required): the reasoning and evidence behind it, the key claims, and how the conclusion was reached. Without the reasoning there is nothing to audit; if it is missing, ask for it.
 - **STAKES** (optional): what rides on the decision and what being wrong would cost. Sharpens the severity ranking, since a bias matters in proportion to how much it could distort a consequential call.
 
 ## Orchestration map
@@ -33,7 +33,7 @@ Stage 3  Synthesis     ── 1 agent, needs all 5 ─────────�
 
 ## Stage 1: Capture (inline)
 
-Before dispatching, pin down what is being audited so every hunter works the same target:
+Pin down what is being audited so every hunter works the same target:
 
 1. **The call.** State the decision, plan, forecast, or claim in one line.
 2. **The reasoning.** The argument and evidence that lead to it, as actually given, including the key claims each step rests on.
@@ -65,7 +65,7 @@ Collect all five structured results before continuing. Re-dispatch any hunter th
 One agent merges the five hunts into a ranked, actionable audit:
 
 1. **Drop the theater.** Cut any flagged bias that cites no real place in the reasoning. A label without evidence is removed, not ranked.
-2. **Rank by threat to this decision.** Order the live biases by severity times confidence, weighted by the stakes. The question is not "which bias is worst in general" but "which most threatens this call."
+2. **Rank by threat to this decision.** Order the live biases by severity times confidence, weighted by the stakes. Not "which bias is worst in general" but "which most threatens this call."
 3. **Name the one or two most dangerous.** The biases that, left unaddressed, would most likely flip or wreck the decision. Say why for each, tied to the reasoning.
 4. **Prescribe specific debiasing moves.** For each top bias, a concrete process change, not "be aware." Tie to the toolkit: a pre-mortem for optimism and planning fallacy, the outside view / reference-class forecasting for base-rate neglect, a weighted-decision-matrix to force explicit criteria where framing or salience is bending the choice, six-thinking-hats to separate the emotional, optimistic, and critical reads where one mode dominates. Name who does what.
 5. **Corrected read.** Re-state the decision as it looks once the top biases are accounted for: what the reasoning understated or overstated, and how the call changes (or holds) after debiasing. Do not use the audit to dismiss a conclusion; show what survives it.
@@ -84,8 +84,6 @@ Write a thorough markdown report and save it to `cognitive-bias-audit-<subject-s
 ## Principles
 
 - **Evidence, not labels.** Every flagged bias cites the exact place in the reasoning where it operates. A name without that place is theater and gets cut.
-- **Audit yourself too.** Apply the families to the reasoning at hand whoever produced it, including the reasoner's own. The easy biases to spot are always someone else's.
-- **Severity-rank to this decision.** A bias matters in proportion to how much it could distort *this* call. Rank by threat, not by how notorious the bias is.
+- **Audit yourself too.** Apply the families to the reasoning at hand whoever produced it. The easy biases to spot are always someone else's.
 - **Prescribe process, not awareness.** "Be aware of anchoring" changes nothing. Prescribe a structural move: pre-mortem, outside view, blind review, pre-committed criteria, who does it.
 - **A label is not a refutation.** The audit shows where reasoning is exposed; it does not decide the conclusion is wrong. Give a corrected read, do not dismiss.
-- **Parallel where independent.** The five families share no state, so hunt them concurrently. The ranking needs all five, so synthesis runs after.

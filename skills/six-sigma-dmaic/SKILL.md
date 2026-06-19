@@ -5,7 +5,7 @@ description: Use when the user wants to improve an existing process by reducing 
 
 # six-sigma-dmaic
 
-Guides a Six Sigma DMAIC cycle to improve an existing process: Define the problem, Measure current performance, Analyze and verify root causes, Improve by fixing those causes, and Control to sustain the gain. The discipline is data over opinion and causes over symptoms.
+Guides a Six Sigma DMAIC cycle to improve an existing process. The discipline is data over opinion and causes over symptoms.
 
 The five phases, their gate questions, and the pitfalls live in [references/dmaic.md](references/dmaic.md). Load that file before facilitating.
 
@@ -55,4 +55,3 @@ Maintain a markdown document, saved to `dmaic-<process-slug>-<YYYY-MM-DD>.md` (t
 - **Data over opinion.** Causes and effects are tested against data. The method exists to defeat the plausible-but-wrong fix.
 - **Causes, not symptoms.** Improve targets the root causes proven in Analyze. A symptom fix returns.
 - **Pilot before rollout.** Prove the change on a small scale with data first.
-- **Parallel where independent.** Root-cause hypotheses are generated concurrently, then verified together against data.

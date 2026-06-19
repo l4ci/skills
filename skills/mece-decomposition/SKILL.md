@@ -5,7 +5,7 @@ description: Use when the user wants to break a problem, question, metric, or to
 
 # mece-decomposition
 
-Breaks a problem, question, metric, or topic into a MECE structure: branches that are Mutually Exclusive (no overlaps) and Collectively Exhaustive (no gaps). The output is a logic tree that can be divided into workstreams and solved without double-counting or blind spots.
+Breaks a problem, question, metric, or topic into a MECE structure (a McKinsey staple, popularized by Barbara Minto): branches that are Mutually Exclusive (no overlaps) and Collectively Exhaustive (no gaps). Catches double-counting and blind spots so the output divides cleanly into workstreams.
 
 The principle, the decomposition archetypes, and the ME and CE tests live in [references/mece.md](references/mece.md). Load that file before decomposing.
 
@@ -47,7 +47,7 @@ The first cut decides everything, so generate several rather than committing to 
 
 ## Stage 2: Select the cut (SEQUENTIAL, needs all 3)
 
-One agent compares the candidate cuts and picks the one that is cleanest (passes ME and CE most naturally) and most useful for the purpose, or merges the best top level from more than one. State why this cut was chosen over the others, since the choice of cut is the highest-leverage decision in the whole exercise.
+One agent compares the candidate cuts and picks the one that is cleanest (passes ME and CE most naturally) and most useful for the purpose, or merges the best top level from more than one. State why this cut was chosen over the others.
 
 ## Stage 3: Build the tree (SEQUENTIAL)
 
@@ -77,8 +77,5 @@ Write the result as markdown and save it to `mece-<subject-slug>-<YYYY-MM-DD>.md
 ## Principles
 
 - **The first cut is everything.** Generate competing top-level logics before committing. A clean cut makes the tree fall out; a muddled one cannot be tidied into correctness.
-- **One logic per level.** Mixing cutting dimensions at a level is the root of nearly every overlap. State the logic at each node.
-- **Fix the cut, not the leaf.** When the audit finds an overlap or gap, repair the level where it originates.
+- **One logic per level.** Mixing cutting dimensions at a level is the root of nearly every overlap.
 - **Honest "Other".** A catch-all is allowed only when the remainder is genuinely small and varied, and it must be labeled, not used to hide a real category.
-- **Only as deep as needed.** Stop when the branches are workable units. Premature depth on one branch is a common failure.
-- **Parallel where independent.** Candidate cuts and the two audit checks share no state, so run them concurrently. Selection, building, and refinement depend on prior output, so they run in sequence.

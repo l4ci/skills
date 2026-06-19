@@ -5,7 +5,7 @@ description: Use when the user has a fuzzy or broad problem and needs to sharpen
 
 # tosca-problem-definition
 
-Turns a vague problem into a crisp, solvable one using TOSCA (Trouble, Owner, Success criteria, Constraints, Actors), the problem-definition framework from *Bulletproof Problem Solving* (Conn and McLean). A well-defined problem is half-solved, and most wasted analysis comes from solving the wrong problem precisely. This skill does the framing, not the solving.
+Turns a vague problem into a crisp, solvable one using TOSCA (Trouble, Owner, Success criteria, Constraints, Actors), the problem-definition framework from *Bulletproof Problem Solving* (Conn and McLean). It catches the failure of solving the wrong problem precisely. This skill does the framing, not the solving.
 
 The five elements, their sharp questions, their pitfalls, and the marks of a good problem statement live in [references/tosca.md](references/tosca.md). Load that file before starting.
 
@@ -35,7 +35,7 @@ This is primarily an interview, with one parallel stress-test before the brief i
    - **Critic A, root and solution:** Is the Trouble the root problem or a symptom? Is a solution smuggled into the problem statement?
    - **Critic B, owner and success:** Can the named Owner actually act? Are the Success criteria measurable, time-bound, and free of unnamed conflicts?
    - **Critic C, constraints and actors:** Which Constraints are assumptions over-narrowing the solution space? Which Actors are missing, especially blockers?
-   Bring the strongest challenges back to the user and resolve them. This catches the framing errors that a single pass misses.
+   Bring the strongest challenges back to the user and resolve them.
 
 4. **Synthesize the brief.** Write the crisp problem statement (see the reference file's criteria) plus the structured TOSCA brief, and save it.
 
@@ -58,8 +58,6 @@ Write the brief as markdown and save it to `tosca-<problem-slug>-<YYYY-MM-DD>.md
 
 ## Principles
 
-- **Frame, do not solve.** Resist jumping to answers. The deliverable is a sharp problem, not a solution. If the user pushes to solve, capture the impulse as a hypothesis to test later and return to framing.
-- **Symptom versus root, assumption versus constraint.** The two cuts that decide whether the problem is well-formed. Make both explicitly.
+- **Frame, do not solve.** The deliverable is a sharp problem, not a solution. If the user pushes to solve, capture the impulse as a hypothesis to test later and return to framing.
 - **A problem needs an owner.** If no one owns it or can act on it, say so; framing it further is wasted effort.
-- **Measurable or it is not success.** Force a number and a date. "Better" is not a success criterion.
-- **Challenge, then confirm.** Tighten each answer and reflect it back. The value is in the pushback, not the form-filling.
+- **The value is in the pushback, not the form-filling.** Challenge weak answers; do not just collect them.
