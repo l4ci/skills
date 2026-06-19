@@ -14,27 +14,27 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 
 Jump to a category:
 
-- [Strategy and business analysis](#strategy-and-business-analysis)
+- [🎯 Strategy and business analysis](#-strategy-and-business-analysis)
   - [Problem framing and structuring](#problem-framing-and-structuring)
   - [Positioning and environment](#positioning-and-environment)
   - [Internal and organizational](#internal-and-organizational)
   - [Growth and portfolio](#growth-and-portfolio)
   - [Prioritization and risk](#prioritization-and-risk)
-- [Process and innovation methods](#process-and-innovation-methods)
+- [💡 Process and innovation methods](#-process-and-innovation-methods)
   - [Innovation and product](#innovation-and-product)
   - [Process improvement](#process-improvement)
-- [Execution and change](#execution-and-change)
+- [🚀 Execution and change](#-execution-and-change)
   - [Goals and measurement](#goals-and-measurement)
   - [Change management](#change-management)
-- [People and teams](#people-and-teams)
+- [🤝 People and teams](#-people-and-teams)
   - [Team dynamics](#team-dynamics)
   - [Motivation and behavior](#motivation-and-behavior)
   - [Conflict and negotiation](#conflict-and-negotiation)
-- [Thinking and decision](#thinking-and-decision)
-- [Research](#research)
-- [Personal insight](#personal-insight)
+- [🧭 Thinking and decision](#-thinking-and-decision)
+- [🔬 Research](#-research)
+- [🧠 Personal insight](#-personal-insight)
 
-### Strategy and business analysis
+### 🎯 Strategy and business analysis
 
 The classic business toolkit. Frame the problem, read the competitive environment, look inward at the organization, then decide where to grow and what to prioritize.
 
@@ -83,7 +83,7 @@ The classic business toolkit. Frame the problem, read the competitive environmen
 | [fmea](skills/fmea/) | Failure Mode and Effects Analysis. Scopes a process, product, or design, breaks it into functions, then one parallel analyst per function lists failure modes and scores Severity, Occurrence, and Detection. Synthesis computes the Risk Priority Number, ranks the modes, applies an action threshold and a high-severity override, and recommends actions that cut S, O, or D. A systematic, scored counterpart to the pre-mortem. |
 | [rice-prioritization](skills/rice-prioritization/) | Ranks a backlog by Intercom's RICE score (Reach x Impact x Confidence / Effort). Calibrates the goal, reach window, impact scale, confidence levels, and effort unit, scores each initiative in parallel, then computes and ranks the scores, runs a sensitivity check on confidence and effort, and recommends a roadmap order. A product-roadmap version of the weighted decision matrix. |
 
-### Process and innovation methods
+### 💡 Process and innovation methods
 
 Building the right thing, then building it well. The innovation and product tools find and shape what customers want; the process tools make the work that delivers it more reliable.
 
@@ -106,7 +106,7 @@ Building the right thing, then building it well. The innovation and product tool
 | [pdca-cycle](skills/pdca-cycle/) | Guides a lightweight PDCA loop (Plan, Do, Check, Act): plan a change with a prediction, try it small, check against the prediction, and adopt, adjust, or abandon, then loop. |
 | [root-cause-analysis](skills/root-cause-analysis/) | Finds and verifies the root cause of a problem with the Ishikawa fishbone and the 5 Whys. Parallel finders hunt candidate causes across the cause categories (the 6 Ms), then the strongest are drilled with why-chains to verified roots, separated from contributing causes, and turned into countermeasures that remove the roots rather than the symptom. |
 
-### Execution and change
+### 🚀 Execution and change
 
 Turning strategy into action and making it stick. Set and measure the goals, then lead the people through the change those goals require.
 
@@ -127,7 +127,7 @@ Turning strategy into action and making it stick. Set and measure the goals, the
 | [adkar](skills/adkar/) | Diagnoses the people side of a change with ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement). Five parallel subagents assess each element per affected group, then a synthesis pass finds the barrier point where change stalls and designs targeted interventions. |
 | [force-field-analysis](skills/force-field-analysis/) | Lewin's force field analysis for a proposed change. Parallel finders hunt the driving and restraining forces across several lenses and score each, then synthesis builds the net field and finds the highest-leverage moves, favoring the weakening of restrainers. |
 
-### People and teams
+### 🤝 People and teams
 
 Frameworks for the human side of work: how teams develop, how people respond to change, and how to handle conflict and negotiation.
 
@@ -153,7 +153,7 @@ Frameworks for the human side of work: how teams develop, how people respond to 
 | [thomas-kilmann](skills/thomas-kilmann/) | Chooses the conflict-handling mode that fits a situation (Competing, Collaborating, Compromising, Avoiding, Accommodating) on the assertiveness-by-cooperativeness grid. One parallel analyst per mode scores its fit, then synthesis recommends a primary mode and a fallback and flags when a habitual default is mismatched to this situation. |
 | [negotiation-prep](skills/negotiation-prep/) | Prepares for a negotiation with principled, interest-based bargaining plus BATNA and ZOPA. Parallel analysts work both sides' interests and BATNAs and the options for mutual gain, then synthesis maps the zone of possible agreement, sets target and walk-away, and sequences the moves. Interests over positions; your BATNA is your power. |
 
-### Thinking and decision
+### 🧭 Thinking and decision
 
 General-purpose reasoning tools, not tied to business strategy. Reach for these to pick the right approach to a problem or to examine a decision from every angle.
 
@@ -163,7 +163,7 @@ General-purpose reasoning tools, not tied to business strategy. Reach for these 
 | [six-thinking-hats](skills/six-thinking-hats/) | De Bono's Six Thinking Hats examines an idea or decision from every angle by parallel thinking. The Blue hat sets the focus question, five hats (White, Red, Black, Yellow, Green) examine it in parallel each in its strict mode, then a Blue-hat synthesis reaches a conclusion with actions, the emotional read, and the risks that must be mitigated. |
 | [cognitive-bias-audit](skills/cognitive-bias-audit/) | Audits a decision, plan, or forecast for the cognitive biases distorting it. One parallel hunter per bias family (belief, confidence, attachment, social, framing) cites where this specific reasoning is exposed, then synthesis ranks the most dangerous biases and prescribes structural debiasing. Evidence from the actual reasoning, not generic warnings. |
 
-### Research
+### 🔬 Research
 
 Investigating a question and pressure-testing what you find, from multi-source research to weighing rival explanations, checking assumptions, and estimating quantities you cannot look up.
 
@@ -175,7 +175,7 @@ Investigating a question and pressure-testing what you find, from multi-source r
 | [fermi-estimation](skills/fermi-estimation/) | Produces a defensible order-of-magnitude estimate with no data at hand (Enrico Fermi's method). Decomposes the unknown quantity in parallel into a chain of estimable factors several different ways, estimates each as a low/best/high range, multiplies the chain and propagates the uncertainty into an honest band, then cross-checks against an independent decomposition and known bounds and names the factor that dominates the error. The inside-view counterpart to reference-class forecasting. |
 | [reference-class-forecasting](skills/reference-class-forecasting/) | Forecasts a duration, cost, or success rate by anchoring on how similar past cases actually turned out (Kahneman's outside view, Flyvbjerg's method). Builds a reference class in parallel, constructs the base-rate distribution from realized outcomes, then places the case in it under adversarial checks for optimism and regression to the mean. Counters the planning fallacy by starting from the base rate rather than the case specifics. |
 
-### Personal insight
+### 🧠 Personal insight
 
 Self-assessment questionnaires. Answer the statements and get a scored, written read on your personality.
 
