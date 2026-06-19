@@ -4,6 +4,6 @@ Assesses how effectively an organization uses digital technology, data, and ways
 
 This skill runs the assessment in parallel. Seven assessor subagents each score one dimension against the level descriptors, using evidence of what is actually in production and in behavior rather than what is planned. A synthesis pass draws the maturity profile (the uneven shape, not a single average), finds the binding gaps and the imbalances where a lagging dimension strands an advanced one, and sequences a roadmap toward the target. The output is a saved markdown report with the maturity profile, per-dimension detail, and a prioritized roadmap.
 
-Two failure modes are designed against: scoring on aspiration (assessors score production and behavior, and flag missing evidence rather than guessing) and technology tunnel vision (the analysis treats the lagging soft dimension, not the average, as the constraint on realized value).
+The skill guards against two failure modes: scoring on aspiration (assessors score production and behavior, and flag missing evidence rather than guessing) and technology tunnel vision (the analysis treats the lagging soft dimension, not the average, as the constraint on realized value).
 
 The procedure is in [SKILL.md](SKILL.md); the maturity levels, the seven dimensions, and the pitfalls are in [references/maturity.md](references/maturity.md).

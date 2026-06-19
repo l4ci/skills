@@ -1,6 +1,6 @@
 # five-dysfunctions-of-a-team
 
-Diagnoses why a working team underperforms using Patrick Lencioni's model from *The Five Dysfunctions of a Team* (2002). The five dysfunctions form a pyramid: Absence of Trust at the base, then Fear of Conflict, Lack of Commitment, Avoidance of Accountability, and Inattention to Results at the top. The structure is the whole point. Each layer rests on the one below, so conflict needs trust, commitment needs conflict, accountability needs commitment, and results need accountability.
+Diagnoses why a working team underperforms using Patrick Lencioni's model from *The Five Dysfunctions of a Team* (2002). The five dysfunctions form a pyramid: Absence of Trust at the base, then Fear of Conflict, Lack of Commitment, Avoidance of Accountability, and Inattention to Results at the top. The order matters: each layer rests on the one below, so conflict needs trust, commitment needs conflict, accountability needs commitment, and results need accountability.
 
 This skill runs the assessment in parallel. Five analyst subagents each take one layer, compare the team against that layer's specific tells with concrete behavioral evidence, and score how present and severe the dysfunction is. A synthesis pass then reads the pyramid bottom to top, finds the lowest broken layer, and traces how that crack surfaces as symptoms higher up. The output is a saved markdown report with the pyramid scored layer by layer, the binding constraint named, the cascade explained, and interventions sequenced from the base upward.
 

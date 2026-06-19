@@ -4,6 +4,6 @@ Stress-tests a plan, PRD, strategy, or decision before you commit to it. A pre-m
 
 This skill runs the exercise in parallel. Six independent failure-finder subagents each attack the plan from a different lens (execution, adoption, timeline, assumptions, second-order effects, external forces). A blind-spot pass catches what every lens missed. The risks are then deduplicated, scored by likelihood and impact, ranked, and the worst ones get concrete mitigations, leading indicators, and contingencies. The output is a saved markdown report with a ranked risk register.
 
-It is the inverse of the [storm-research](../storm-research/) skill: the same fan-out engine, pointed at your own plan instead of the literature.
+Works alongside the [storm-research](../storm-research/) skill as its inverse: it uses the same fan-out approach but points it at your own plan instead of the literature.
 
 The procedure is in [SKILL.md](SKILL.md).
