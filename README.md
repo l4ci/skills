@@ -14,25 +14,25 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 
 Jump to a category:
 
-- [Strategy and business analysis](#-strategy-and-business-analysis)
+- 🎯 [Strategy and business analysis](#-strategy-and-business-analysis)
   - [Problem framing and structuring](#problem-framing-and-structuring)
   - [Positioning and environment](#positioning-and-environment)
   - [Internal and organizational](#internal-and-organizational)
   - [Growth and portfolio](#growth-and-portfolio)
   - [Prioritization and risk](#prioritization-and-risk)
-- [Process and innovation methods](#-process-and-innovation-methods)
+- 💡 [Process and innovation methods](#-process-and-innovation-methods)
   - [Innovation and product](#innovation-and-product)
   - [Process improvement](#process-improvement)
-- [Execution and change](#-execution-and-change)
+- 🚀 [Execution and change](#-execution-and-change)
   - [Goals and measurement](#goals-and-measurement)
   - [Change management](#change-management)
-- [People and teams](#-people-and-teams)
+- 🤝 [People and teams](#-people-and-teams)
   - [Team dynamics](#team-dynamics)
   - [Motivation and behavior](#motivation-and-behavior)
   - [Conflict and negotiation](#conflict-and-negotiation)
-- [Thinking and decision](#-thinking-and-decision)
-- [Research](#-research)
-- [Personal insight](#-personal-insight)
+- 🧭 [Thinking and decision](#-thinking-and-decision)
+- 🔬 [Research](#-research)
+- 🧠 [Personal insight](#-personal-insight)
 
 ### 🎯 Strategy and business analysis
 
