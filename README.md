@@ -207,18 +207,20 @@ description: <one line, when an agent should reach for this skill>
 
 ## Using a skill
 
-This repo is a Claude Code plugin named **latticework**, and the same skills work standalone in any runtime that loads `SKILL.md` folders.
-
-**Claude Code (as a plugin):**
+Install the skills with [`skills`](https://github.com/vercel-labs/skills), a small CLI that pulls `SKILL.md` folders from GitHub and drops them into whichever agents you have (Claude Code, Codex, Cursor, Copilot, and more):
 
 ```shell
-/plugin marketplace add l4ci/latticework
-/plugin install latticework@latticework
+# see what's in this repo
+npx skills add l4ci/latticework --list
+
+# add one skill
+npx skills add l4ci/latticework --skill swot-analysis
+
+# or add all of them
+npx skills add l4ci/latticework --all
 ```
 
-The skills are then namespaced, for example `/latticework:swot-analysis` or `/latticework:hoshin-kanri`.
-
-**Standalone (any runtime):** copy a folder from `skills/` into your agent's skills directory, or point your runtime at `skills/`. Conventions vary by platform:
+**Standalone (any runtime):** or copy a folder from `skills/` into your agent's skills directory by hand, or point your runtime at `skills/`. Conventions vary by platform:
 
 - **Claude Code:** drop a `skills/<name>/` folder under `~/.claude/skills/` and invoke via the skill mechanism.
 - **Codex / Copilot CLI / Gemini CLI:** place under the platform's skills path; most auto-discover by folder.
