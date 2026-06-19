@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. One analyst subagent places each unit,
 
 The skill carries the framework's well-known critiques into the analysis: market definition drives every placement, relative share is a crude proxy for advantage, and a Dog can be profitable while a Star loses money. The matrix structures the portfolio decision; it does not automate it.
 
+## Starting
+
+**You provide:** the portfolio of two or more business units or product lines (growth, share, and revenue data are optional but valuable; estimated where missing). Invoke with something like "Run a BCG matrix across our product portfolio".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the axes, quadrants, cash-flow logic, and critiques are in [references/bcg.md](references/bcg.md).

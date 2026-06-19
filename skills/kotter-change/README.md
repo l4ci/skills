@@ -6,4 +6,10 @@ This skill facilitates the eight steps with a gate check on each one, holding a 
 
 The model guards against the common ways change fails: skipping urgency so people never give the effort it takes, declaring victory at the first short-term win so momentum collapses while the change is still shallow, and never anchoring it in culture or in who gets promoted so the organization reverts the moment the original leaders move on. For a lighter analytical tool that weighs the forces for and against a change before you commit, the force-field skill fits; for the individual side of who actually adopts the change, ADKAR covers it.
 
+## Starting
+
+**You provide:** the change to lead and the organization or unit it affects; optionally why now, who holds power, prior change history, and the known sources of resistance. Something like "help me lead this change with Kotter".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the eight steps and their gate questions are in [references/kotter.md](references/kotter.md).

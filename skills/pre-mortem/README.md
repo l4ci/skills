@@ -6,4 +6,10 @@ This skill runs the exercise in parallel. Six independent failure-finder subagen
 
 Works alongside the [storm-research](../storm-research/) skill as its inverse: it uses the same fan-out approach but points it at your own plan instead of the literature.
 
+## Starting
+
+**You provide:** the plan, PRD, strategy, or decision to stress-test, plus what "failure" means here. A phrase like "Run a pre-mortem on our Stripe billing migration."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md).

@@ -6,4 +6,10 @@ This skill facilitates one cycle end to end and sets up the next, keeping a cycl
 
 PDCA deliberately trades depth for speed. For a large, costly problem needing statistical rigor and verified root causes, the Six Sigma DMAIC skill is the better fit.
 
+## Starting
+
+**You provide:** the problem, opportunity, or change to work on, and optionally the situation and how results can be observed. Something like "Run a PDCA cycle on cutting our ticket response time".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the four stages and the pitfalls are in [references/pdca.md](references/pdca.md).

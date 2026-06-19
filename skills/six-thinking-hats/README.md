@@ -6,4 +6,10 @@ This skill runs the hats in parallel. The Blue hat opens by fixing one focus que
 
 The point is parallel thinking: instead of one person defending while another attacks, everyone looks the same way at the same time, so the discussion examines the topic from every angle rather than turning into a fight. That also separates ego from the view, since the hat owns the position, not the thinker. The method has three predictable failure modes, and the skill guards each: the Black hat is the easiest mode and quietly dominates, so every risk is met with a fair search for value and a way past it; hats get mixed, so each is held strictly in its lane; and sessions get used to rubber-stamp a decision already made, so the Blue hat states up front that the conclusion is open. The Red hat earns its odd permission to skip justification because feelings leak into the rational hats unless they are given a slot of their own.
 
+## Starting
+
+**You provide:** the idea, plan, or decision to examine (and any context on the stakes and who's affected). Something like "Use six thinking hats on whether we should drop our free tier".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the six hats, their discipline, the failure modes, and the suggested sequence are in [references/six-hats.md](references/six-hats.md).

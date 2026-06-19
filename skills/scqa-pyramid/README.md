@@ -6,4 +6,10 @@ The framing fixed in the introduction decides what the whole pyramid must prove,
 
 This skill structures and communicates the message; it does not generate the analysis or make a weak case strong. If the evidence cannot support the answer, the fix is more thinking, not a better outline. It pairs downstream of the analysis skills in this collection, the step where the result of the thinking becomes something a reader can follow, and it shares its Minto lineage with [mece-decomposition](../mece-decomposition/): a pyramid's key line must itself be MECE.
 
+## Starting
+
+**You provide:** the recommendation or findings to communicate plus the material behind it, and ideally who the audience is. A phrase like "Structure this recommendation for my exec team, answer first."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); SCQA, the pyramid rules, and the pitfalls are in [references/pyramid.md](references/pyramid.md).

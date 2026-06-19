@@ -6,4 +6,10 @@ This skill runs the assessment in parallel. Seven assessor subagents each score 
 
 The skill guards against two failure modes: scoring on aspiration (assessors score production and behavior, and flag missing evidence rather than guessing) and technology tunnel vision (the analysis treats the lagging soft dimension, not the average, as the constraint on realized value).
 
+## Starting
+
+**You provide:** the organization or unit to assess; a target maturity level and any evidence (systems, metrics, examples) are optional but valuable. Something like "assess the digital maturity of our regional insurance business".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the maturity levels, the seven dimensions, and the pitfalls are in [references/maturity.md](references/maturity.md).

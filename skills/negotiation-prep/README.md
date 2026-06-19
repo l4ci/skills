@@ -6,4 +6,10 @@ This skill runs the groundwork in parallel. After fixing the frame (the parties,
 
 Four mistakes recur, and the skill guards against each. People haggle over numbers with no grasp of why either side wants them; they walk in with no BATNA and negotiate blind from fear; they confuse the outcome they wish for with the ZOPA that the other side's numbers actually permit; and they treat the whole thing as win/lose when mutual-gain options exist. The skill counters these by surfacing interests first, deriving both BATNAs, and checking whether the reservation points truly overlap. It also holds the line that the other side's interests and alternatives are estimated, not known, so a mapped ZOPA shows room for a deal, never a guarantee of one.
 
+## Starting
+
+**You provide:** what's being negotiated and with whom, and optionally your goal and the context (numbers on the table, the relationship, constraints). Something like "Help me prepare for my salary negotiation".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the four principles, BATNA, the ZOPA, positions versus interests, and the pitfalls are in [references/negotiation.md](references/negotiation.md).

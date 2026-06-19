@@ -6,4 +6,10 @@ This skill runs the scan in parallel. Six analyst subagents each take one factor
 
 The skill guards against the framework's most common failure, the unranked laundry list, by forcing prioritization and a "so what" on every force, and by keeping the analysis at the macro altitude rather than drifting into competitors or the company itself.
 
+## Starting
+
+**You provide:** the subject (a company, industry, market, or decision) and the geography in scope; optionally a horizon and the decision it informs. Something like "Run a PESTEL for an EV-charging installer entering Germany".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the six factors, the prioritization logic, and the pitfalls are in [references/pestel.md](references/pestel.md).

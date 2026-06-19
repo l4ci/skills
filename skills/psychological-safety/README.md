@@ -6,4 +6,10 @@ This skill runs the diagnosis in parallel. Five assessor subagents each take one
 
 Three misreadings are common, and the skill corrects each. People hear "psychological safety" and think niceness, so they chase a warm, agreeable, conflict-free team, which is often the least safe team there is, because the warmth is what stops anyone raising the hard thing. People also treat it as an individual trait rather than a climate, and they lower standards in the name of safety and drift into the comfort zone. The skill keeps the target at high safety paired with high accountability, the learning zone. It reads the climate from observable behavior rather than from a general impression, and it does not let any prescription trade away the standard.
 
+## Starting
+
+**You provide:** one team and its leader, plus any observable signals (who speaks, how mistakes land). A phrase like "Diagnose the psychological safety on our platform team."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the behavioral markers, the safety-by-accountability 2x2, the three leader practices, and the pitfalls are in [references/psych-safety.md](references/psych-safety.md).

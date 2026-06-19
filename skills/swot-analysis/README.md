@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. Four analyst subagents each take one q
 
 Two rules keep it honest: every factor is judged against a stated objective, and internal attributes never get filed as external conditions. Both are common SWOT failures the skill guards against.
 
+## Starting
+
+**You provide:** what's being analyzed and the objective the SWOT serves (plus any context on competitors and horizon). Something like "Run a SWOT on our meal-kit startup, to decide whether to expand into California".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the framework, checklists, scoring, and TOWS logic are in [references/framework.md](references/framework.md).

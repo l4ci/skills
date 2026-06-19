@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. It gathers the driving forces (a PESTE
 
 Three mistakes tend to wreck a scenario set, and the skill guards against each. Picking a high-impact trend whose direction is already known wastes an axis, so only genuinely uncertain forces are allowed to be axes and the rest become the shared backdrop. Two axes that move together collapse the 2x2 into one future at four intensities, so the axes are tested for independence before anything is built. And treating the four corners as forecasts pulls everyone back toward the "most likely" one, so the scenarios carry no probabilities and the work does not stop at the stories: the deliverable is the strategy and the signposts.
 
+## Starting
+
+**You provide:** a focal question tied to a real decision and entity, plus a horizon and any driving forces already known (a PESTEL scan is a good source). A phrase like "Run scenario planning on our on-prem product line over the next decade."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the method, the axis-selection logic, and the pitfalls are in [references/scenarios.md](references/scenarios.md).

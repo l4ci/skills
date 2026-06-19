@@ -6,4 +6,10 @@ It uses the public-domain 50-item [IPIP Big-Five Factor Markers](https://ipip.or
 
 This is a non-clinical self-report questionnaire, not a diagnostic tool.
 
+## Starting
+
+**You provide:** nothing; it administers the 50-item questionnaire and you answer as you go. Something like "Give me the Big Five personality test".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the item bank, keying, and scoring rules are in [references/items.md](references/items.md).

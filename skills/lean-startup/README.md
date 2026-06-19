@@ -6,4 +6,10 @@ This skill runs one Build-Measure-Learn loop end to end. It helps surface the le
 
 It guards against the method's common failure modes: the MVP as a small product rather than a learning tool, vanity metrics that rise but test nothing, and results rationalized after the fact because no threshold was set beforehand.
 
+## Starting
+
+**You provide:** the product or business idea and who it is for; optionally the stage, resources, what has been built or tried, and any evidence so far. Something like "help me validate my idea".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the core concepts are in [references/lean-startup.md](references/lean-startup.md).

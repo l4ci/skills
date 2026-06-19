@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. One analyst subagent takes each resour
 
 Three failure modes show up often. People test industry table stakes that every competitor must have, which fail the Rare gate by definition and pad the analysis, so the procedure screens those out before fanning out. People call a resource rare or inimitable on assertion alone, so each subagent must name the mechanism (unique history, causal ambiguity, social complexity, or patents) and show why a specific rival could not copy it cheaply. And people read the result as permanent, so the analysis tracks whether each protection is eroding rather than treating a snapshot as a forecast.
 
+## Starting
+
+**You provide:** the firm or business unit (required), optionally the resources to test (it surfaces candidates if you don't), plus optional industry, competitors, and the strategic question. Something like "run a VRIO analysis on us."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the four questions, the decision table, and the pitfalls are in [references/vrio.md](references/vrio.md).

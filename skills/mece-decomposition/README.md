@@ -6,4 +6,10 @@ The hardest part of any breakdown is the first cut, so this skill does not commi
 
 This skill structures the problem; it does not solve it. It pairs downstream of [tosca-problem-definition](../tosca-problem-definition/) and upstream of analysis or solving work.
 
+## Starting
+
+**You provide:** what to decompose (a problem, question, metric, or topic), and optionally what the breakdown is for. Something like "Build an issue tree for why our revenue dropped".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the principles, decomposition archetypes, and ME and CE tests are in [references/mece.md](references/mece.md).

@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. First it pins down the situation: the 
 
 Three misuses are common, and the skill guards against them. People treat one mode as universally right, usually chronic collaborating, which wastes time on issues that do not deserve it, or chronic avoiding, which lets conflicts fester. People also ignore the realities of power and time, chasing a win/win when they have no leverage or no clock. And people misuse the instrument to label personalities instead of choosing an approach for the situation in front of them. The skill anchors every judgment to the situational factors, refuses a universal favorite, and ends by flagging when the user's habitual style is the wrong fit for this particular conflict.
 
+## Starting
+
+**You provide:** the conflict to navigate (the parties, what each wants, what's at stake), plus any context on power, the relationship, time, and your own habitual style. Something like "Help me handle this conflict with a co-founder using Thomas-Kilmann".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the two axes, the five modes with their fits and risks, and the pitfalls are in [references/thomas-kilmann.md](references/thomas-kilmann.md).

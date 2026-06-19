@@ -8,4 +8,10 @@ This skill runs reference-class forecasting inside an agent and parallelizes it.
 
 Pairs with [fermi-estimation](../fermi-estimation/) as its outside-view complement: Fermi builds an estimate up from the case's own specifics, while reference-class anchors on how the class performed. Running both and reconciling the gap gives you a cross-check.
 
+## Starting
+
+**You provide:** what you're forecasting (a duration, cost, or success rate) and enough about the case to find its peers; optionally your own inside-view estimate. A phrase like "Give me the outside view on how long this migration will take."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The skill itself lives in [SKILL.md](SKILL.md).

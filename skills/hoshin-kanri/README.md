@@ -6,4 +6,10 @@ This skill runs the cascade in parallel. It first sets the breakthrough objectiv
 
 The method fails in predictable ways, and the skill is built against them. Teams cascade too many objectives and lose the focus that is the whole point, so Stage 1 pushes back toward three or four. Plans get handed down without catchball, so the strategists surface the realistic pushback before anything is committed. Activities get logged as targets, so every priority must earn a number with a level and a date. And the matrix gets built once and filed, so the report ends in a tracking and review rhythm rather than a static grid. Works alongside the lighter [okr](../okr/) method and the [balanced-scorecard](../balanced-scorecard/) as the TQM option, and it reviews on the [pdca-cycle](../pdca-cycle/).
 
+## Starting
+
+**You provide:** the organization deploying the strategy and the strategy or breakthrough objectives themselves; optionally the planning horizon, the levels to cascade through, and any fixed constraints. Something like "run a Hoshin Kanri on our new strategy".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the X-matrix, catchball, the review cadence, and the pitfalls are in [references/hoshin.md](references/hoshin.md).

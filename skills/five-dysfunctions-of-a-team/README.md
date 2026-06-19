@@ -6,4 +6,10 @@ This skill runs the assessment in parallel. Five analyst subagents each take one
 
 The model gets misused in three ways, and the skill guards all three. People treat the five as independent checkboxes and sum the scores, missing the hierarchy entirely. People chase the surface symptom ("we need more accountability") when the real break is trust two layers down, so the fix never takes because its foundation is missing. People diagnose from a feeling rather than from observed behavior. The skill scores every layer against evidence, traces high-layer symptoms down to find the lowest break, and prescribes a rebuild in pyramid order rather than at the top. It pairs with psychological-safety for the trust base and tuckman for developmental stage.
 
+## Starting
+
+**You provide:** one defined working team to diagnose; observable behaviors and symptoms you've noticed are optional but sharpen the read. Something like "diagnose my product leadership team with the Five Dysfunctions model".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the pyramid, the hierarchy rule, each layer's tells and interventions, and the failure modes are in [references/five-dysfunctions.md](references/five-dysfunctions.md).

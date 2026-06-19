@@ -6,4 +6,10 @@ This skill runs the cause search in parallel. It first states the problem precis
 
 A root-cause hunt fails in a few recurring ways, and the skill guards against each. People stop at the symptom, or fixate on the first cause that comes to mind and never look in the other categories, or quietly settle on "human error" and assign blame instead of finding the system cause that let the error through. The 5 Whys, run alone, often collapses into a single unverified linear guess that feels rigorous because it has five steps. The skill scans every category before drilling, branches the why-chains, and verifies each claimed cause against evidence before concluding. It also holds the line that a fishbone only lists possible causes and a why-chain is only a hypothesis until the evidence backs it.
 
+## Starting
+
+**You provide:** one precisely stated effect to diagnose (quantified where possible), plus any data, logs, or context on when it occurs and what changed. A phrase like "Run an RCA, our checkout API has been timing out since Tuesday."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the fish head, the category sets, the 5 Whys discipline, the verification tests, and the pitfalls are in [references/root-cause.md](references/root-cause.md).

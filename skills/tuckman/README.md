@@ -6,4 +6,10 @@ This skill runs the diagnosis in parallel. After a quick pass to identify the te
 
 Stage diagnosis goes wrong in a few recurring ways, and the skill guards against them. People expect fast linear progress and try to skip Storming, but working through the conflict is the task itself. People mislabel a quiet, conflict-avoidant team as Norming when it never worked through its differences, mistaking surface calm for cohesion. People ignore regression after a team changes shape, and apply delegating, hands-off leadership to a team that still needs direction. The skill scores each stage from observed behavior, accounts for regression, and matches the leadership style to the actual stage. A stage is a diagnosis at a moment, not a fixed trait: the read shifts as the team and its goals change.
 
+## Starting
+
+**You provide:** the one team to diagnose (required), and optionally context like tenure, recent changes, and how meetings and conflict go. Something like "what Tuckman stage is my team at?"
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the five stages, the leadership focus each needs, regression, and the pitfalls are in [references/tuckman.md](references/tuckman.md).

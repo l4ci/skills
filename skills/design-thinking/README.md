@@ -6,4 +6,10 @@ This skill guides the work one mode at a time and keeps a living design document
 
 It works alongside other methods: a problem-framing skill can sharpen the Define mode, and a Design Thinking concept can feed a Lean Startup experiment for viability.
 
+## Starting
+
+**You provide:** the design challenge and who it's for; any prior research or constraints are optional. Something like "facilitate a design thinking process for our patient discharge experience".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the five modes and the pitfalls are in [references/design-thinking.md](references/design-thinking.md).

@@ -6,4 +6,12 @@ This skill runs the classification in parallel. One analyst subagent takes each 
 
 Three traps recur, and the skill guards against each. The worst is chasing delighters while a must-be is missing: a broken must-be sinks the product no matter how many exciters sit on top of it, so the skill forces must-be coverage before any delighter spend. The second is treating every feature as a performance feature where more is always better, when most features plateau, return nothing, or actively repel. The third is forgetting that categories vary by segment and decay over time, so today's delighter is tomorrow's table stakes. The skill keys every classification to a named segment, marks decay risk, and is honest that a classification made without real customer data is a reasoned proxy for a survey, not the survey itself.
 
-Kano says which features matter and why; it does not score effort or revenue, so pair it with rice-prioritization to sequence the backlog, with jobs-to-be-done to understand the jobs, and with value-proposition-canvas to map features to pains and gains. The procedure is in [SKILL.md](SKILL.md); the five categories, the evaluation table, the satisfaction curves, decay, and the pitfalls are in [references/kano.md](references/kano.md).
+Kano says which features matter and why; it does not score effort or revenue, so pair it with rice-prioritization to sequence the backlog, with jobs-to-be-done to understand the jobs, and with value-proposition-canvas to map features to pains and gains.
+
+## Starting
+
+**You provide:** the target customer segment and the candidate feature list to classify; optionally the product, its market and competitors, the decision it informs, and any real customer data. Something like "run a Kano analysis on these features".
+
+See [references/example.md](references/example.md) for a worked example.
+
+The procedure is in [SKILL.md](SKILL.md); the five categories, the evaluation table, the satisfaction curves, decay, and the pitfalls are in [references/kano.md](references/kano.md).

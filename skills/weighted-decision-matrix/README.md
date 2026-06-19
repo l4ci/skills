@@ -6,4 +6,10 @@ This skill calibrates the criteria and weights first, then scores the options in
 
 It guards against the ways these matrices go wrong: criteria that overlap and quietly count the same thing twice, weights nudged after the scores are in, false precision where a 3.8 beats a 3.9 and someone calls it decisive, and a winner reported with no sensitivity check, so a result that a small reweight would flip looks solid. It generalizes [impact-feasibility-matrix](../impact-feasibility-matrix/README.md) from two fixed axes to any number of weighted criteria; reach for that one when the two axes are exactly impact and effort, and this one when the criteria are many. A near-tie is not a flaw in the matrix. It means the options really are close, and the choice comes down to which criterion you trust.
 
+## Starting
+
+**You provide:** what you're choosing and the options to choose between (required), optionally the criteria and weights (it derives them with you if absent), plus optional constraints and priorities. Something like "help me choose our new CRM with a weighted decision matrix."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the method, the Pugh variant, and the sensitivity check are in [references/decision-matrix.md](references/decision-matrix.md).

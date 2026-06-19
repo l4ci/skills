@@ -6,4 +6,10 @@ The skill runs as a guided interview. It walks through each of the five elements
 
 This skill frames the problem; it does not solve it. Run it upstream of the analysis and strategy skills in this collection.
 
+## Starting
+
+**You provide:** nothing structured; just the fuzzy problem in your own words, and it interviews you through the five TOSCA elements. Something like "help me frame this problem with TOSCA."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the framework, questions, pitfalls, and problem-statement criteria are in [references/tosca.md](references/tosca.md).

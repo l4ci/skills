@@ -6,4 +6,10 @@ This skill starts by calibrating the axes, stating exactly what impact means for
 
 The skill guards against two classic failures of the framework. Undefined axes are handled by the calibration step, and optimism on effort is handled by prompting scorers to probe what could make each option harder. Often the most useful output is a clear case for stopping the thankless work.
 
+## Starting
+
+**You provide:** the list of options to prioritize and the objective impact is measured against; optionally the resources, constraints, timeframe, and known dependencies. Something like "prioritize these by impact and feasibility".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the axes, quadrants, and scoring guidance are in [references/impact-feasibility.md](references/impact-feasibility.md).

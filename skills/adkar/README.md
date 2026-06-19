@@ -6,4 +6,10 @@ This skill runs the assessment in parallel. Five subagents each assess one eleme
 
 It guards against the failure modes that sink most change work. Projects reach for training because it is easy to schedule, but training people who have no Desire produces capable people who will not use what they learned, so the skill diagnoses Desire before Knowledge. It refuses a single org-wide score, since different groups are stuck in different places and an average hides that. And it checks Reinforcement, the block teams skip when they declare victory at go-live and then watch people drift back. ADKAR covers the individual side; `kotter-change` covers the organizational steps of leading the change, and the two run well together.
 
+## Starting
+
+**You provide:** the specific change being made and who is making it (affected groups and history are optional but sharpen the read). Invoke with something like "Run an ADKAR analysis on why field sales aren't adopting our new CRM".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the five elements, the barrier-point logic, and the pitfalls are in [references/adkar.md](references/adkar.md).

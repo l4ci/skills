@@ -4,4 +4,12 @@ Blue Ocean Strategy (Kim and Mauborgne, 2005) is about getting out of crowded ma
 
 This skill runs the analysis in parallel. First it maps the strategy canvas: the buyer-valued factors the industry competes on and how each player scores on them. Then it dispatches four subagents, one per action of the ERRC grid (eliminate, reduce, raise, create), each proposing concrete moves with the cost and value effect spelled out. A synthesis pass then assembles the new value curve, checks that the move actually cuts cost as well as lifting value, and tests it for focus, divergence, and a tagline. The output is a saved markdown report with the strategy canvas, the ERRC grid, the new value curve, and the risks the move carries.
 
-The framework is easy to do half of, and half of it does not work. A move that only raises and creates gives buyers more at higher cost, which is differentiation, not a blue ocean; a move that only eliminates and reduces is a discount play rivals match on price. The skill guards against both by forcing all four actions and checking the cost side at synthesis, and it flags a me-too curve that tracks the rivals' rather than diverging from them. It pairs with porters-five-forces and swot-analysis: those read the competitive structure as it stands, while this one is the move that changes which factors the competition runs on. The procedure is in [SKILL.md](SKILL.md); value innovation, the ERRC grid, the six paths, and the pitfalls are in [references/blue-ocean.md](references/blue-ocean.md).
+The framework is easy to do half of, and half of it does not work. A move that only raises and creates gives buyers more at higher cost, which is differentiation, not a blue ocean; a move that only eliminates and reduces is a discount play rivals match on price. The skill guards against both by forcing all four actions and checking the cost side at synthesis, and it flags a me-too curve that tracks the rivals' rather than diverging from them. It pairs with porters-five-forces and swot-analysis: those read the competitive structure as it stands, while this one is the move that changes which factors the competition runs on.
+
+## Starting
+
+**You provide:** the company or product and the industry it competes in (current positioning and competitors are optional but help). Invoke with something like "Run a Blue Ocean analysis on how our budget gym chain can stop competing on price".
+
+See [references/example.md](references/example.md) for a worked example.
+
+The procedure is in [SKILL.md](SKILL.md); value innovation, the ERRC grid, the six paths, and the pitfalls are in [references/blue-ocean.md](references/blue-ocean.md).

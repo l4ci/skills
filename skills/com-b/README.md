@@ -6,4 +6,10 @@ This skill runs the diagnosis in parallel. Six analyst subagents each take one s
 
 The framework counters one reflex: assuming the problem is motivation. It almost never is. People who fail to perform a behaviour are usually willing but lack the capability or the opportunity, and a motivation campaign aimed at an opportunity gap burns budget and credibility for nothing. The skill checks all three components before concluding, names the reflex explicitly in synthesis, and refuses to map an intervention by intuition: a capability gap is closed by training, not persuasion; an opportunity gap by changing the environment, not by telling people what they already know. It also insists the behaviour be defined as a concrete action by a concrete actor, because a vague goal cannot be diagnosed at all.
 
+## Starting
+
+**You provide:** the target behaviour (one concrete action, who does what, when, where) and the actor expected to perform it; context on what's been tried is optional. Something like "use COM-B to work out why engineers aren't logging near-misses".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the behaviour definition, the six sub-components, the nine intervention functions, and the deficit-to-function mapping are in [references/com-b.md](references/com-b.md).

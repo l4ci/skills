@@ -8,4 +8,10 @@ This skill runs Fermi estimation inside an agent and parallelizes it. It fans ou
 
 Pairs with [reference-class-forecasting](../reference-class-forecasting/) as the inside-view approach: Fermi builds the estimate up from components, while reference-class anchors it on how similar cases actually turned out. Running both and reconciling them is a strong cross-check.
 
+## Starting
+
+**You provide:** the quantity to estimate, stated with its units; the precision you need and any real numbers you already have are optional. Something like "Fermi-estimate the UK market for electric cargo bikes".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The skill itself lives in [SKILL.md](SKILL.md).

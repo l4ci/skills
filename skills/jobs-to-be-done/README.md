@@ -6,4 +6,10 @@ This skill frames the job first, then runs the analysis in parallel. After defin
 
 Three mistakes recur with this lens, and the skill checks for each. People confuse the job with their product, so they describe a feature and stay blind to the handyman and the removable hook that compete for the same hole. People think in demographics instead of circumstances, missing that the same person hires different solutions at different moments. And they reduce the job to its functional task, ignoring the emotional and social dimensions that actually tip a customer into switching. To surface the real opportunity, the skill anchors every job to a trigger, carries all three dimensions through, and counts nonconsumption as a competitor. Pairs with value-proposition-canvas, which maps a specific offering onto a job once this analysis has found it.
 
+## Starting
+
+**You provide:** the product, service, or category and the customer it serves; optionally the struggling moment, the segment or market, and the decision the analysis should inform. Something like "what job are customers hiring this for?".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the three dimensions, desired outcomes, the four forces, the job-story format, and the opportunity-scoring formula are in [references/jtbd.md](references/jtbd.md).

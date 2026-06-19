@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. One analyst subagent takes each unit, 
 
 FMEA has well-known traps, and the skill is built to dodge them. The worst is RPN tunnel vision: a catastrophic but rare and currently detectable failure posts a low RPN and gets ignored, so the skill forces an override where any high-severity (S >= 9) mode gets action regardless of its number. The second is over-reliance on detection, padding the analysis with inspection checks that catch failures without preventing them, so the skill favors actions that cut severity or occurrence and reports criticality alongside RPN. It also holds that RPN is an ordinal index, not a measured probability: equal RPNs from different score combinations are not equal risks, and it points to the modern AIAG-VDA Action Priority tables as the fix where a raw cutoff misleads.
 
+## Starting
+
+**You provide:** the process, product, or design under analysis and its boundary (what's in scope, what's assumed reliable outside); type, failure history, and existing controls are optional. Something like "run an FMEA on our vaccine cold-chain delivery process".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the seven columns, the three anchored scales, the RPN and criticality math, the action-priority rules, and the pitfalls are in [references/fmea.md](references/fmea.md).

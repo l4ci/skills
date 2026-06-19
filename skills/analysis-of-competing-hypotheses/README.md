@@ -8,4 +8,10 @@ This skill runs ACH inside an agent and parallelizes it. It fans out subagents t
 
 Pairs with [storm-research](../storm-research/): STORM gathers the evidence and the perspectives, and ACH decides which explanation that evidence supports.
 
+## Starting
+
+**You provide:** the truth question with rival explanations (any evidence you already hold, and who acts on the answer, are optional). Invoke with something like "Run an ACH on what's really behind our Q2 churn spike".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The skill itself lives in [SKILL.md](SKILL.md).

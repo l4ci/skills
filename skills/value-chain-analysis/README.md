@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. One analyst subagent takes each activi
 
 Two guardrails: every activity is assessed for cost and value rather than merely described, and advantage is always judged relative to competitors, since doing something well is no edge if every rival does it as well.
 
+## Starting
+
+**You provide:** the company or business unit and the strategy it pursues (cost leadership or differentiation), both required, plus optional competitors and known concerns. Something like "run a value chain analysis on our coffee roastery."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the activities, what to assess, and the role of linkages are in [references/value-chain.md](references/value-chain.md).

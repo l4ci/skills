@@ -6,4 +6,10 @@ This skill runs the audit in parallel. Five hunter subagents each take one bias 
 
 The framework fails in three predictable ways, and the skill is built around them. People label biases generically with no evidence any of them operate here, which is spotting theater. People audit everyone else's reasoning and never their own. And people reach for "that's just confirmation bias" to wave away a conclusion they simply dislike. The guard is the same throughout: every flagged bias must quote the actual reasoning where it shows up, the findings are severity-ranked to this decision rather than left flat, and the prescriptions are process changes rather than "just be aware." A bias label marks where the process is exposed; it is not by itself a refutation, so the audit ends with what survives it, not with the conclusion thrown out.
 
+## Starting
+
+**You provide:** the decision being made and the reasoning behind it (both required; the stakes are optional and sharpen the ranking). Invoke with something like "Audit our decision to acquire this competitor for cognitive biases".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the bias families, their tells, the countermeasures, and the debiasing toolkit are in [references/biases.md](references/biases.md).

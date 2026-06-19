@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. Four strategist subagents each work on
 
 Two guardrails keep it honest: options must be concrete rather than restatements of a quadrant, and capability fit is treated as a source of risk equal to market novelty, since a move is only as good as the firm's ability to execute it.
 
+## Starting
+
+**You provide:** the company or product seeking growth (a growth objective and current markets/capabilities are optional but valuable). Invoke with something like "Work up an Ansoff matrix for our meal-kit subscription".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the four strategies, their risk profiles, and the pitfalls are in [references/ansoff.md](references/ansoff.md).

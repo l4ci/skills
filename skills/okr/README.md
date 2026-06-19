@@ -6,4 +6,10 @@ This skill facilitates one drafting cycle. It clarifies the objective as a direc
 
 The critics exist because of where OKRs usually go wrong. Key results drift into task lists that can all be done while the objective still fails. Objectives turn into vanity statements that sound good and commit to nothing. And targets get sandbagged so every score comes in at 1.0. The skill names committed versus aspirational OKRs so a 0.7 reads correctly, and it keeps scoring separate from compensation, since tying the two together pushes teams to sandbag their targets. OKRs are the goal-setting layer. Works alongside the balanced-scorecard skill for the wider performance-measurement frame.
 
+## Starting
+
+**You provide:** the level and period (company, team, or individual; e.g. Q3 2026), and optionally the strategy these align to and your current situation. Something like "Help us draft Q3 OKRs for the customer-success team".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the anatomy, scoring, and pitfalls are in [references/okr.md](references/okr.md).

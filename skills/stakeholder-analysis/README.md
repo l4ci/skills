@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. First it builds the stakeholder list w
 
 Three failures show up again and again, and the skill guards against each. Power and interest get treated as one thing, so a loud stakeholder with no real lever ends up managed like a decision-maker; the two axes are scored separately. Stance gets assumed instead of checked, so a silent blocker is mistaken for a supporter until it is too late; unknown stances are marked unknown, not read as neutral. And the map gets treated as permanent, when power, interest, and stance all move with each decision; the report is dated and meant to be re-run at milestones.
 
+## Starting
+
+**You provide:** the initiative whose stakeholders you're mapping (and any context on its phase and known tensions). Something like "Do a stakeholder analysis for our move to a four-day work week".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the two axes, the four quadrants, and the pitfalls are in [references/stakeholders.md](references/stakeholders.md).

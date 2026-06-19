@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. It first breaks the situation into its
 
 The framework has one main failure mode, and the skill is built around it: misdiagnosing the domain. Applying a best-practice recipe to a Complex problem fails outright. Over-analyzing a Complex problem also fails, just slower and more expensively, because the answer is emergent and cannot be known in advance. Most stuck plans are Complex problems being managed as merely Complicated ones. The skill guards against this by classifying each issue against the diagnostic questions and naming, for every placement, what would go wrong if it were treated as belonging to the neighboring domain. It also watches the cliff, where complacency about a settled, well-understood thing risks a sudden fall into chaos, and keeps Disorder visible, since that is where people default to their comfort domain.
 
+## Starting
+
+**You provide:** the situation, decision, or mess to make sense of; context on what's been tried and the stakes is optional. Something like "run a Cynefin analysis on our billing-platform migration".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the five domains, their decision models, the diagnostic questions, the cliff, and the movement between domains are in [references/cynefin.md](references/cynefin.md).

@@ -10,4 +10,10 @@ It is the long form (240 items, roughly 30 to 40 minutes); there is no public-do
 
 This is a non-clinical self-report questionnaire, not a diagnostic tool.
 
+## Starting
+
+**You provide:** nothing; it interviews you, presenting the 240 items in batches and scoring your answers. Say something like "give me a HEXACO test".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the item bank, keying, and scoring rules are in [references/items.md](references/items.md), which cites the public-domain source.

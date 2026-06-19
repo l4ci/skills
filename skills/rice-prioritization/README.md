@@ -6,4 +6,10 @@ This skill runs the scoring in parallel. It first calibrates with the user: the 
 
 Four mistakes recur, and the skill guards against each. People treat Reach as a measured fact when it is a guess about the future; they skip Confidence, the very factor that penalizes wishful thinking; they underestimate Effort, which sits in the denominator and silently inflates the score; and they compare items whose Reach uses different time windows. Calibration catches the window and goal mismatches, Confidence stays mandatory and caps below-50% items at "go validate," and the synthesis varies Confidence and Effort, the two factors that swing the ranking hardest, to flag any high-rank item that rests on an optimistic estimate as "validate before committing."
 
+## Starting
+
+**You provide:** the backlog of initiatives to rank, plus the one goal Impact is measured against. A phrase like "Run RICE on our Q3 backlog."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the formula, the four factors, their scales, the Confidence bias check, and the pitfalls are in [references/rice.md](references/rice.md).

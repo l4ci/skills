@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. Nine analyst subagents each take one b
 
 The framework fails in predictable ways, and the skill is built around them. People fill the nine boxes and never check that the boxes agree, so a premium offer ends up bolted to a bargain cost base or a high-touch relationship to a low-value segment. People also write down what they wish were true as if it were settled, which buries the very risk a young model most needs to see. Separating fact from assumption in each block, and ranking the contradictions in synthesis, is how the skill surfaces both. It also holds the line that a canvas is a model of the business, not a plan for it: no forecasts, no roadmaps, just whether the model hangs together.
 
+## Starting
+
+**You provide:** one defined business, product, or venture to model (stage and market context are optional and shape which assumptions matter). Invoke with something like "Map the business model canvas for our B2B invoicing SaaS".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the nine blocks, the fit logic, and the pitfalls are in [references/canvas.md](references/canvas.md).

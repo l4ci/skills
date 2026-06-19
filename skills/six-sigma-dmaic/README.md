@@ -6,4 +6,10 @@ This skill facilitates the five phases with gate checks, holding each phase unti
 
 For a lighter, faster improvement loop without heavy measurement, the PDCA cycle is the better fit; DMAIC is for when data is available and rigor matters.
 
+## Starting
+
+**You provide:** the process and what's wrong with it (and, if you have them, the available data, the customer's requirement, and the process owner). Something like "Run a DMAIC to cut the scrap rate on our molding line".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the five phases and their gate questions are in [references/dmaic.md](references/dmaic.md).

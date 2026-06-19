@@ -6,4 +6,10 @@ This skill runs the analysis in parallel. Three analyst subagents each take one 
 
 Two distinctions keep it honest: horizons are stages of maturity, not calendar periods, so a long-dated project already winning customers is Horizon 2; and an empty Horizon 3 is treated as a finding (no future options), not a section to skip.
 
+## Starting
+
+**You provide:** the organization in scope and, ideally, its current and proposed initiatives (plus any context on growth ambition and industry pace). Something like "Map our product portfolio onto the three horizons".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the three horizons, the balance and pipeline logic, and the pitfalls are in [references/three-horizons.md](references/three-horizons.md).

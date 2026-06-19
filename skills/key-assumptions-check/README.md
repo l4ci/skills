@@ -8,4 +8,10 @@ This skill runs KAC inside an agent and parallelizes it. It fans out subagents t
 
 Pairs with [analysis-of-competing-hypotheses](../analysis-of-competing-hypotheses/): ACH tests which hypothesis the evidence supports, while KAC tests the assumptions both the analysis and the evidence rest on. Works alongside the [pre-mortem](../pre-mortem/), which imagines those fragile premises actually failing.
 
+## Starting
+
+**You provide:** the analysis, plan, claim, or forecast to check (the reasoning, or the conclusion with its main supporting argument); optionally the domain and stakes, and who relies on it. Something like "what are we assuming here?".
+
+See [references/example.md](references/example.md) for a worked example.
+
 The skill itself lives in [SKILL.md](SKILL.md).

@@ -6,4 +6,10 @@ This skill runs the read in parallel. Five analyst subagents each take one domai
 
 SCARF gets misapplied in three ways, and the skill guards against each. People treat SCARF as hard science and report severities as if they were measured, when it is a heuristic for noticing social threat, not an instrument. People fix one domain while the real threat sits in another, polishing a plan when the wound was that no one was consulted. And people fall back on generic advice like "communicate more" instead of a domain-specific move. The skill caveats the science throughout, ranks by which domain carries the biggest threat, and forces every fix to name a domain and a concrete action. It also keeps the asymmetry in view: a threat fires harder than a reward, so removing one usually beats adding another.
 
+## Starting
+
+**You provide:** one concrete situation (a change, message, or decision) and, where you can, who is affected and from whose point of view to read the threat. A phrase like "Use SCARF on the reorg announcement I'm about to send."
+
+See [references/example.md](references/example.md) for a worked example.
+
 The procedure is in [SKILL.md](SKILL.md); the five domains, their threat and reward triggers, the levers, and the pitfalls are in [references/scarf.md](references/scarf.md).
