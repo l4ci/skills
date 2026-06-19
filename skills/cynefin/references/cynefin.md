@@ -12,7 +12,7 @@ Each domain has its own decision model, a fixed sequence of moves, and its own k
 | **Complicated** | Known unknowns | Knowable through analysis or expertise | Sense → Analyze → Respond | Good practice |
 | **Complex** | Unknown unknowns | Coherent only in retrospect | Probe → Sense → Respond | Emergent practice |
 | **Chaotic** | Unknowable | No discernible relationship | Act → Sense → Respond | Novel practice |
-| **Disorder** | Unknown which | You don't know which domain you are in | Break into parts and classify each | — |
+| **Disorder** | Unknown which | You don't know which domain you are in | Break into parts and classify each |: |
 
 ---
 

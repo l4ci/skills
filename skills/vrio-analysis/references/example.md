@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`vrio-analysis-<firm-slug>-<date>.md`) with a summary table of each resource's V/R/I/O answers and competitive implication, per-resource detail with the inimitability mechanism, the strategic core, the fixable (valuable/rare/inimitable but unorganized) gaps, eroding edges, and strategic moves.
 
-**See a full worked example:** [vrio-analysis-lumen-analytics-2026-06-19.md](vrio-analysis-lumen-analytics-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [vrio-analysis-lumen-analytics-2026-06-19.md](vrio-analysis-lumen-analytics-2026-06-19.md), the report this invocation produces.

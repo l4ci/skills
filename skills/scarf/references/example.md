@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`scarf-<subject>-<date>.md`) with a verdict and a per-domain threat/reward summary table, the five domain reads (Status, Certainty, Autonomy, Relatedness, Fairness) with evidence and levers, the ranked threats with a cross-domain check, and the two or three highest-leverage moves to make first.
 
-**See a full worked example:** [scarf-squad-merger-reorg-2026-06-19.md](scarf-squad-merger-reorg-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [scarf-squad-merger-reorg-2026-06-19.md](scarf-squad-merger-reorg-2026-06-19.md), the report this invocation produces.

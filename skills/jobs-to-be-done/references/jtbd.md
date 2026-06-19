@@ -2,7 +2,7 @@
 
 People do not want a product. They want to make progress in a struggling moment. They "hire" a solution to get a job done, and "fire" it when something does the job better. The unit of analysis is the **job in a circumstance**, not the customer's demographics and not the product.
 
-"People don't want a quarter-inch drill, they want a quarter-inch hole" — and really, they want the progress the hole enables (a shelf, a hung picture, a finished room). The job is solution-agnostic and stable over time; products and technologies come and go. A drill, a hook, an adhesive strip, and a handyman all compete for the same hole.
+"People don't want a quarter-inch drill, they want a quarter-inch hole", and really, they want the progress the hole enables (a shelf, a hung picture, a finished room). The job is solution-agnostic and stable over time; products and technologies come and go. A drill, a hook, an adhesive strip, and a handyman all compete for the same hole.
 
 A job is anchored to a circumstance: **when [situation], a person struggling to make some progress.** Two people with identical demographics can have different jobs in different moments; one person can have different jobs at different moments. Profile the circumstance, not the person.
 
@@ -10,7 +10,7 @@ A job is anchored to a circumstance: **when [situation], a person struggling to 
 
 Every job has three dimensions at once. Most analyses see only the first and miss the switch that the other two drive.
 
-1. **Functional.** The practical task to accomplish — the objective, measurable work. "Get a hole in the wall." "Get to the meeting on time." This is the dimension products are usually designed for.
+1. **Functional.** The practical task to accomplish, the objective, measurable work. "Get a hole in the wall." "Get to the meeting on time." This is the dimension products are usually designed for.
 2. **Emotional.** How the person wants to feel, or to stop feeling, while making progress. Reassurance, control, confidence, relief from anxiety or guilt. "Feel competent doing my own repairs rather than helpless."
 3. **Social.** How the person wants to be perceived by others. Status, belonging, being seen as responsible, modern, or capable. "Look like the kind of parent who keeps a tidy home."
 
@@ -35,7 +35,7 @@ What does the person hire today? List the full set, not just direct rivals:
 - **Direct competitors** in the same category.
 - **Indirect / cross-category** solutions that do the same job a different way (a drill versus a handyman versus a removable hook).
 - **Workarounds** the person cobbles together (a nail and a hammer, a spreadsheet, a manual checklist). Workarounds are the loudest signal of an underserved job.
-- **Nonconsumption** — doing nothing, putting up with the problem, or abandoning the job. Often the largest competitor and the one most overlooked. The real competition is rarely just the named rivals; it is whatever the person does *instead*, including nothing.
+- **Nonconsumption**: doing nothing, putting up with the problem, or abandoning the job. Often the largest competitor and the one most overlooked. The real competition is rarely just the named rivals; it is whatever the person does *instead*, including nothing.
 
 ## The four forces of progress
 
@@ -50,7 +50,7 @@ A switch occurs only when **Push + Pull > Anxiety + Habit**. Most product thinki
 
 ## The job story
 
-Capture the job in one line that names situation, motivation, and expected outcome — and names no solution:
+Capture the job in one line that names situation, motivation, and expected outcome: and names no solution:
 
 > **When [situation], I want to [motivation], so I can [expected outcome].**
 
@@ -65,7 +65,7 @@ Rank desired outcomes to find where to focus. For each outcome, gather two ratin
 - **Importance**: how important is this outcome to the customer.
 - **Satisfaction**: how well are current solutions delivering it today.
 
-The opportunity is highest where importance is high and satisfaction is low — the **underserved** outcomes.
+The opportunity is highest where importance is high and satisfaction is low, the **underserved** outcomes.
 
 > **Opportunity = Importance + max(Importance − Satisfaction, 0)**
 

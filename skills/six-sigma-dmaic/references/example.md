@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown project document (`six-sigma-dmaic-injection-molding-<date>.md`) covering all five phases (Define, Measure, Analyze, Improve, Control) with proven root causes, a pilot result, a control plan, and a record that each phase gate was answered.
 
-**See a full worked example:** [six-sigma-dmaic-injection-molding-2026-06-19.md](six-sigma-dmaic-injection-molding-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [six-sigma-dmaic-injection-molding-2026-06-19.md](six-sigma-dmaic-injection-molding-2026-06-19.md), the report this invocation produces.

@@ -83,9 +83,9 @@ Render the calculation as a table so it is auditable:
 
 | Factor | Low | Best | High | Basis |
 |---|---|---|---|---|
-| F1 — households (M) | 120 | 130 | 140 | census anchor |
-| F2 — fraction with a pet | 0.5 | 0.6 | 0.7 | survey, rough |
-| F3 — vet visits / yr | 1 | 2 | 4 | guess, wide |
+| F1: households (M) | 120 | 130 | 140 | census anchor |
+| F2: fraction with a pet | 0.5 | 0.6 | 0.7 | survey, rough |
+| F3: vet visits / yr | 1 | 2 | 4 | guess, wide |
 | … | | | | |
 | **Result** | **~?** | **~?** | **~?** | product |
 

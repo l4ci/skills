@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report leading with the ranked hypotheses and their relative likelihoods, the auditable scoring matrix, the linchpin evidence the verdict depends on, and indicators to watch that would change the answer.
 
-**See a full worked example:** [analysis-of-competing-hypotheses-q2-enterprise-churn-2026-06-19.md](analysis-of-competing-hypotheses-q2-enterprise-churn-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [analysis-of-competing-hypotheses-q2-enterprise-churn-2026-06-19.md](analysis-of-competing-hypotheses-q2-enterprise-churn-2026-06-19.md), the report this invocation produces.

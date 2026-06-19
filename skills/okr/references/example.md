@@ -10,4 +10,4 @@
 
 **You get back:** a saved OKR document (`okr-customer-success-<date>.md`) with the qualitative objectives, 3-5 measurable key results each (baseline and target), the ambition level, owners, cadence and scoring, an alignment view, and a log of what the stress-test critics found and how the key results were revised.
 
-**See a full worked example:** [okr-customer-success-2026-06-19.md](okr-customer-success-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [okr-customer-success-2026-06-19.md](okr-customer-success-2026-06-19.md), the report this invocation produces.

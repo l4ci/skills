@@ -44,9 +44,9 @@ A percentage that discounts shaky estimates. It is the built-in bias check: it e
 
 | Confidence | Meaning |
 |---|---|
-| 100% | High — solid data behind Reach, Impact, and Effort |
-| 80% | Medium — some data, some judgment |
-| 50% | Low — a moonshot, mostly assumption |
+| 100% | High: solid data behind Reach, Impact, and Effort |
+| 80% | Medium: some data, some judgment |
+| 50% | Low: a moonshot, mostly assumption |
 
 Below 50% means the estimate is too speculative to score. Do not score it lower; go validate it first, then score it once there is something to score. Skipping or ignoring Confidence is a failure mode in its own right: dropping the factor turns RICE back into the loudest-voice ranking it was built to replace.
 
@@ -59,7 +59,7 @@ Underestimating Effort is the most common bias and the one that does the most da
 ## Pitfalls to guard against
 
 - **False precision in Reach.** Reach is an estimate dressed as a number. Carry it as a range or a stated assumption, not a measured fact, and let Confidence absorb the uncertainty.
-- **Skipping or ignoring Confidence.** Confidence is the bias check; an item scored without it is an item with no penalty for being a guess. Always apply it, and never score an item below 50% confidence — validate instead.
+- **Skipping or ignoring Confidence.** Confidence is the bias check; an item scored without it is an item with no penalty for being a guess. Always apply it, and never score an item below 50% confidence: validate instead.
 - **Underestimating Effort.** The denominator's the easiest place to flatter a favored project. A low Effort estimate is the single biggest source of a rigged ranking.
 - **Mismatched time windows in Reach.** Reach on different windows is not comparable. Fix one window in calibration and hold every item to it.
 - **Mismatched goals in Impact.** Impact is impact on one named goal. Different goals across items make the Impact column meaningless.

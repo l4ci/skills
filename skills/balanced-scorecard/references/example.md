@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report with the four-perspective scorecard table (objectives, leading/lagging measures, targets, initiatives), a bottom-up strategy map, per-perspective detail, and flagged broken cause-effect links.
 
-**See a full worked example:** [balanced-scorecard-northwind-2026-06-19.md](balanced-scorecard-northwind-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [balanced-scorecard-northwind-2026-06-19.md](balanced-scorecard-northwind-2026-06-19.md), the report this invocation produces.

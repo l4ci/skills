@@ -1,8 +1,8 @@
-# SWOT & TOWS — FreshFork
+# SWOT & TOWS: FreshFork
 
 > _Illustrative example output for the `swot-analysis` skill. FreshFork is a fictional company; every figure, competitor detail, and market claim below is invented to demonstrate the report's shape, not researched. Do not cite these numbers._
 
-- **Subject:** FreshFork — a regional meal-kit delivery startup serving the Pacific Northwest.
+- **Subject:** FreshFork, a regional meal-kit delivery startup serving the Pacific Northwest.
 - **Objective:** Decide whether to expand into California within the next 12 months.
 - **Date:** 2026-06-19
 - **Context:** HelloFresh and a local PNW grocery chain are the main competitors; gross margins are tight (~28%); cold-chain logistics are the operational weak spot; a recent seed round leaves ~18 months of runway.
@@ -51,7 +51,7 @@ The first three are real strengths **for the PNW**. The decision hinges on which
 | Factor | Statement | Evidence / reasoning | Mag | Lik | Conf |
 |---|---|---|---|---|---|
 | Underserved NorCal demand | Bay Area + Sacramento meal-kit penetration leaves a sizable unserved premium segment | Category-penetration estimate; plausible but not measured | 5 | 4 | Low |
-| Premium WTP | CA buyers pay up for local/organic — FreshFork's exact positioning | Demographic analogy to the PNW base | 4 | 3 | Low |
+| Premium WTP | CA buyers pay up for local/organic: FreshFork's exact positioning | Demographic analogy to the PNW base | 4 | 3 | Low |
 | Retail-shelf channel | A grocery-shelf SKU could acquire CA customers without standing up full delivery first | Common meal-kit pivot (e.g., the HelloFresh retail move) | 3 | 3 | Med |
 
 ### Threats (external, harmful)
@@ -66,12 +66,12 @@ The first three are real strengths **for the PNW**. The decision hinges on which
 
 ## 3. TOWS strategy matrix
 
-*Validation note:* "underserved NorCal demand" was initially listed as a strength — corrected to an Opportunity (it is an external market condition, not an attribute FreshFork owns). No other misfilings.
+*Validation note:* "underserved NorCal demand" was initially listed as a strength: corrected to an Opportunity (it is an external market condition, not an attribute FreshFork owns). No other misfilings.
 
 | | **Opportunities** | **Threats** |
 |---|---|---|
 | **Strengths** | **SO (offensive):** Enter **one** dense NorCal metro (Bay Area) only, replicating the PNW route-density playbook so the cost moat transfers instead of evaporating across a sprawl. Lead with the local-sourcing brand against CA's premium WTP. | **ST (defensive):** Compete on hyper-local sourcing and service quality where HelloFresh is generic and national; do not fight on price or breadth against its ad budget. |
-| **Weaknesses** | **WO (improvement):** Test CA demand via the **retail-shelf channel first** — capture premium WTP without exposing the fragile cold-chain to new long-haul routes. A capital-light probe. | **WT (survival):** Do **not** attempt a full multi-metro CA delivery launch on 18 months of runway. Protect the core PNW business; a failed CA cold-chain at thin margins is an existential, not a setback. |
+| **Weaknesses** | **WO (improvement):** Test CA demand via the **retail-shelf channel first**: capture premium WTP without exposing the fragile cold-chain to new long-haul routes. A capital-light probe. | **WT (survival):** Do **not** attempt a full multi-metro CA delivery launch on 18 months of runway. Protect the core PNW business; a failed CA cold-chain at thin margins is an existential, not a setback. |
 
 ---
 
@@ -89,9 +89,9 @@ Scored by impact on the expansion decision × feasibility on current runway.
 
 ## 5. Verdict
 
-**A full California delivery expansion within 12 months is the wrong move on the current balance sheet.** FreshFork's strengths are real but *geographically bound* — route density and a local-sourcing brand do not survive a 600-mile jump intact — while its three largest weaknesses (fragile cold-chain, thin margins, finite runway) are exactly what a CA launch stresses, and they meet the market's two largest threats (HelloFresh's scale, CA's cost and regulatory load) head-on.
+**A full California delivery expansion within 12 months is the wrong move on the current balance sheet.** FreshFork's strengths are real but *geographically bound*: route density and a local-sourcing brand do not survive a 600-mile jump intact, while its three largest weaknesses (fragile cold-chain, thin margins, finite runway) are exactly what a CA launch stresses, and they meet the market's two largest threats (HelloFresh's scale, CA's cost and regulatory load) head-on.
 
-The defensible path is **staged**: prove CA demand through a capital-light retail-shelf or single-cluster probe (Rec 1), and only graduate to a single dense-metro delivery launch (Rec 2) if the probe clears pre-set kill-criteria with the next raise lined up (Rec 4). The question "should we expand to California in 12 months?" resolves to: *not as a delivery business — but yes, begin a low-cost test that could justify it in 18–24.*
+The defensible path is **staged**: prove CA demand through a capital-light retail-shelf or single-cluster probe (Rec 1), and only graduate to a single dense-metro delivery launch (Rec 2) if the probe clears pre-set kill-criteria with the next raise lined up (Rec 4). The question "should we expand to California in 12 months?" resolves to: *not as a delivery business, but yes, begin a low-cost test that could justify it in 18–24.*
 
 ---
 
@@ -99,5 +99,5 @@ The defensible path is **staged**: prove CA demand through a capital-light retai
 
 - SWOT is qualitative and only as good as its inputs and its objective; this analysis is a **snapshot**, not a forecast.
 - Magnitudes and likelihoods are **judgment, not measurement**. The low-confidence external factors (NorCal demand size, premium WTP) are the ones most worth replacing with real data before committing capital.
-- The four lists are inert on their own — the **TOWS crossing** into ranked options is the deliverable.
+- The four lists are inert on their own, the **TOWS crossing** into ranked options is the deliverable.
 - All figures here are illustrative for documentation purposes and were not researched.

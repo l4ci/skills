@@ -85,9 +85,9 @@ The cell that matters most is low confidence and high impact. Render the matrix 
 
 | Assumption | Confidence | Basis | If wrong, impact | Class |
 |---|---|---|---|---|
-| A1 — vendor delivers API by Q3 | low | vendor's verbal commitment only | launch slips a quarter (high) | unsupported |
-| A2 — churn stays below 3% | medium | 4 quarters of history | revenue model off ~15% (high) | caveated |
-| A3 — users have broadband | high | usage analytics (med) | minor (low) | solid |
+| A1: vendor delivers API by Q3 | low | vendor's verbal commitment only | launch slips a quarter (high) | unsupported |
+| A2: churn stays below 3% | medium | 4 quarters of history | revenue model off ~15% (high) | caveated |
+| A3: users have broadband | high | usage analytics (med) | minor (low) | solid |
 | … | | | | |
 
 ## Stage 5: Linchpins and gaps (PARALLEL)

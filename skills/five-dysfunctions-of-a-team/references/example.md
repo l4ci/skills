@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`five-dysfunctions-of-a-team-<team-slug>-<date>.md`) with the pyramid scored layer by layer, the lowest broken layer named as the binding constraint, the cascade showing how it surfaces higher up, and interventions sequenced from the base upward.
 
-**See a full worked example:** [five-dysfunctions-of-a-team-product-leadership-2026-06-19.md](five-dysfunctions-of-a-team-product-leadership-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [five-dysfunctions-of-a-team-product-leadership-2026-06-19.md](five-dysfunctions-of-a-team-product-leadership-2026-06-19.md), the report this invocation produces.

@@ -1,7 +1,7 @@
 # Example: negotiation-prep
 
 **You invoke it with:**
-> "Help me prepare for my salary negotiation — I got a senior engineer offer and want to push on the number"
+> "Help me prepare for my salary negotiation, I got a senior engineer offer and want to push on the number"
 
 **It needs from you:**
 - NEGOTIATION (required): negotiating a base-salary increase on a senior backend engineer offer from Meridian Health (a 400-person health-tech firm); the offer is $165k and I report to the VP of Engineering, who has sign-off
@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`negotiation-prep-meridian-offer-<date>.md`) with a verdict on whether a deal is reachable, both sides' interests, both BATNAs and the mapped ZOPA, a move plan (anchor, concessions, objective criteria, responses to likely tactics), and the assumptions worth testing first.
 
-**See a full worked example:** [negotiation-prep-meridian-offer-2026-06-19.md](negotiation-prep-meridian-offer-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [negotiation-prep-meridian-offer-2026-06-19.md](negotiation-prep-meridian-offer-2026-06-19.md), the report this invocation produces.

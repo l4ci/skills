@@ -10,4 +10,4 @@
 
 **You get back:** a briefing-style markdown report with a bottom line on how sound the foundation is, the assumption register as a confidence-vs-impact table, the named linchpins, unsupported assumptions each with a next action, caveats to carry, and indicators to monitor.
 
-**See a full worked example:** [key-assumptions-check-germany-expansion-2026-06-19.md](key-assumptions-check-germany-expansion-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [key-assumptions-check-germany-expansion-2026-06-19.md](key-assumptions-check-germany-expansion-2026-06-19.md), the report this invocation produces.

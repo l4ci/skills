@@ -1,8 +1,8 @@
-# DMAIC — Injection-Molding Phone-Case Line
+# DMAIC: Injection-Molding Phone-Case Line
 
 > _Illustrative example output for the `six-sigma-dmaic` skill. This molding line is fictional; every figure, name, and claim below is invented to demonstrate the report's shape, not researched. Do not cite these numbers._
 
-- **Process:** Injection-molding cell producing TPU/PC phone cases (the molding cell only — not downstream assembly).
+- **Process:** Injection-molding cell producing TPU/PC phone cases (the molding cell only, not downstream assembly).
 - **Date:** 2026-06-19
 - **Project owner:** Second-shift line lead (Marisol R.); sponsor is the plant quality manager.
 - **Data source:** MES scrap log (per-shift, per-reason), 12 weeks pulled for baseline.
@@ -15,7 +15,7 @@
 
 Visible cosmetic defects (flash and short shots) on the phone-case molding line have risen from roughly 3% of units scrapped (Q2 2025) to about 8% (trailing 12 weeks ending 2026-06-13), measured at the molding cell's outfeed inspection. The increase is sustained, not a single bad lot.
 
-*No presumed cause and no solution is stated in the problem.* The earlier draft — "8% scrap because the molds are worn" — had a cause baked in; it was stripped. Mold wear is a hypothesis for Analyze, not a premise.
+*No presumed cause and no solution is stated in the problem.* The earlier draft, "8% scrap because the molds are worn", had a cause baked in; it was stripped. Mold wear is a hypothesis for Analyze, not a premise.
 
 ### Goal and target
 
@@ -45,7 +45,7 @@ Flash and short shots are the two reasons driving the rise; surface finish is st
 |---|---|---|---|---|
 | Resin vendor; masterbatch vendor; tooling shop; maintenance | TPU/PC resin + colorant; mold tool; machine (clamp/inject/cool); operator setup | Dry → load → inject → pack/hold → cool → eject → visual check | Molded case (pass) or scrap (flash/short) | Assembly cell → retail brand |
 
-### Gate — Define
+### Gate: Define
 
 **Is the problem clear, measurable, and worth solving?** Yes. The defect is defined, the rise is quantified against a baseline period, scope is bounded to the molding cell, and at ~8% scrap on a high-volume line the cost of poor quality clearly justifies the project. No solution is presumed. **Gate passed.**
 
@@ -68,7 +68,7 @@ Twelve weeks of existing MES scrap records pulled (3 shifts × 7 days). Each scr
 The reason codes are **operator-entered**, so the system was sanity-checked before trusting it:
 
 - QA re-inspected 300 logged scrap parts. Reason-code agreement with QA: **flash 96%, short shot 91%**, with the main confusion being short shots mis-tagged as "other." Agreement is adequate to proceed; "other" is treated cautiously.
-- Total-units denominator comes from the machine cycle counter, independently verified against the day's good-part tally — within 0.4%.
+- Total-units denominator comes from the machine cycle counter, independently verified against the day's good-part tally: within 0.4%.
 
 Verdict: the metric is trustworthy enough for baselining. The known weak spot (the "other" bucket) is flagged for Analyze.
 
@@ -86,7 +86,7 @@ Variation is **not uniform.** Two patterns stand out in the baseline and are car
 - **By machine:** M3 runs ~13% cosmetic scrap; M1/M2/M4 run ~5–6%. M3 is an outlier.
 - **By shift:** night shift runs ~2 points higher than day, concentrated in the first two hours.
 
-### Gate — Measure
+### Gate: Measure
 
 **Do we trust the baseline?** Yes. The metric is defined, the measurement system was checked (code agreement ≥91% on the two relevant defects, denominator verified), and a baseline with its variation (machine and shift signals) is established. **Gate passed.**
 
@@ -126,15 +126,15 @@ Four analyst lenses were run in parallel, each returning candidate causes with r
 
 ### Proven root causes (the vital few)
 
-1. **C1 — M3 clamp tonnage running below setpoint**, letting the mold breathe open under injection pressure. Primary driver of the flash excess (and most of the machine-level outlier).
-2. **C5 — No standardized cold-start warm-up procedure**, producing short shots in the opening ~90 minutes of each shift, worst on night shift.
-3. **C6 — Operator-to-operator variation in hold pressure/time** (contributing, secondary), widening fill variation.
+1. **C1: M3 clamp tonnage running below setpoint**, letting the mold breathe open under injection pressure. Primary driver of the flash excess (and most of the machine-level outlier).
+2. **C5, No standardized cold-start warm-up procedure**, producing short shots in the opening ~90 minutes of each shift, worst on night shift.
+3. **C6, Operator-to-operator variation in hold pressure/time** (contributing, secondary), widening fill variation.
 
 C2 (mild tool wear) is logged as a watch item. C3, C4, C7, C8 are rejected against data.
 
-### Gate — Analyze
+### Gate: Analyze
 
-**Are the root causes proven, not merely plausible?** Yes — C1, C5, and C6 each pass a data test (tonnage logs, time-since-start correlation, setup-sheet audit), and the four most "plausible-sounding" alternatives (moisture, regrind, humidity, night-training) were **rejected by the data.** This is the gate DMAIC most often fails; it was passed on evidence, not assertion. **Gate passed.**
+**Are the root causes proven, not merely plausible?** Yes, C1, C5, and C6 each pass a data test (tonnage logs, time-since-start correlation, setup-sheet audit), and the four most "plausible-sounding" alternatives (moisture, regrind, humidity, night-training) were **rejected by the data.** This is the gate DMAIC most often fails; it was passed on evidence, not assertion. **Gate passed.**
 
 ---
 
@@ -145,14 +145,14 @@ C2 (mild tool wear) is logged as a watch item. C3, C4, C7, C8 are rejected again
 | Targets | Option | Impact | Feasibility |
 |---|---|---|---|
 | C1 | Recalibrate M3 clamp, fix tonnage-drift cause (worn pressure sensor / hydraulic), add tonnage alarm | High | High (maintenance window) |
-| C1/C2 | Refurbish M3 parting line | Med | Low (tool out of service, cost) — deferred |
+| C1/C2 | Refurbish M3 parting line | Med | Low (tool out of service, cost): deferred |
 | C5 | Standard warm-up: dummy-shot cycle + tool-temp confirm before first good part each shift | High | High |
 | C6 | Lock hold pressure/time per mold in machine recipe; remove operator discretion | Med-High | High |
 | C6 | Operator retrain on setup sheet | Low-Med | High |
 
 ### Selection
 
-Chosen for the pilot — the high-impact / high-feasibility set:
+Chosen for the pilot: the high-impact / high-feasibility set:
 
 - **Recalibrate M3 clamp + add a tonnage low-alarm** (C1).
 - **Standard cold-start warm-up procedure** (C5).
@@ -177,9 +177,9 @@ Parting-line refurbishment (C2) deferred as a watch item; recalibration is expec
 
 Cell-wide projected scrap if rolled to all presses: ~7.4% → **~3.0%**. The change moved the metric, confirmed by data. Cleared for rollout to M1/M2/M4 with the same recipe lock and warm-up standard.
 
-### Gate — Improve
+### Gate: Improve
 
-**Does the pilot move the metric?** Yes — M3 cosmetic scrap fell 13.1% → 3.4% over three weeks with the startup spike eliminated and no regression elsewhere. Confirmed with data before recommending rollout. **Gate passed.**
+**Does the pilot move the metric?** Yes: M3 cosmetic scrap fell 13.1% → 3.4% over three weeks with the startup spike eliminated and no regression elsewhere. Confirmed with data before recommending rollout. **Gate passed.**
 
 ---
 
@@ -206,21 +206,21 @@ Cell-wide projected scrap if rolled to all presses: ~7.4% → **~3.0%**. The cha
 
 Process owner: **second-shift line lead (Marisol R.).** Holds the SOP, the p-chart, and the response rules; reports the weekly scrap number to the quality manager. Project team steps back after the four-week hold is confirmed.
 
-### Gate — Control
+### Gate: Control
 
-**Will the gain hold without the project team?** Yes — the three root-cause fixes are embedded in equipment (alarm), procedure (SOP), and the locked recipe rather than depending on people remembering; monitoring with response rules and a named owner is in place. **Gate passed (pending the four-week hold confirmation).**
+**Will the gain hold without the project team?** Yes: the three root-cause fixes are embedded in equipment (alarm), procedure (SOP), and the locked recipe rather than depending on people remembering; monitoring with response rules and a named owner is in place. **Gate passed (pending the four-week hold confirmation).**
 
 ---
 
-## 6. Phase gates — record
+## 6. Phase gates: record
 
 | Phase | Gate question | Answered |
 |---|---|---|
-| Define | Problem clear, measurable, worth solving? | Yes — defect defined, ~8% vs. 3% baseline, scope bounded, no presumed solution. |
-| Measure | Do we trust the baseline? | Yes — code agreement ≥91% on flash/short, denominator verified, baseline + variation established. |
-| Analyze | Root causes proven, not plausible? | Yes — C1/C5/C6 pass data tests; moisture/regrind/humidity/training rejected by data. |
-| Improve | Does the pilot work? | Yes — M3 13.1% → 3.4% over 3 weeks, confirmed by data. |
-| Control | Will the gain hold without the team? | Yes — alarm + SOP + locked recipe + p-chart + owner; pending 4-week hold. |
+| Define | Problem clear, measurable, worth solving? | Yes: defect defined, ~8% vs. 3% baseline, scope bounded, no presumed solution. |
+| Measure | Do we trust the baseline? | Yes: code agreement ≥91% on flash/short, denominator verified, baseline + variation established. |
+| Analyze | Root causes proven, not plausible? | Yes: C1/C5/C6 pass data tests; moisture/regrind/humidity/training rejected by data. |
+| Improve | Does the pilot work? | Yes: M3 13.1% → 3.4% over 3 weeks, confirmed by data. |
+| Control | Will the gain hold without the team? | Yes: alarm + SOP + locked recipe + p-chart + owner; pending 4-week hold. |
 
 ---
 

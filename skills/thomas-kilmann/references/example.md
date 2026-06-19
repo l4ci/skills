@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`thomas-kilmann-cofounder-fundraising-<date>.md`) with a verdict and fit-score table, the situation, all five mode assessments, a recommended primary mode and fallback with concrete words to say, and a flag that your avoiding habit is mismatched here.
 
-**See a full worked example:** [thomas-kilmann-cofounder-fundraising-2026-06-19.md](thomas-kilmann-cofounder-fundraising-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [thomas-kilmann-cofounder-fundraising-2026-06-19.md](thomas-kilmann-cofounder-fundraising-2026-06-19.md), the report this invocation produces.

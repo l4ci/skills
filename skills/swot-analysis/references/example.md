@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`swot-analysis-freshfork-<date>.md`) with the SWOT grid, prioritized quadrant detail with magnitudes, the TOWS strategy matrix (SO/ST/WO/WT), ranked recommendations, and a verdict on the expansion decision.
 
-**See a full worked example:** [swot-analysis-freshfork-2026-06-19.md](swot-analysis-freshfork-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [swot-analysis-freshfork-2026-06-19.md](swot-analysis-freshfork-2026-06-19.md), the report this invocation produces.

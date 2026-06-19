@@ -8,24 +8,24 @@ Before any component is assessed, the behaviour must be pinned down: **who** doe
 
 ## The three components and their six sub-components
 
-### Capability — does the actor have what it takes?
+### Capability: does the actor have what it takes?
 
 - **Physical capability**: physical skills, strength, stamina, dexterity. Can the actor physically do it?
 - **Psychological capability**: knowledge, cognitive skills, attention, memory, comprehension, self-regulation. Does the actor know what to do, how, and can they think it through and regulate themselves to do it?
 
-### Opportunity — does the world allow it?
+### Opportunity: does the world allow it?
 
 - **Physical opportunity**: the environment, time, resources, money, materials, cues, accessibility. Does the situation make the behaviour possible and prompt it?
 - **Social opportunity**: social norms, culture, what others do and expect, interpersonal cues and language. Does the social environment permit and prompt it?
 
-### Motivation — does the actor want to, more than the alternatives?
+### Motivation: does the actor want to, more than the alternatives?
 
 - **Reflective motivation**: beliefs about consequences, intentions, goals, identity, plans, evaluations. Does the actor intend and value doing it?
 - **Automatic motivation**: habits, emotions, impulses, desires, reinforcement, associations. Do the actor's automatic processes pull toward or against it?
 
 ## Mapping deficits to the nine intervention functions
 
-The Behaviour Change Wheel routes each component deficit to the intervention functions that can plausibly close it. Targeting the wrong function — the classic error of reaching for Education or Persuasion when the gap is in Opportunity — wastes effort and discredits the change. The nine functions:
+The Behaviour Change Wheel routes each component deficit to the intervention functions that can plausibly close it. Targeting the wrong function, the classic error of reaching for Education or Persuasion when the gap is in Opportunity, wastes effort and discredits the change. The nine functions:
 
 | Function | What it does | Primary deficits it addresses |
 |---|---|---|

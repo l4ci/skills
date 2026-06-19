@@ -8,10 +8,10 @@ The IPIP is public domain: "Because the IPIP has been placed in the public domai
 
 HEXACO is the Big Five plus a sixth factor, and its Emotionality and Agreeableness are rotated relative to Big Five Neuroticism and Agreeableness.
 
-- **H** = Honesty-Humility (Sincerity, Fairness, Greed-Avoidance, Modesty) — the factor OCEAN/Big Five lacks. High H means sincere, fair, modest, unmotivated by status and luxury; low H means manipulative, entitled, status-driven.
-- **E** = Emotionality (Fearfulness, Anxiety, Dependence, Sentimentality) — vulnerability and attachment, not the hostility-tinged Big Five Neuroticism.
+- **H** = Honesty-Humility (Sincerity, Fairness, Greed-Avoidance, Modesty), the factor OCEAN/Big Five lacks. High H means sincere, fair, modest, unmotivated by status and luxury; low H means manipulative, entitled, status-driven.
+- **E** = Emotionality (Fearfulness, Anxiety, Dependence, Sentimentality), vulnerability and attachment, not the hostility-tinged Big Five Neuroticism.
 - **X** = eXtraversion (Expressiveness, Social Boldness, Sociability, Liveliness).
-- **A** = Agreeableness (Forgiveness, Gentleness, Flexibility, Patience) — anchored on tolerance and even temper. (Low A overlaps the anger pole that Big Five puts under Neuroticism.)
+- **A** = Agreeableness (Forgiveness, Gentleness, Flexibility, Patience), anchored on tolerance and even temper. (Low A overlaps the anger pole that Big Five puts under Neuroticism.)
 - **C** = Conscientiousness (Organization, Diligence, Perfectionism, Prudence).
 - **O** = Openness to Experience (Aesthetic Appreciation, Inquisitiveness, Creativity, Unconventionality).
 
@@ -305,12 +305,12 @@ The key column says how the item counts toward its factor: `+` means a higher ra
 
 Each factor has 40 items (four facets of 10). Item-number ranges:
 
-- **H (Honesty-Humility):** 1–40 — Sincerity 1–10, Fairness 11–20, Greed-Avoidance 21–30, Modesty 31–40
-- **E (Emotionality):** 41–80 — Fearfulness 41–50, Anxiety 51–60, Dependence 61–70, Sentimentality 71–80
-- **X (eXtraversion):** 81–120 — Expressiveness 81–90, Social Boldness 91–100, Sociability 101–110, Liveliness 111–120
-- **A (Agreeableness):** 121–160 — Forgiveness 121–130, Gentleness 131–140, Flexibility 141–150, Patience 151–160
-- **C (Conscientiousness):** 161–200 — Organization 161–170, Diligence 171–180, Perfectionism 181–190, Prudence 191–200
-- **O (Openness):** 201–240 — Aesthetic Appreciation 201–210, Inquisitiveness 211–220, Creativity 221–230, Unconventionality 231–240
+- **H (Honesty-Humility):** 1–40: Sincerity 1–10, Fairness 11–20, Greed-Avoidance 21–30, Modesty 31–40
+- **E (Emotionality):** 41–80, Fearfulness 41–50, Anxiety 51–60, Dependence 61–70, Sentimentality 71–80
+- **X (eXtraversion):** 81–120, Expressiveness 81–90, Social Boldness 91–100, Sociability 101–110, Liveliness 111–120
+- **A (Agreeableness):** 121–160, Forgiveness 121–130, Gentleness 131–140, Flexibility 141–150, Patience 151–160
+- **C (Conscientiousness):** 161–200, Organization 161–170, Diligence 171–180, Perfectionism 181–190, Prudence 191–200
+- **O (Openness):** 201–240, Aesthetic Appreciation 201–210, Inquisitiveness 211–220, Creativity 221–230, Unconventionality 231–240
 
 ## Scoring
 

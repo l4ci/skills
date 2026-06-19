@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`stakeholder-analysis-four-day-week-<date>.md`) with the power-interest grid, per-stakeholder detail, a per-quadrant engagement plan, the coalition versus blockers, and the highest-leverage relationships to shift.
 
-**See a full worked example:** [stakeholder-analysis-four-day-week-2026-06-19.md](stakeholder-analysis-four-day-week-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [stakeholder-analysis-four-day-week-2026-06-19.md](stakeholder-analysis-four-day-week-2026-06-19.md), the report this invocation produces.

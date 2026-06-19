@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report with the strategy canvas and value curves, the ERRC grid (eliminate/reduce/raise/create) with cost and value effects, the new value curve plotted against rivals, the value-innovation test, the blue-ocean move with its tagline, and the risks it carries.
 
-**See a full worked example:** [blue-ocean-strategy-pulsepoint-2026-06-19.md](blue-ocean-strategy-pulsepoint-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [blue-ocean-strategy-pulsepoint-2026-06-19.md](blue-ocean-strategy-pulsepoint-2026-06-19.md), the report this invocation produces.

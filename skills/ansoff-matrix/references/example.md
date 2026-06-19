@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report with the 2x2 matrix, concrete growth options per quadrant with risk and capability fit, a prioritized option list, and a recommended growth path sequenced over the horizon.
 
-**See a full worked example:** [ansoff-matrix-freshcrate-2026-06-19.md](ansoff-matrix-freshcrate-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [ansoff-matrix-freshcrate-2026-06-19.md](ansoff-matrix-freshcrate-2026-06-19.md), the report this invocation produces.

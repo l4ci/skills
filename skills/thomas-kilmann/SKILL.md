@@ -40,7 +40,7 @@ Dispatch five analyst subagents at once, one per conflict mode. Give each the sh
 
 **Shared framing (send to each analyst):**
 
-> Evaluate one conflict-handling mode against this specific situation. Conflict: **[CONFLICT]**. Situational factors: [the Stage 1 facts — stakes for each side, power balance, relationship importance, time pressure, trust and history]. Your mode is **[MODE]**: [its description, when it fits, and its overuse/underuse risks from the reference file]. Judge fit to THIS situation only; do not argue the mode is generally good or bad. Then return:
+> Evaluate one conflict-handling mode against this specific situation. Conflict: **[CONFLICT]**. Situational factors: [the Stage 1 facts, stakes for each side, power balance, relationship importance, time pressure, trust and history]. Your mode is **[MODE]**: [its description, when it fits, and its overuse/underuse risks from the reference file]. Judge fit to THIS situation only; do not argue the mode is generally good or bad. Then return:
 > - **Fit assessment**: how well this mode suits these exact factors, factor by factor
 > - **Pros**: what choosing this mode would gain here
 > - **Cons**: what it would cost or risk here, including the relevant overuse or underuse risk

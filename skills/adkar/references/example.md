@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report with a per-group scorecard (the five elements scored 1-5 with the barrier cell marked), the barrier point for each group, and a sequenced intervention plan with owners.
 
-**See a full worked example:** [adkar-crm-field-sales-2026-06-19.md](adkar-crm-field-sales-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [adkar-crm-field-sales-2026-06-19.md](adkar-crm-field-sales-2026-06-19.md), the report this invocation produces.

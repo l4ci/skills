@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`six-thinking-hats-free-tier-<date>.md`) with the Blue-hat verdict, the six hats laid out by direction, the synthesis with the emotional read and risks sorted into must-mitigate versus neutralized, and concrete next actions.
 
-**See a full worked example:** [six-thinking-hats-free-tier-2026-06-19.md](six-thinking-hats-free-tier-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [six-thinking-hats-free-tier-2026-06-19.md](six-thinking-hats-free-tier-2026-06-19.md), the report this invocation produces.

@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`hoshin-kanri-<org-slug>-<date>.md`) with the vital-few breakthrough and annual objectives, the X-matrix with correlation marks, per-objective deployment detail, a golden-thread alignment check flagging orphans, and the catchball and PDCA review cadence.
 
-**See a full worked example:** [hoshin-kanri-meridian-logistics-2026-06-19.md](hoshin-kanri-meridian-logistics-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [hoshin-kanri-meridian-logistics-2026-06-19.md](hoshin-kanri-meridian-logistics-2026-06-19.md), the report this invocation produces.

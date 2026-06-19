@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`porters-five-forces-uk-meal-kit-<date>.md`) with a verdict on industry attractiveness and a summary table scoring each of the five forces 1-to-5 with confidence, per-force sections grounded in evidence, a synthesis naming the dominant forces and where the profit pool sits, strategic implications for an entrant, and caveats.
 
-**See a full worked example:** [porters-five-forces-uk-meal-kit-2026-06-19.md](porters-five-forces-uk-meal-kit-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [porters-five-forces-uk-meal-kit-2026-06-19.md](porters-five-forces-uk-meal-kit-2026-06-19.md), the report this invocation produces.

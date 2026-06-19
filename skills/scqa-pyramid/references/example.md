@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`scqa-pyramid-<topic>-<date>.md`) with the SCQA introduction, the full pyramid (governing thought, a MECE key line with its grouping type, evidence beneath each point), a ready-to-use prose draft in the chosen format, a note on why that framing was chosen, and a logic check.
 
-**See a full worked example:** [scqa-pyramid-india-launch-2026-06-19.md](scqa-pyramid-india-launch-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [scqa-pyramid-india-launch-2026-06-19.md](scqa-pyramid-india-launch-2026-06-19.md), the report this invocation produces.

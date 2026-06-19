@@ -1,4 +1,4 @@
-# Pre-mortem — Stripe Billing migration
+# Pre-mortem: Stripe Billing migration
 
 > _Illustrative example output for the `pre-mortem` skill. The migration plan, team, and customer base are fictional; every figure, name, and claim below is invented to demonstrate the report's shape, not researched. Do not cite these numbers._
 
@@ -13,17 +13,17 @@
 
 ## 1. Executive summary
 
-The plan is one large irreversible step taken under a hard deadline by a small team, against the most unforgiving definition of failure possible — *any* customer mischarged. That combination is the core risk: a single-weekend big-bang cutover removes every opportunity to catch a defect before it touches real money, and the October renewal spike is the worst possible week to discover one. The overall posture is **high risk, concentrated in the cutover itself**, with most failure modes tracing back to the same root: no incremental proof that the new system charges correctly at scale before it owns all 40,000 customers.
+The plan is one large irreversible step taken under a hard deadline by a small team, against the most unforgiving definition of failure possible, *any* customer mischarged. That combination is the core risk: a single-weekend big-bang cutover removes every opportunity to catch a defect before it touches real money, and the October renewal spike is the worst possible week to discover one. The overall posture is **high risk, concentrated in the cutover itself**, with most failure modes tracing back to the same root: no incremental proof that the new system charges correctly at scale before it owns all 40,000 customers.
 
 The risks that most threaten the plan:
 
-1. **Silent renewal failures at cutover (severity 25, critical).** Subscriptions migrate with wrong renewal dates, proration, or trial state, and a slice of customers simply never gets charged — invisible until revenue is reconciled weeks later.
+1. **Silent renewal failures at cutover (severity 25, critical).** Subscriptions migrate with wrong renewal dates, proration, or trial state, and a slice of customers simply never gets charged, invisible until revenue is reconciled weeks later.
 2. **Data-mapping errors between the in-house schema and Stripe's model (severity 20, critical).** The old engine's plan, discount, and tax representations do not map cleanly onto Stripe objects; edge cases (annual-to-monthly switchers, grandfathered plans, paused accounts) migrate wrong.
 3. **No realistic dry run at full scale (severity 20, critical).** The team validates on a sample, not on a full mirror of production, so the failures that only appear at 40,000-customer scale and real card declines surface live.
 4. **Four engineers, hard deadline, key-person concentration (severity 16, high).** The one person who understands the old engine's billing quirks is a single point of failure, and the deadline leaves no slack for the reconciliation work to overrun.
 5. **No clean rollback once the old engine is decommissioned (severity 16, high).** "Decommission" is planned for right after cutover; if a defect surfaces in week two there is nothing to fall back to.
 
-The blind spot every lens nearly missed is **dunning and failed-payment recovery** — see Section 5.
+The blind spot every lens nearly missed is **dunning and failed-payment recovery**: see Section 5.
 
 ---
 
@@ -51,9 +51,9 @@ Severity = likelihood × impact (1–25). Bands: 20–25 critical, 12–19 high,
 
 ## 3. Detailed entries (critical and high risks)
 
-### R1 — Silent renewal failures at cutover (severity 25, critical)
+### R1: Silent renewal failures at cutover (severity 25, critical)
 
-**Mechanism.** Over the cutover weekend, 40,000 subscriptions are created in Stripe with `current_period_end` dates, billing anchors, and proration computed from the old engine's export. A subset — annual customers mid-cycle, accounts that recently changed plans, those with credit balances — get an anchor date that is off by a cycle or set in the past. Stripe either skips their next invoice or generates one immediately for the wrong amount. Because nothing errors loudly, the gap only shows when October revenue lands ~8–15% below forecast and finance asks why.
+**Mechanism.** Over the cutover weekend, 40,000 subscriptions are created in Stripe with `current_period_end` dates, billing anchors, and proration computed from the old engine's export. A subset: annual customers mid-cycle, accounts that recently changed plans, those with credit balances, get an anchor date that is off by a cycle or set in the past. Stripe either skips their next invoice or generates one immediately for the wrong amount. Because nothing errors loudly, the gap only shows when October revenue lands ~8–15% below forecast and finance asks why.
 
 **Early warning signs.** A dry-run reconciliation where the count of invoices Stripe *would* generate in the next 30 days does not equal the count of renewals the old engine *would* have run. Any non-zero set of subscriptions with a billing anchor in the past. Mismatch between summed expected MRR pre- and post-migration.
 
@@ -67,9 +67,9 @@ Severity = likelihood × impact (1–25). Bands: 20–25 critical, 12–19 high,
 
 ---
 
-### R2 — Data-mapping errors: old schema → Stripe objects (severity 20, critical)
+### R2: Data-mapping errors: old schema → Stripe objects (severity 20, critical)
 
-**Mechanism.** The in-house engine encodes plans, add-ons, percentage and fixed discounts, grandfathered legacy pricing, and tax flags in a schema shaped by years of product changes. The migration script maps these onto Stripe Products, Prices, Coupons, and tax behaviors. The common cases map fine; the long tail does not — a grandfathered "$9 forever" plan becomes the current $14 price, a stacked discount collapses to one coupon, a paused account migrates as active. Thousands of customers are individually small but collectively a mispriced cohort.
+**Mechanism.** The in-house engine encodes plans, add-ons, percentage and fixed discounts, grandfathered legacy pricing, and tax flags in a schema shaped by years of product changes. The migration script maps these onto Stripe Products, Prices, Coupons, and tax behaviors. The common cases map fine; the long tail does not, a grandfathered "$9 forever" plan becomes the current $14 price, a stacked discount collapses to one coupon, a paused account migrates as active. Thousands of customers are individually small but collectively a mispriced cohort.
 
 **Early warning signs.** Any customer whose post-migration recurring amount differs from their last actual charge without an intended price change. Coupons that fail to attach. A count of "unmapped" or "defaulted" records in the migration log that is greater than zero and waved through.
 
@@ -83,9 +83,9 @@ Severity = likelihood × impact (1–25). Bands: 20–25 critical, 12–19 high,
 
 ---
 
-### R3 — No realistic full-scale dry run (severity 20, critical)
+### R3: No realistic full-scale dry run (severity 20, critical)
 
-**Mechanism.** With four engineers and a hard deadline, validation happens on a few hundred sample customers in Stripe's test mode. The behaviors that only appear at scale — API rate limiting during bulk create, real card declines, webhook backlogs, race conditions between migration and live traffic — are never exercised. They appear for the first time on the live cutover weekend, when there is no time to fix them.
+**Mechanism.** With four engineers and a hard deadline, validation happens on a few hundred sample customers in Stripe's test mode. The behaviors that only appear at scale, API rate limiting during bulk create, real card declines, webhook backlogs, race conditions between migration and live traffic, are never exercised. They appear for the first time on the live cutover weekend, when there is no time to fix them.
 
 **Early warning signs.** The test plan describes a "sample," not a "full production mirror." No load test against Stripe's bulk-create throughput. No rehearsal that includes real-cardinality webhook volume.
 
@@ -93,15 +93,15 @@ Severity = likelihood × impact (1–25). Bands: 20–25 critical, 12–19 high,
 
 **Leading indicator.** Rehearsal completion time vs. the cutover-weekend window, plus the rehearsal's defect count.
 
-**Contingency.** If a clean rehearsal is not achieved before the deadline, **do not cut over** — see R5; the fallback is to delay past the October spike rather than ship an unrehearsed migration.
+**Contingency.** If a clean rehearsal is not achieved before the deadline, **do not cut over**: see R5; the fallback is to delay past the October spike rather than ship an unrehearsed migration.
 
 **Suggested owner.** Tech lead.
 
 ---
 
-### R4 — Key-person and team-size concentration under a hard deadline (severity 16, high)
+### R4: Key-person and team-size concentration under a hard deadline (severity 16, high)
 
-**Mechanism.** Only one of the four engineers truly understands the old engine's billing edge cases. The deadline allows no slack, so when that person is the bottleneck on R1/R2 reconciliation — or is simply out sick during cutover week — the work either stalls or proceeds without the one reviewer who would catch a quirk. Scope that was "tidy up later" gets shipped as-is.
+**Mechanism.** Only one of the four engineers truly understands the old engine's billing edge cases. The deadline allows no slack, so when that person is the bottleneck on R1/R2 reconciliation, or is simply out sick during cutover week, the work either stalls or proceeds without the one reviewer who would catch a quirk. Scope that was "tidy up later" gets shipped as-is.
 
 **Early warning signs.** Reconciliation tasks consistently routed to one named person. No second engineer able to explain the grandfathered-plan logic. The schedule has zero buffer days before the October spike.
 
@@ -115,9 +115,9 @@ Severity = likelihood × impact (1–25). Bands: 20–25 critical, 12–19 high,
 
 ---
 
-### R5 — No clean rollback once the old engine is decommissioned (severity 16, high)
+### R5: No clean rollback once the old engine is decommissioned (severity 16, high)
 
-**Mechanism.** The plan decommissions the old engine right after the cutover weekend. A defect that only shows up in week two — a mispriced cohort, a renewal-date class that fires later in the month — has nothing to fall back to. The team is forced to fix forward under live revenue pressure, which is how a contained billing bug becomes a mass mischarge.
+**Mechanism.** The plan decommissions the old engine right after the cutover weekend. A defect that only shows up in week two, a mispriced cohort, a renewal-date class that fires later in the month, has nothing to fall back to. The team is forced to fix forward under live revenue pressure, which is how a contained billing bug becomes a mass mischarge.
 
 **Early warning signs.** The runbook has a "decommission" step in the same window as cutover. No defined rollback procedure. No agreed observation period during which the old engine stays warm.
 
@@ -131,7 +131,7 @@ Severity = likelihood × impact (1–25). Bands: 20–25 critical, 12–19 high,
 
 ---
 
-### R6 — Dunning and failed-payment recovery not migrated (severity 16, high) — **the blind spot**
+### R6: Dunning and failed-payment recovery not migrated (severity 16, high): **the blind spot**
 
 See Section 5 for the full write-up; carried here for completeness in the register.
 
@@ -145,7 +145,7 @@ See Section 5 for the full write-up; carried here for completeness in the regist
 
 ---
 
-### R7 — Webhook and downstream integration drift (severity 12, high)
+### R7: Webhook and downstream integration drift (severity 12, high)
 
 **Mechanism.** Feature entitlements, seat provisioning, and accounting exports all listen to the old engine's events. After cutover they must listen to Stripe webhooks instead. If even one consumer is missed or its event shape differs, customers pay correctly but lose access, or revenue stops flowing to the books.
 
@@ -161,7 +161,7 @@ See Section 5 for the full write-up; carried here for completeness in the regist
 
 ---
 
-### R8 — Stripe rate limits and throughput during bulk migration (severity 12, high)
+### R8: Stripe rate limits and throughput during bulk migration (severity 12, high)
 
 **Mechanism.** Creating 40,000 customers, subscriptions, and payment methods in one weekend hits Stripe's API rate limits. The migration job throttles, retries, or partially completes; a naive retry creates duplicates (double subscriptions, double charges).
 
@@ -177,7 +177,7 @@ See Section 5 for the full write-up; carried here for completeness in the regist
 
 ---
 
-### R9 — Tax and compliance handling differs (severity 12, high)
+### R9: Tax and compliance handling differs (severity 12, high)
 
 **Mechanism.** The old engine computes VAT and sales tax with its own logic and nexus assumptions. Stripe Tax applies its own rules. Customers in tax jurisdictions are charged a different total than before, or tax is collected where it should not be, creating both customer disputes and a compliance exposure.
 
@@ -201,11 +201,11 @@ See Section 5 for the full write-up; carried here for completeness in the regist
 
 ## 5. The blind spot
 
-**Dunning and failed-payment recovery (R6).** Five of the six lenses fixated on the *successful-charge* path: did the right customer get charged the right amount on the right date. None gave first-class attention to the customers whose payments *fail* — and at 40,000 subscribers, a meaningful slice are always mid-recovery: card declined, in a grace period, on retry attempt two of three.
+**Dunning and failed-payment recovery (R6).** Five of the six lenses fixated on the *successful-charge* path: did the right customer get charged the right amount on the right date. None gave first-class attention to the customers whose payments *fail*, and at 40,000 subscribers, a meaningful slice are always mid-recovery: card declined, in a grace period, on retry attempt two of three.
 
-The in-house engine holds in-flight state for those customers — when the next retry fires, how long until the subscription is cancelled, whether a customer has been emailed. That state is not a row that maps cleanly to a Stripe object; it is *process* state, and it is the easiest thing to forget in a migration scoped around "move the subscriptions." At cutover the failure splits two ways: customers mid-dunning get dropped (Stripe sees no active recovery and the old engine is gone, so the subscription lapses and a paying customer churns silently), or they get double-dunned (Stripe starts its own Smart Retry while residual old-engine emails still go out, so the customer is chased twice and loses trust).
+The in-house engine holds in-flight state for those customers, when the next retry fires, how long until the subscription is cancelled, whether a customer has been emailed. That state is not a row that maps cleanly to a Stripe object; it is *process* state, and it is the easiest thing to forget in a migration scoped around "move the subscriptions." At cutover the failure splits two ways: customers mid-dunning get dropped (Stripe sees no active recovery and the old engine is gone, so the subscription lapses and a paying customer churns silently), or they get double-dunned (Stripe starts its own Smart Retry while residual old-engine emails still go out, so the customer is chased twice and loses trust).
 
-This matters because it is invisible to the obvious tests. A reconciliation that checks "is everyone charged correctly" passes — these customers were *correctly not charged yet*. The defect only shows as elevated involuntary churn or a wave of "why am I being dunned twice" support tickets weeks later, exactly when the team has declared victory. It scores severity 16 (high) and deserves explicit scope: migrate dunning state, map the grace-period policy onto Stripe Smart Retries, and verify zero customers enter the new system with an orphaned recovery state.
+This matters because it is invisible to the obvious tests. A reconciliation that checks "is everyone charged correctly" passes, these customers were *correctly not charged yet*. The defect only shows as elevated involuntary churn or a wave of "why am I being dunned twice" support tickets weeks later, exactly when the team has declared victory. It scores severity 16 (high) and deserves explicit scope: migrate dunning state, map the grace-period policy onto Stripe Smart Retries, and verify zero customers enter the new system with an orphaned recovery state.
 
 ---
 
@@ -222,8 +222,8 @@ This matters because it is invisible to the obvious tests. A reconciliation that
 ## 7. Caveats
 
 - A pre-mortem surfaces *plausible* failures, not certainties. Every likelihood and impact here is structured judgment, not measured data; the scores order attention, they do not predict outcomes.
-- The analysis is only as good as the definition of failure it was given. Here that definition — *any customer charged wrong or not at all* — is deliberately strict, which is why so much weight lands on reconciliation and the irreversibility of the big-bang cutover. A looser definition would reshuffle the register.
+- The analysis is only as good as the definition of failure it was given. Here that definition, *any customer charged wrong or not at all*, is deliberately strict, which is why so much weight lands on reconciliation and the irreversibility of the big-bang cutover. A looser definition would reshuffle the register.
 - It will not catch a true unknown unknown. The blind-spot pass widens coverage but cannot guarantee completeness.
 - Cross-lens agreement (the right-most register column) is a severity signal, not proof; three lenses converging on R1 means it is hard to miss, not that it is certain.
-- Use this to decide **what to watch and what to harden** — the leading indicators are the operational output — not as a verdict on whether to proceed. On balance the plan is defensible *if* the cutover is de-risked: a full-scale rehearsal (R3), a shadow billing cycle (R1), per-customer amount assertions (R2), and no decommission until one clean live renewal (R5). The single biggest structural improvement would be to convert the single-weekend big-bang into a phased migration by cohort, so the first failure touches hundreds of customers, not all 40,000.
+- Use this to decide **what to watch and what to harden**: the leading indicators are the operational output, not as a verdict on whether to proceed. On balance the plan is defensible *if* the cutover is de-risked: a full-scale rehearsal (R3), a shadow billing cycle (R1), per-customer amount assertions (R2), and no decommission until one clean live renewal (R5). The single biggest structural improvement would be to convert the single-weekend big-bang into a phased migration by cohort, so the first failure touches hundreds of customers, not all 40,000.
 - All figures here are illustrative for documentation purposes and were not researched.

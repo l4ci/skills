@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`three-horizons-lumen-books-<date>.md`) with a horizon map placing each initiative by maturity, per-horizon detail and health, a balance-and-pipeline diagnosis, allocation and management guidance, and a verdict on whether the future is funded.
 
-**See a full worked example:** [three-horizons-lumen-books-2026-06-19.md](three-horizons-lumen-books-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [three-horizons-lumen-books-2026-06-19.md](three-horizons-lumen-books-2026-06-19.md), the report this invocation produces.

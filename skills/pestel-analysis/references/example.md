@@ -11,4 +11,4 @@
 
 **You get back:** a saved markdown report (`pestel-analysis-volthome-<date>.md`) led by a ranked priority-forces table (force, factor, impact, certainty), per-factor detail across all six PESTEL factors, cross-factor linkages, an opportunities-and-threats split ready to feed a SWOT, and an implications-and-watch-list section.
 
-**See a full worked example:** [pestel-analysis-volthome-2026-06-19.md](pestel-analysis-volthome-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [pestel-analysis-volthome-2026-06-19.md](pestel-analysis-volthome-2026-06-19.md), the report this invocation produces.

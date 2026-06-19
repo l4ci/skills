@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`digital-maturity-assessment-<organization-slug>-<date>.md`) with the seven-dimension maturity profile, per-dimension detail and evidence, the binding gaps and imbalances, and a sequenced roadmap of quick wins and longer plays toward the target.
 
-**See a full worked example:** [digital-maturity-assessment-meridian-mutual-2026-06-19.md](digital-maturity-assessment-meridian-mutual-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [digital-maturity-assessment-meridian-mutual-2026-06-19.md](digital-maturity-assessment-meridian-mutual-2026-06-19.md), the report this invocation produces.

@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`value-chain-analysis-<company-slug>-<date>.md`) with a nine-activity value-chain map (cost, value, competitive verdict), per-activity detail, the sources of advantage, the weak links and leaks, and recommendations tied to the differentiation strategy.
 
-**See a full worked example:** [value-chain-analysis-trailhead-coffee-2026-06-19.md](value-chain-analysis-trailhead-coffee-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [value-chain-analysis-trailhead-coffee-2026-06-19.md](value-chain-analysis-trailhead-coffee-2026-06-19.md), the report this invocation produces.

@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`kano-model-<subject-slug>-<date>.md`) with a verdict leading on any missing must-be, a classification table grouped by category (must-be / one-dimensional / attractive / indifferent / reverse) with confidence and decay risk, per-feature reasoning, and a recommended feature set and build sequence with a decay timeline.
 
-**See a full worked example:** [kano-model-freelancer-invoicing-2026-06-19.md](kano-model-freelancer-invoicing-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [kano-model-freelancer-invoicing-2026-06-19.md](kano-model-freelancer-invoicing-2026-06-19.md), the report this invocation produces.

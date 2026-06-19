@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`value-proposition-canvas-<subject-slug>-<date>.md`) with the ranked Customer Profile, the Value Map tied to it, a fit-check table (hit/partial/miss), flagged irrelevant relievers and creators, the fit level reached, and the riskiest assumptions to test first.
 
-**See a full worked example:** [value-proposition-canvas-pantrypilot-2026-06-19.md](value-proposition-canvas-pantrypilot-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [value-proposition-canvas-pantrypilot-2026-06-19.md](value-proposition-canvas-pantrypilot-2026-06-19.md), the report this invocation produces.

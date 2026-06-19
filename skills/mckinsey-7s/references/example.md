@@ -1,7 +1,7 @@
 # Example: mckinsey-7s
 
 **You invoke it with:**
-> "Run a 7-S on our company — we just acquired a smaller rival and the integration is stalling"
+> "Run a 7-S on our company, we just acquired a smaller rival and the integration is stalling"
 
 **It needs from you:**
 - ORGANIZATION (required): Northwind Logistics, a 600-person regional freight carrier, focusing on its operations division
@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`mckinsey-7s-northwind-logistics-<date>.md`) with a seven-element summary table, per-element detail, an alignment analysis, ranked misalignments with fixes and their knock-on adjustments, and a verdict on the realignment the merger needs.
 
-**See a full worked example:** [mckinsey-7s-northwind-logistics-2026-06-19.md](mckinsey-7s-northwind-logistics-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [mckinsey-7s-northwind-logistics-2026-06-19.md](mckinsey-7s-northwind-logistics-2026-06-19.md), the report this invocation produces.

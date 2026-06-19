@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`cynefin-<situation-slug>-<date>.md`) with the issues sorted into Cynefin domains, the matching action model for each, anything flagged on the Clear-Chaotic cliff or stuck in Disorder, and which other framework fits each domain.
 
-**See a full worked example:** [cynefin-billing-migration-2026-06-19.md](cynefin-billing-migration-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [cynefin-billing-migration-2026-06-19.md](cynefin-billing-migration-2026-06-19.md), the report this invocation produces.

@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`scenario-planning-<topic>-<date>.md`) with a 2x2 of four named, distinct futures, the two critical-uncertainty axes and the predetermined backdrop, a developed narrative per scenario, robust-versus-contingent strategy, and a signpost watch list showing which future is emerging.
 
-**See a full worked example:** [scenario-planning-onprem-product-line-2026-06-19.md](scenario-planning-onprem-product-line-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [scenario-planning-onprem-product-line-2026-06-19.md](scenario-planning-onprem-product-line-2026-06-19.md), the report this invocation produces.

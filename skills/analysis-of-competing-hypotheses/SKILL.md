@@ -13,7 +13,7 @@ The user faces a question with several rival explanations and wants a discipline
 
 Reach for it when the cost of anchoring on the wrong explanation is high: incident root-cause, diagnosis, intelligence-style "what is the other side doing", attributing a trend to a cause, or any "we think it's X" claim that deserves to be tested against the alternatives.
 
-Do **not** use it for problems with a single obvious answer, for value choices (ACH adjudicates what is *true*, not what is *preferable* — use a [weighted-decision-matrix](../weighted-decision-matrix/) for that), or for forecasting a number (use [scenario-planning](../scenario-planning/)).
+Do **not** use it for problems with a single obvious answer, for value choices (ACH adjudicates what is *true*, not what is *preferable*, use a [weighted-decision-matrix](../weighted-decision-matrix/) for that), or for forecasting a number (use [scenario-planning](../scenario-planning/)).
 
 ## Inputs
 
@@ -40,11 +40,11 @@ Tell each subagent that its final message is the return value, meaning structure
 
 A missing hypothesis can never win, so aim for near-exhaustiveness, including the explanations nobody wants to be true. Dispatch three to five proposer subagents in parallel, each generating candidate hypotheses for the QUESTION from a different stance, so the set is not all variations on one idea:
 
-- **The conventional read** — the explanation most people would reach for first.
-- **The unwelcome read** — explanations that implicate us, are politically costly, or are boring-but-true (incompetence over conspiracy, and the reverse).
-- **The deception read** — the possibility that some evidence was shaped to mislead, or that the real driver is hidden.
-- **The base-rate read** — what usually causes this class of outcome, regardless of the specifics here.
-- **The structural / second-order read** — a system or incentive cause rather than an actor or event.
+- **The conventional read**: the explanation most people would reach for first.
+- **The unwelcome read**: explanations that implicate us, are politically costly, or are boring-but-true (incompetence over conspiracy, and the reverse).
+- **The deception read**: the possibility that some evidence was shaped to mislead, or that the real driver is hidden.
+- **The base-rate read**: what usually causes this class of outcome, regardless of the specifics here.
+- **The structural / second-order read**: a system or incentive cause rather than an actor or event.
 
 Each proposer returns a short list of candidate hypotheses, each phrased as a complete, mutually exclusive explanation ("The outage was caused by the schema migration", not "the migration").
 
@@ -58,7 +58,7 @@ Output: the numbered hypothesis set H1…Hn, each one sentence.
 
 ## Stage 2: Evidence inventory
 
-List every relevant piece of evidence, argument, and assumption as a discrete row. Cast wide: include hard data, observations, reports, expert judgments, *and assumptions* (label them as such), and — critically — **absence of evidence**. The dog that did not bark is a row: "no error spike in the auth service logs" can be highly diagnostic.
+List every relevant piece of evidence, argument, and assumption as a discrete row. Cast wide: include hard data, observations, reports, expert judgments, *and assumptions* (label them as such), and, critically, **absence of evidence**. The dog that did not bark is a row: "no error spike in the auth service logs" can be highly diagnostic.
 
 For each item capture:
 
@@ -74,9 +74,9 @@ Dispatch **one subagent per hypothesis**, in parallel. Each agent sees the full 
 
 For its hypothesis Hk, the agent scores every evidence item Ei:
 
-- **C** — Consistent: the evidence is what you would expect to see if Hk were true.
-- **I** — Inconsistent: the evidence is what you would *not* expect if Hk were true. (This is the score that does the work.)
-- **N/A** — Not applicable / no bearing: the evidence neither supports nor undercuts Hk.
+- **C**: Consistent: the evidence is what you would expect to see if Hk were true.
+- **I**: Inconsistent: the evidence is what you would *not* expect if Hk were true. (This is the score that does the work.)
+- **N/A**: Not applicable / no bearing: the evidence neither supports nor undercuts Hk.
 
 Allow doubling for strength where warranted: **CC** strongly consistent, **II** strongly inconsistent. Each cell gets a one-line rationale. Crucial rule, stated to every agent: ask "is this evidence *consistent* with my hypothesis", not "does this evidence *prove* my hypothesis". Many items are consistent with several hypotheses at once; that is expected and is exactly what Stage 4 uses.
 
@@ -94,8 +94,8 @@ Render the matrix as a table so it is auditable:
 
 | Evidence (weight) | H1 | H2 | H3 | Diagnostic? |
 |---|---|---|---|---|
-| E1 — schema migration ran at 14:02 (high) | CC | I | N/A | yes |
-| E2 — traffic was nominal (high) | C | C | C | no — consistent with all |
+| E1: schema migration ran at 14:02 (high) | CC | I | N/A | yes |
+| E2: traffic was nominal (high) | C | C | C | no: consistent with all |
 | … | | | | |
 | **Inconsistency score (weighted)** | **0** | **3** | **5** | |
 
@@ -103,9 +103,9 @@ Render the matrix as a table so it is auditable:
 
 A ranking that turns on one or two pieces of evidence is fragile. Dispatch three critic subagents in parallel, each with a distinct attack on the Stage 4 conclusion:
 
-- **The linchpin critic** — identify the few evidence items the ranking actually depends on. Ask of each: how few items would have to flip to change the winner? If the conclusion rests on one or two items, say so loudly.
-- **The deception critic** — assume the most decisive evidence was deliberately planted or is wrong. Re-rank under that assumption. If a single deception flips the answer, that is a finding, not a footnote.
-- **The hypothesis-gap critic** — attack the set itself. Is there a hypothesis nobody proposed? Does the winning hypothesis only win because a real rival is missing? Recommend any hypothesis that should be added and the analysis re-run.
+- **The linchpin critic**: identify the few evidence items the ranking actually depends on. Ask of each: how few items would have to flip to change the winner? If the conclusion rests on one or two items, say so loudly.
+- **The deception critic**: assume the most decisive evidence was deliberately planted or is wrong. Re-rank under that assumption. If a single deception flips the answer, that is a finding, not a footnote.
+- **The hypothesis-gap critic**: attack the set itself. Is there a hypothesis nobody proposed? Does the winning hypothesis only win because a real rival is missing? Recommend any hypothesis that should be added and the analysis re-run.
 
 Each critic returns its finding and a revised view if the conclusion does not hold up. Reconcile: if the conclusion is robust, say why; if it hinges on a fragile linchpin or a missing hypothesis, lower confidence accordingly and name what would firm it up.
 
@@ -113,11 +113,11 @@ Each critic returns its finding and a revised view if the conclusion does not ho
 
 Write the briefing for the ROLE. Lead with the answer, then show the work.
 
-1. **Bottom line.** The ranked hypotheses with their relative likelihood (not just the top one — ACH reports the whole field), and the headline confidence.
+1. **Bottom line.** The ranked hypotheses with their relative likelihood (not just the top one: ACH reports the whole field), and the headline confidence.
 2. **The matrix.** The Stage 4 table, so the reasoning is auditable at a glance.
 3. **Why this ranking.** For the leading hypothesis, the evidence that fails to disprove it; for each rejected hypothesis, the specific inconsistent evidence that sinks it. Frame it as disconfirmation: "H2 is rejected because E1 and E7 are strongly inconsistent with it", not "H1 has the most support".
 4. **Linchpins and fragility.** The few items the conclusion depends on (from Stage 5), and how the ranking shifts if any of them is wrong or planted.
-5. **Indicators to watch.** Concrete future observations that would *change* the answer — milestones that, if seen, should raise a currently-trailing hypothesis. This converts the analysis into a live tripwire instead of a one-time verdict.
+5. **Indicators to watch.** Concrete future observations that would *change* the answer, milestones that, if seen, should raise a currently-trailing hypothesis. This converts the analysis into a live tripwire instead of a one-time verdict.
 6. **Gaps and confidence.** What evidence is missing, which hypotheses remain too close to call, and the overall confidence with its basis.
 
 ---

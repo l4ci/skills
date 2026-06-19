@@ -10,4 +10,4 @@
 
 **You get back:** a report leading with the estimate and its uncertainty band (e.g. "~£40M, plausibly £15-120M"), an auditable decomposition table, the two or three load-bearing factors, the dominant uncertainty, and an independent-second-path cross-check.
 
-**See a full worked example:** [fermi-estimation-uk-cargo-bikes-2026-06-19.md](fermi-estimation-uk-cargo-bikes-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [fermi-estimation-uk-cargo-bikes-2026-06-19.md](fermi-estimation-uk-cargo-bikes-2026-06-19.md), the report this invocation produces.

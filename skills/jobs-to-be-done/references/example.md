@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`jobs-to-be-done-<subject-slug>-<date>.md`) with a one-line job story and its functional/emotional/social dimensions, the five facets in detail, an opportunity-scored ranking of desired outcomes (underserved called out first), and concrete implications for the offering.
 
-**See a full worked example:** [jobs-to-be-done-freshfork-2026-06-19.md](jobs-to-be-done-freshfork-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [jobs-to-be-done-freshfork-2026-06-19.md](jobs-to-be-done-freshfork-2026-06-19.md), the report this invocation produces.

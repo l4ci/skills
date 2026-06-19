@@ -8,4 +8,4 @@
 
 **You get back:** a saved markdown brief (`tosca-problem-definition-<problem-slug>-<date>.md`) with one crisp problem statement, the structured TOSCA, open questions, stress-test notes from three critic subagents, and a suggested next step into solving.
 
-**See a full worked example:** [tosca-problem-definition-support-overwhelm-2026-06-19.md](tosca-problem-definition-support-overwhelm-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [tosca-problem-definition-support-overwhelm-2026-06-19.md](tosca-problem-definition-support-overwhelm-2026-06-19.md), the report this invocation produces.

@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`psychological-safety-<team>-<date>.md`) with a verdict and dimension scoring table, the climate read across all five dimensions, the team placed on the safety-by-accountability 2x2, leader and team interventions, and indicators to watch.
 
-**See a full worked example:** [psychological-safety-platform-eng-2026-06-19.md](psychological-safety-platform-eng-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [psychological-safety-platform-eng-2026-06-19.md](psychological-safety-platform-eng-2026-06-19.md), the report this invocation produces.

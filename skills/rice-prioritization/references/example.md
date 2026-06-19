@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`rice-prioritization-<backlog>-<date>.md`) with the calibration up front, a ranked RICE table (Reach, Impact, Confidence, Effort, score), per-item rationale, a sensitivity note flagging fragile rankings and validate-before-committing bets, and a recommended roadmap order.
 
-**See a full worked example:** [rice-prioritization-q3-backlog-2026-06-19.md](rice-prioritization-q3-backlog-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [rice-prioritization-q3-backlog-2026-06-19.md](rice-prioritization-q3-backlog-2026-06-19.md), the report this invocation produces.

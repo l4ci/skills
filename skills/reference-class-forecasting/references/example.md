@@ -10,4 +10,4 @@
 
 **You get back:** a forecast stated as a range with its base rate, the reference class and its inclusion criteria, the planning-fallacy gap against your 9-month estimate, every adjustment made (and rejected) with evidence, and the schedule buffer the class implies.
 
-**See a full worked example:** [reference-class-forecasting-monolith-migration-2026-06-19.md](reference-class-forecasting-monolith-migration-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [reference-class-forecasting-monolith-migration-2026-06-19.md](reference-class-forecasting-monolith-migration-2026-06-19.md), the report this invocation produces.

@@ -1,7 +1,7 @@
 # Example: impact-feasibility-matrix
 
 **You invoke it with:**
-> "Prioritize our Q3 backlog by impact and feasibility — what should we do first?"
+> "Prioritize our Q3 backlog by impact and feasibility, what should we do first?"
 
 **It needs from you:**
 - OPTIONS (required): SSO login, dark mode, a public API, in-app onboarding tour, GDPR data-export tool, Slack integration, mobile push notifications
@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`impact-feasibility-matrix-<objective-slug>-<date>.md`) with the 2x2 matrix, a scored table of every option (impact, feasibility, quadrant, dependencies, confidence), quadrant detail, and a recommended sequence respecting dependencies.
 
-**See a full worked example:** [impact-feasibility-matrix-cut-first-week-churn-2026-06-19.md](impact-feasibility-matrix-cut-first-week-churn-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [impact-feasibility-matrix-cut-first-week-churn-2026-06-19.md](impact-feasibility-matrix-cut-first-week-churn-2026-06-19.md), the report this invocation produces.

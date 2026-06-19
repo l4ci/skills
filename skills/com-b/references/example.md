@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`com-b-<behaviour-slug>-<date>.md`) with the six-component scan, a verdict naming whether the gap is capability, opportunity, or motivation, and targeted interventions mapped to Behaviour Change Wheel functions.
 
-**See a full worked example:** [com-b-log-near-misses-2026-06-19.md](com-b-log-near-misses-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [com-b-log-near-misses-2026-06-19.md](com-b-log-near-misses-2026-06-19.md), the report this invocation produces.

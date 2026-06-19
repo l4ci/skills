@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report with the matrix placing each unit, per-unit detail and recommended strategy (invest/hold/harvest/divest), a portfolio cash-flow balance assessment, and reallocation moves.
 
-**See a full worked example:** [bcg-matrix-soniqwave-2026-06-19.md](bcg-matrix-soniqwave-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [bcg-matrix-soniqwave-2026-06-19.md](bcg-matrix-soniqwave-2026-06-19.md), the report this invocation produces.

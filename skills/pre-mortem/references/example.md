@@ -10,4 +10,4 @@
 
 **You get back:** a saved markdown report (`pre-mortem-<date>.md`) with an executive summary, a ranked risk register scored by likelihood x impact, detailed mitigations and leading indicators for each critical and high risk, and the flagged blind spot.
 
-**See a full worked example:** [pre-mortem-2026-06-19.md](pre-mortem-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [pre-mortem-2026-06-19.md](pre-mortem-2026-06-19.md), the report this invocation produces.

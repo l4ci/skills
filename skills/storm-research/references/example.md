@@ -9,4 +9,4 @@
 
 **You get back:** a synthesis briefing (one-paragraph CEO summary, five ranked findings, a hidden connection, an actionable insight for the clinician, a frontier question) followed by a reconciled peer review with per-finding confidence scores and named gaps.
 
-**See a full worked example:** [storm-research-glp1-cardiovascular-2026-06-19.md](storm-research-glp1-cardiovascular-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [storm-research-glp1-cardiovascular-2026-06-19.md](storm-research-glp1-cardiovascular-2026-06-19.md), the report this invocation produces.

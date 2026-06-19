@@ -2,19 +2,19 @@
 
 Failure Mode and Effects Analysis works one unit at a time. A unit is a process step (in a process FMEA, PFMEA), or a component or function (in a design FMEA, DFMEA). Each unit has a function; a *failure mode* is a way that function fails. For every failure mode you record seven things:
 
-1. **Failure mode** — how the function fails ("valve fails to close", "form submits with empty field", "weld cracks").
-2. **Effect(s)** — what the failure causes, and on whom: the local unit, the next step downstream, the end user, safety, or regulatory compliance. A mode can have several effects; score the worst.
-3. **Severity (S)** — how bad the worst effect is. Scale below.
-4. **Cause(s)** — the mechanism that triggers the mode ("seal degrades", "missing validation", "insufficient preheat"). A mode can have several causes; each cause gets its own occurrence.
-5. **Occurrence (O)** — how often the cause produces the mode. Scale below.
-6. **Current controls** — what is in place today. Two kinds: *prevention* controls reduce the cause (lower O), *detection* controls catch the cause or mode before it reaches the customer (lower D).
-7. **Detection (D)** — how likely the current controls are to catch the cause or mode before impact. Scale below.
+1. **Failure mode**: how the function fails ("valve fails to close", "form submits with empty field", "weld cracks").
+2. **Effect(s)**: what the failure causes, and on whom: the local unit, the next step downstream, the end user, safety, or regulatory compliance. A mode can have several effects; score the worst.
+3. **Severity (S)**: how bad the worst effect is. Scale below.
+4. **Cause(s)**: the mechanism that triggers the mode ("seal degrades", "missing validation", "insufficient preheat"). A mode can have several causes; each cause gets its own occurrence.
+5. **Occurrence (O)**: how often the cause produces the mode. Scale below.
+6. **Current controls**: what is in place today. Two kinds: *prevention* controls reduce the cause (lower O), *detection* controls catch the cause or mode before it reaches the customer (lower D).
+7. **Detection (D)**: how likely the current controls are to catch the cause or mode before impact. Scale below.
 
 ## The three anchored 1-to-10 scales
 
 Score each on a 1-to-10 scale. The anchors fix what a number means, so two analysts mean the same thing by a 7. Higher is always worse.
 
-### Severity (S) — how bad the effect is
+### Severity (S): how bad the effect is
 
 | S | Effect |
 |---|---|
@@ -26,7 +26,7 @@ Score each on a 1-to-10 scale. The anchors fix what a number means, so two analy
 | 9 | Hazardous **with warning**: potential safety or regulatory failure, but with advance warning to operator or user. |
 | 10 | Hazardous **without warning**: safety or regulatory failure with no warning. |
 
-### Occurrence (O) — how often the cause occurs
+### Occurrence (O): how often the cause occurs
 
 | O | Likelihood |
 |---|---|
@@ -37,7 +37,7 @@ Score each on a 1-to-10 scale. The anchors fix what a number means, so two analy
 | 9 | Very high: failure frequent. |
 | 10 | Almost certain: failure nearly always occurs / very high frequency. |
 
-### Detection (D) — how likely current controls catch it before impact
+### Detection (D): how likely current controls catch it before impact
 
 Note the inverted sense: a *low* D means detection is *strong*. Detection scores the controls, not the failure.
 
@@ -72,9 +72,9 @@ The 2019 AIAG-VDA standard replaces the RPN cutoff with **Action Priority: High,
 
 Every recommended action attacks one of the three terms; name which:
 
-- **Reduce S** — redesign so the effect no longer occurs or is contained (add a fail-safe, remove the hazardous outcome, add redundancy). The only way to cut severity is to change the design or process so the failure's consequence changes; you cannot inspect severity away.
-- **Reduce O** — prevent the cause (error-proofing, more robust design, tighter process control, better material). This stops the failure from happening.
-- **Reduce D** — improve detection (better tests, automated checks, inspection, monitoring). This catches the failure earlier but does not stop it.
+- **Reduce S**: redesign so the effect no longer occurs or is contained (add a fail-safe, remove the hazardous outcome, add redundancy). The only way to cut severity is to change the design or process so the failure's consequence changes; you cannot inspect severity away.
+- **Reduce O**: prevent the cause (error-proofing, more robust design, tighter process control, better material). This stops the failure from happening.
+- **Reduce D**: improve detection (better tests, automated checks, inspection, monitoring). This catches the failure earlier but does not stop it.
 
 Favor reducing S and O over D: prevention beats detection. After an action, estimate the revised S, O, D and recompute a **target RPN**, so the expected payoff of each action is explicit and comparable across the FMEA.
 
