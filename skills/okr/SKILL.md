@@ -1,6 +1,6 @@
 ---
 name: okr
-description: Use when the user wants to turn strategy into measurable goals using OKRs (Objectives and Key Results), the goal-setting method from Andy Grove at Intel and popularized by John Doerr in Measure What Matters. Guides a drafting cycle: clarify a qualitative objective, draft 3-5 measurable key results, stress-test the key results with parallel critics, set ambition and cadence, and check alignment. Maintains an OKR document. Triggers include "OKR", "OKRs", "objectives and key results", "set quarterly goals", "Measure What Matters", "draft our objectives".
+description: 'Use when the user wants to turn strategy into measurable goals using OKRs (Objectives and Key Results), the goal-setting method from Andy Grove at Intel and popularized by John Doerr in Measure What Matters. Guides a drafting cycle: clarify a qualitative objective, draft 3-5 measurable key results, stress-test the key results with parallel critics, set ambition and cadence, and check alignment. Maintains an OKR document. Triggers include "OKR", "OKRs", "objectives and key results", "set quarterly goals", "Measure What Matters", "draft our objectives".'
 ---
 
 # okr

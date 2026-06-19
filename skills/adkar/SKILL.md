@@ -1,6 +1,6 @@
 ---
 name: adkar
-description: Use when the user wants an ADKAR analysis of a change, asks why a change is not sticking or not being adopted, or wants to diagnose the people side of a change initiative. Identifies the affected groups, then fans out five parallel subagents (one per element: Awareness, Desire, Knowledge, Ability, Reinforcement), each rating the current state per group with evidence, then synthesizes the barrier point for each group and designs sequenced interventions into a detailed markdown report. Triggers include "ADKAR", "Prosci", "individual change model", "change adoption", "why is this change not sticking", "people side of change".
+description: 'Use when the user wants an ADKAR analysis of a change, asks why a change is not sticking or not being adopted, or wants to diagnose the people side of a change initiative. Identifies the affected groups, then fans out five parallel subagents (one per element: Awareness, Desire, Knowledge, Ability, Reinforcement), each rating the current state per group with evidence, then synthesizes the barrier point for each group and designs sequenced interventions into a detailed markdown report. Triggers include "ADKAR", "Prosci", "individual change model", "change adoption", "why is this change not sticking", "people side of change".'
 ---
 
 # adkar

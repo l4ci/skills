@@ -1,6 +1,6 @@
 ---
 name: pdca-cycle
-description: Use when the user wants to run a lightweight continuous-improvement loop using PDCA (Plan, Do, Check, Act), the Deming cycle. Guides a small, fast cycle: plan a change with an explicit prediction, try it at small scale, check results against the prediction, and act by adopting, adjusting, or abandoning, then loop. Maintains a cycle log. Triggers include "PDCA", "Deming cycle", "plan do check act", "continuous improvement", "Shewhart cycle", "kaizen loop".
+description: 'Use when the user wants to run a lightweight continuous-improvement loop using PDCA (Plan, Do, Check, Act), the Deming cycle. Guides a small, fast cycle: plan a change with an explicit prediction, try it at small scale, check results against the prediction, and act by adopting, adjusting, or abandoning, then loop. Maintains a cycle log. Triggers include "PDCA", "Deming cycle", "plan do check act", "continuous improvement", "Shewhart cycle", "kaizen loop".'
 ---
 
 # pdca-cycle

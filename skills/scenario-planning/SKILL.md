@@ -1,6 +1,6 @@
 ---
 name: scenario-planning
-description: Use when the user wants scenario planning for an uncertain future: framing a focal question, finding critical uncertainties, building a 2x2 of plausible futures, and deriving strategy that holds across them. Gathers driving forces and selects the two critical uncertainties as axes, then fans out four scenario-builder subagents in parallel (one per quadrant) to develop named narratives, and synthesizes robust versus contingent strategy with the signposts to monitor. Triggers include "scenario planning", "scenario analysis", "2x2 scenarios", "critical uncertainties", "what if the future", "plan for uncertainty".
+description: 'Use when the user wants scenario planning for an uncertain future: framing a focal question, finding critical uncertainties, building a 2x2 of plausible futures, and deriving strategy that holds across them. Gathers driving forces and selects the two critical uncertainties as axes, then fans out four scenario-builder subagents in parallel (one per quadrant) to develop named narratives, and synthesizes robust versus contingent strategy with the signposts to monitor. Triggers include "scenario planning", "scenario analysis", "2x2 scenarios", "critical uncertainties", "what if the future", "plan for uncertainty".'
 ---
 
 # scenario-planning

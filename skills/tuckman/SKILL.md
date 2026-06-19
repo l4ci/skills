@@ -1,6 +1,6 @@
 ---
 name: tuckman
-description: Use when the user wants to diagnose a team's stage of development and what it needs to advance, or asks why a team is stuck, conflicted, or not yet performing. Fans out five parallel assessor subagents (one per stage: Forming, Storming, Norming, Performing, Adjourning), each scoring how well the team's observable behaviors match that stage with evidence and noting regression signals, then synthesizes the current stage, the matching leadership focus, the concrete moves to advance, and what is blocking the transition into a detailed markdown report. Triggers include "Tuckman", "stages of team development", "forming storming norming performing", "what stage is my team at", "why is my team stuck".
+description: 'Use when the user wants to diagnose a team''s stage of development and what it needs to advance, or asks why a team is stuck, conflicted, or not yet performing. Fans out five parallel assessor subagents (one per stage: Forming, Storming, Norming, Performing, Adjourning), each scoring how well the team''s observable behaviors match that stage with evidence and noting regression signals, then synthesizes the current stage, the matching leadership focus, the concrete moves to advance, and what is blocking the transition into a detailed markdown report. Triggers include "Tuckman", "stages of team development", "forming storming norming performing", "what stage is my team at", "why is my team stuck".'
 ---
 
 # tuckman

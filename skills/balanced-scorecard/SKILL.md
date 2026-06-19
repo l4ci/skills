@@ -1,6 +1,6 @@
 ---
 name: balanced-scorecard
-description: Use when the user wants to translate a strategy into a balanced set of objectives and measures using the Balanced Scorecard, or asks to build KPIs and a strategy map from a stated strategy or vision. Fans out four parallel analyst subagents (one per perspective: Financial, Customer, Internal Process, Learning & Growth), each deriving objectives, measures, targets, and initiatives from the strategy, then synthesizes a strategy map linking them by cause and effect and prunes to the vital few measures, all into a detailed markdown report. Triggers include "balanced scorecard", "BSC", "Kaplan Norton", "strategy map", "KPIs from strategy", "performance measurement framework".
+description: 'Use when the user wants to translate a strategy into a balanced set of objectives and measures using the Balanced Scorecard, or asks to build KPIs and a strategy map from a stated strategy or vision. Fans out four parallel analyst subagents (one per perspective: Financial, Customer, Internal Process, Learning & Growth), each deriving objectives, measures, targets, and initiatives from the strategy, then synthesizes a strategy map linking them by cause and effect and prunes to the vital few measures, all into a detailed markdown report. Triggers include "balanced scorecard", "BSC", "Kaplan Norton", "strategy map", "KPIs from strategy", "performance measurement framework".'
 ---
 
 # balanced-scorecard

@@ -1,6 +1,6 @@
 ---
 name: analysis-of-competing-hypotheses
-description: Use when the user must decide which of several explanations is true and wants to avoid latching onto the first plausible story. Runs Heuer's Analysis of Competing Hypotheses (ACH): lays out all plausible hypotheses at once, scores every piece of evidence against each one in parallel by working to disprove rather than confirm, then ranks hypotheses by fewest inconsistencies, stress-tests the linchpin evidence for fragility and deception, and reports relative likelihoods with the indicators that would change the answer. Triggers include "ACH", "competing hypotheses", "which explanation is most likely", "what's really going on here", "rule out the alternatives".
+description: 'Use when the user must decide which of several explanations is true and wants to avoid latching onto the first plausible story. Runs Heuer''s Analysis of Competing Hypotheses (ACH): lays out all plausible hypotheses at once, scores every piece of evidence against each one in parallel by working to disprove rather than confirm, then ranks hypotheses by fewest inconsistencies, stress-tests the linchpin evidence for fragility and deception, and reports relative likelihoods with the indicators that would change the answer. Triggers include "ACH", "competing hypotheses", "which explanation is most likely", "what''s really going on here", "rule out the alternatives".'
 ---
 
 # analysis-of-competing-hypotheses
