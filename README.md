@@ -15,14 +15,28 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 Jump to a category:
 
 - [Strategy and business analysis](#strategy-and-business-analysis)
+  - [Problem framing and structuring](#problem-framing-and-structuring)
+  - [Positioning and environment](#positioning-and-environment)
+  - [Internal and organizational](#internal-and-organizational)
+  - [Growth and portfolio](#growth-and-portfolio)
+  - [Prioritization and risk](#prioritization-and-risk)
 - [Process and innovation methods](#process-and-innovation-methods)
+  - [Innovation and product](#innovation-and-product)
+  - [Process improvement](#process-improvement)
 - [Execution and change](#execution-and-change)
+  - [Goals and measurement](#goals-and-measurement)
+  - [Change management](#change-management)
 - [People and teams](#people-and-teams)
+  - [Team dynamics](#team-dynamics)
+  - [Motivation and behavior](#motivation-and-behavior)
+  - [Conflict and negotiation](#conflict-and-negotiation)
 - [Thinking and decision](#thinking-and-decision)
 - [Research](#research)
 - [Personal insight](#personal-insight)
 
 ### Strategy and business analysis
+
+The classic business toolkit. Frame the problem, read the competitive environment, look inward at the organization, then decide where to grow and what to prioritize.
 
 #### Problem framing and structuring
 
@@ -71,6 +85,8 @@ Jump to a category:
 
 ### Process and innovation methods
 
+Building the right thing, then building it well. The innovation and product tools find and shape what customers want; the process tools make the work that delivers it more reliable.
+
 #### Innovation and product
 
 | Skill | What it does |
@@ -91,6 +107,8 @@ Jump to a category:
 | [root-cause-analysis](skills/root-cause-analysis/) | Finds and verifies the root cause of a problem with the Ishikawa fishbone and the 5 Whys. Parallel finders hunt candidate causes across the cause categories (the 6 Ms), then the strongest are drilled with why-chains to verified roots, separated from contributing causes, and turned into countermeasures that remove the roots rather than the symptom. |
 
 ### Execution and change
+
+Turning strategy into action and making it stick. Set and measure the goals, then lead the people through the change those goals require.
 
 #### Goals and measurement
 
@@ -147,6 +165,8 @@ General-purpose reasoning tools, not tied to business strategy. Reach for these 
 
 ### Research
 
+Investigating a question and pressure-testing what you find, from multi-source research to weighing rival explanations, checking assumptions, and estimating quantities you cannot look up.
+
 | Skill | What it does |
 |-------|--------------|
 | [storm-research](skills/storm-research/) | PhD-level research on a topic. Fans out five expert perspectives as parallel subagents, maps their contradictions, synthesizes a briefing, and peer-reviews it with confidence scores. Parallel replication of Stanford's STORM method. |
@@ -156,6 +176,8 @@ General-purpose reasoning tools, not tied to business strategy. Reach for these 
 | [reference-class-forecasting](skills/reference-class-forecasting/) | Forecasts a duration, cost, or success rate by anchoring on how similar past cases actually turned out (Kahneman's outside view, Flyvbjerg's method). Builds a reference class in parallel, constructs the base-rate distribution from realized outcomes, then places the case in it under adversarial checks for optimism and regression to the mean. Counters the planning fallacy by starting from the base rate rather than the case specifics. |
 
 ### Personal insight
+
+Self-assessment questionnaires. Answer the statements and get a scored, written read on your personality.
 
 | Skill | What it does |
 |-------|--------------|
