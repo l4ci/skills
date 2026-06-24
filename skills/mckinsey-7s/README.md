@@ -2,7 +2,7 @@
 
 ## What this is
 
-The McKinsey 7-S framework holds that organizational effectiveness comes from the alignment of seven interdependent elements: Strategy, Structure, and Systems (the "hard" elements) and Shared Values, Skills, Style, and Staff (the "soft" elements). It grew out of work at McKinsey around 1980 by Tom Peters, Robert Waterman, Richard Pascale, and Anthony Athos; the canonical write-up is Waterman, Peters, and Phillips, "Structure is not organization" (Business Horizons, 1980). There is no hierarchy among the elements, with Shared Values at the center connecting the rest. They are interdependent: change one and the others must realign, or the change fails. Effectiveness comes from the fit between them, not from any one in isolation.
+The McKinsey 7-S framework holds that organizational effectiveness comes from the alignment of seven interdependent elements: Strategy, Structure, and Systems (the "hard" elements) and Shared Values, Skills, Style, and Staff (the "soft" elements). It grew out of work at McKinsey around 1980 by Tom Peters, Robert Waterman, Richard Pascale, and Anthony Athos; the canonical write-up is Waterman, Peters, and Phillips, "Structure is not organization" (Business Horizons, 1980). There is no hierarchy among the elements, with Shared Values at the center connecting the rest. They are interdependent: change one and the others must realign, or the change fails.
 
 The seven elements, the hard/soft split, and the alignment checks live in [references/seven-s.md](references/seven-s.md).
 

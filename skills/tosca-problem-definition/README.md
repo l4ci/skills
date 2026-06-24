@@ -8,7 +8,7 @@ The five elements, their sharp questions, their pitfalls, and the marks of a goo
 
 ## What it does
 
-The skill runs as a guided interview rather than a parallel analysis. It walks through the five elements in order with focused questions, and it challenges weak answers instead of accepting them: a symptom gets pushed to its root, a solution hiding inside the problem gets stripped out, vague success criteria are forced into a metric and a date, and each constraint is marked real or merely assumed. Once a draft exists, three critic subagents stress-test the framing in parallel, each on one lens (root and solution, owner and success, constraints and actors). The output is a saved markdown brief with one crisp problem statement and the structured TOSCA behind it.
+The skill runs as a guided interview rather than a parallel analysis. It walks through the five elements in order with focused questions and challenges weak answers: a symptom gets pushed to its root, a solution hiding inside the problem gets stripped out, vague success criteria are forced into a metric and a date, and each constraint is marked real or merely assumed. Once a draft exists, three critic subagents stress-test the framing in parallel, each on one lens (root and solution, owner and success, constraints and actors). The output is a saved markdown brief with one crisp problem statement and the structured TOSCA behind it.
 
 One rule holds throughout: this skill frames the problem, it does not solve it. If you push to solve, the impulse gets captured as a hypothesis to test later and the work returns to framing.
 
