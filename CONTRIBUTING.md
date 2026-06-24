@@ -35,6 +35,8 @@ description: <when to reach for this skill, plus the trigger words that should a
 
 The `description` is what the runtime matches on to decide whether to load the skill, so it carries real weight. Write a sentence or two that names the situation, says what the skill produces, and lists the phrases a user would actually type. The SWOT description ends with `Triggers include "SWOT", "SWOT analysis", "strengths and weaknesses", "TOWS", "analyze our position"`. Match that density. A vague one-liner will leave the skill dormant when it should fire.
 
+The frontmatter is YAML, and the `description` is an unquoted scalar, so keep it valid. The trap is a colon followed by a space (`over-trimming: the floor`): YAML reads it as a key/value separator and the whole block fails to parse, after which the installer silently skips the skill and it never appears in the catalog. Rephrase to avoid `: ` inside the description (a comma or a reworded clause does the job). Double quotes around trigger words are fine. Before you commit, confirm the frontmatter parses, for example `python3 -c "import yaml,sys; yaml.safe_load(open(sys.argv[1]).read().split('---')[1])" skills/<skill-name>/SKILL.md` (no output means it parsed).
+
 The body of an analysis skill follows a consistent shape:
 
 1. **Title and a short summary.** One paragraph: what the skill does and the failure it exists to prevent.
@@ -89,6 +91,7 @@ These hold across every file:
 
 - [ ] Folder is kebab-case under `skills/`.
 - [ ] `SKILL.md` has frontmatter with a trigger-rich `description`, and a defined output.
+- [ ] The frontmatter parses as YAML (no stray `: ` in the unquoted `description`), so the installer does not skip the skill.
 - [ ] `references/` has `<skill-name>.md`, `example.md`, and one saved `<skill-name>-<subject>-<date>.md` run.
 - [ ] `README.md` follows the four sections, with sibling links in "When to use it".
 - [ ] The skill is listed in the root README catalog and the "How to start a skill" section.
